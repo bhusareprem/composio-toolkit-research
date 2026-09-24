@@ -12,8 +12,8 @@ instead of a human filling in a spreadsheet by hand — see the case study for t
 the honest misses, and the verification loop that caught them.
 
 **The headline finding:** all 100 apps were cross-checked against Composio's own public
-toolkit list (`docs.composio.dev/toolkits`, ~1,561 slugs, no account needed) — 70 already
-exist there. The other 30 are the actual net-new opportunity list, ranked by buildability.
+toolkit list (`docs.composio.dev/toolkits`, ~1,561 slugs, no account needed) — 67 already
+exist there. The other 33 are the actual net-new opportunity list, ranked by buildability.
 See `data/composio_toolkit_slugs.json` and the `composio_catalog` field on every row of
 `data/results.json`.
 
@@ -48,8 +48,8 @@ index.html                the built, single-file, self-contained case study (gen
    (`backend.composio.dev/api/v3/toolkits`) needs an account, which wasn't created on the user's
    behalf. Instead, `docs.composio.dev/toolkits` is a public page that lists every toolkit slug
    Composio currently ships (~1,561 of them) to render its own docs site — no auth needed. Scraped
-   it and matched all 100 apps against it by slug/alias. Result: 70 already have a Composio
-   toolkit; 30 don't (see `data/composio_toolkit_slugs.json` and the `composio_catalog` field in
+   it and matched all 100 apps against it by slug/alias. Result: 67 already have a Composio
+   toolkit; 33 don't (see `data/composio_toolkit_slugs.json` and the `composio_catalog` field in
    `results.json`). This is the single most actionable output of the whole exercise.
 4. **Extraction** — the remaining thin/ambiguous cases (and everything needing a real verdict on
    auth model + self-serve-vs-gated) were resolved by an LLM (Claude, via Claude Code, in the

@@ -217,9 +217,9 @@
     <p class="section-sub">Seven findings that came out of clustering all 100 rows &mdash; this is the point of the exercise, not the table itself.</p>
     <div class="pattern-grid">
       <div class="pattern-card" style="border-color:var(--accent);">
-        <span class="big">70/100 already in Composio's catalog</span>
+        <span class="big">67/100 already in Composio's catalog</span>
         <h3>Cross-checked against Composio's own public toolkit list &mdash; the real number that matters</h3>
-        <p>docs.composio.dev/toolkits publicly lists all ~1,561 toolkit slugs Composio already ships, no account required. Matching all 100 apps against it: 70 already exist. The other 30 are the actual net-new opportunity list &mdash; see the dedicated section below, ranked by how buildable each one is.</p>
+        <p>docs.composio.dev/toolkits publicly lists all ~1,561 toolkit slugs Composio already ships, no account required. Matching all 100 apps against it: 67 already exist. The other 33 are the actual net-new opportunity list &mdash; see the dedicated section below, ranked by how buildable each one is.</p>
       </div>
       <div class="pattern-card">
         <span class="big">Dev/Infra &amp; Productivity: 20/20</span>
@@ -270,11 +270,11 @@
 
 <section id="opportunity">
   <div class="wrap">
-    <h2>The real opportunity list: 30 apps not yet in Composio's catalog</h2>
+    <h2>The real opportunity list: 33 apps not yet in Composio's catalog</h2>
     <p class="section-sub">
       Cross-referenced all 100 hint URLs against <a href="https://docs.composio.dev/toolkits" target="_blank">docs.composio.dev/toolkits</a>
       &mdash; a public page listing every toolkit slug Composio currently ships (~1,561 of them), no API key needed.
-      70 of the 100 researched apps are already there. These 30 aren't, ranked by how buildable each one is today &mdash;
+      67 of the 100 researched apps are already there. These 33 aren't, ranked by how buildable each one is today &mdash;
       this is the list worth taking to an engineering backlog.
     </p>
     <div id="opportunityList"></div>
@@ -303,7 +303,7 @@
       <div class="pipe-step" style="border-color:var(--accent);">
         <div class="n">STAGE 3</div>
         <h4>Cross-check <code>composio_toolkit_slugs.json</code></h4>
-        <p>Composio's authenticated toolkit API (backend.composio.dev/api/v3) needs an account, which wasn't created on the user's behalf. But docs.composio.dev/toolkits is a public page listing all ~1,561 toolkit slugs with no auth at all &mdash; scraped and matched against all 100 apps by name/slug. 70 hits, 30 misses.</p>
+        <p>Composio's authenticated toolkit API (backend.composio.dev/api/v3) needs an account, which wasn't created on the user's behalf. But docs.composio.dev/toolkits is a public page listing all ~1,561 toolkit slugs with no auth at all &mdash; scraped and matched against all 100 apps by name/slug. 67 hits, 33 misses.</p>
         <span class="agent-badge">Automated</span>
       </div>
       <div class="pipe-arrow">&rarr;</div>
@@ -403,7 +403,7 @@
       <li><b>Paygent Connect and iPayX</b> have no independently verifiable public API documentation. Paygent Connect's own hint ("NMI-powered") couldn't be matched to a specific product &mdash; the closest real match, a Japanese payment gateway called Paygent, is entirely enterprise/sales-led with no visible connection to NMI. iPayX turned out to be real and unusually agent-forward (its homepage advertises native MCP support) but publishes no reference docs. Both are marked <code>buildability: no</code> with low/medium confidence rather than guessed at.</li>
       <li><b>Meta's developer domain (developers.facebook.com) blocked our crawler outright</b> &mdash; every path returned HTTP 400 regardless of URL, for WhatsApp Business, Meta Ads and Threads alike. Those three entries are backed by prior knowledge and search confirmation, not a successful crawl, and are flagged accordingly.</li>
       <li><b>We did not create a Composio account</b> to query the authenticated toolkit API (backend.composio.dev/api/v3), which would give richer per-toolkit metadata than the public docs page (exact auth schemes, tool counts, trigger support). We used the public, unauthenticated docs.composio.dev/toolkits listing instead &mdash; enough to answer "does a toolkit already exist," not enough to fully replace the authenticated source. Creating accounts on the user's behalf is outside what this agent will do unprompted, and that gate is itself a small data point about what "self-serve" means in practice, even for Composio's own product.</li>
-      <li><b>The name-matching against Composio's catalog is heuristic</b> (slug normalization + a manual alias table for tricky names like "Lark" vs "Feishu"), not a guaranteed-exact match. A handful of the 30 "net-new" apps could in principle exist under a slug this pass didn't try &mdash; worth a second look before treating the opportunity list as final.</li>
+      <li><b>The name-matching against Composio's catalog is heuristic</b> (slug normalization + a manual alias table for tricky names like "Lark" vs "Feishu"), not a guaranteed-exact match. A handful of the 33 "net-new" apps could in principle exist under a slug this pass didn't try &mdash; worth a second look before treating the opportunity list as final. <b>Caught on a self-audit after the first version of this page shipped:</b> 3 of the original 70 catalog "hits" were wrong &mdash; two (<code>zoho_cliq</code>, <code>facebook_ads</code>) were slugs invented rather than looked up (they don't exist in the scraped list), and a third (Salesforce Commerce Cloud &rarr; the generic <code>salesforce</code> toolkit) matched the wrong product entirely: Composio's <code>salesforce</code> toolkit is documented as Sales/Service Cloud CRM, not the separate Commerce Cloud ecommerce API. Checking each generic-sounding match's actual toolkit description (not just its slug name) moved these 3 from "already covered" to "net-new," and also fixed LinkedIn Ads to point at the correct dedicated <code>linkedin_ads</code> slug instead of the generic <code>linkedin</code> one. Left in as the clearest illustration in this project of why the verification loop exists.</li>
       <li><b>Verification covered 10 of 100 apps</b>, not all 100 &mdash; a deliberate scope choice under a time budget. See the accuracy caveat in the Verification section above for what that implies about the other 90.</li>
       <li><b>Podio, Front, and systeme.io</b> are marked buildable but flagged with softer notes (aging docs, plan-gated scopes, narrow surface respectively) &mdash; a "yes" that still deserves a second look before committing engineering time.</li>
     </ul>
