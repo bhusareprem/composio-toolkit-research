@@ -1,0 +1,241 @@
+Vonage API Developer
+Skip to Main Content
+Documentation
+Startups
+Blog
+Learning Center (Beta)
+API Dashboard
+Vonage.com
+Pricing
+Support
+Cookie settings
+My profile
+My dashboard
+Log out
+API Dashboard
+Vonage.com
+Pricing
+Support
+Legal & Privacy
+Cookie settings
+Documentation
+SDKs & Tools
+Community
+Startups
+Blog
+Learning Center (Beta)
+We're excited to announce the beta launch of our new
+Vonage API Developer Portal Learning Center
+! Now you can browse use cases and learning paths and earn professional certificates!
+Vonage Developer Center
+Communication & Network APIs
+Voice
+Video
+Messaging
+Network Features
+Low Code and AI
+Privacy and Security
+Voice
+Vonage Voice APIs allow you to connect people around the world and automate voice interactions using AI technologies.
+Send smart voice notifications
+Create IVRs and Voice Bots
+Speech to text and WebSockets
+Text to Speech with over 50+ languages
+Embed calls in web and mobile apps
+Web & Mobile (iOS, Android) SDKs
+Send smart voice notifications
+Create IVRs and Voice Bots
+Speech to text and WebSockets
+Text to Speech with over 50+ languages
+Embed calls in web and mobile apps
+Web & Mobile (iOS, Android) SDKs
+Getting Started with the Vonage Voice API
+The Vonage Voice API is the easiest way to build high-quality voice applications in the Cloud!
+Voice
+Make an outbound call
+This code snippet demonstrates how to make an outbound call and plays a text-to-speech message when the call is answered.
+Voice
+Voice API
+SIP Trunking
+In-app Voice
+Voice API
+SIP Trunking
+In-app Voice
+Video
+Integrate real-time video into web, desktop, mobile and IoT apps with our powerful Video API or the extremely low-code Meetings API.
+Embed real-time, high-quality video in web and mobile apps
+Client libraries for web, mobile, and desktop platforms
+Server-side SDKs
+Encryption support
+Easy to migrate from Twilio to Vonage
+Embed real-time, high-quality video in web and mobile apps
+Client libraries for web, mobile, and desktop platforms
+Server-side SDKs
+Encryption support
+Easy to migrate from Twilio to Vonage
+Migrate from Twilio to Vonage Unified Video
+Interested in migrating your video solution from Twilio to Vonage? Explore our migration guides.
+Unified Video
+Create a video chat app
+In this tutorial you will learn the basic concepts of the Vonage Video API platform, including how users can communicate through video, voice, and messaging.
+Unified Video
+Video REST API
+Basic API Functionality
+Client SDKs
+Server SDKs
+Reference App
+Video REST API
+Basic API Functionality
+Client SDKs
+Messaging
+Vonage Messaging APIs
+are easy to set up and allow you to engage your customers via a diverse assortment of messaging channels.
+Programmatic features
+Client SDKs
+Signed Callbacks
+Easy set up
+Diverse messaging  channels
+Programmatic features
+Client SDKs
+Signed Callbacks
+Easy set up
+Diverse messaging  channels
+Understanding RCS Messaging
+The Vonage Messages API RCS channel supports both outbound messaging (business to customer) and inbound messaging (customer to business).
+Messages API
+WhatsApp Interactive Messages
+Streamline interactions and improve end user experience with your customers using WhatsApp Interactive Messages.
+Messages API
+Messages API
+SMS
+RCS
+WhatsApp
+10 DLC API
+Messages API
+SMS
+RCS
+Network Features
+Vonage Network Features simplify access to multiple mobile networks, ensuring a seamless customer experience with optimal application portability.
+Leverage mobile networks to unlock a host of new functionality
+Powerful fraud prevention and detection capabilities
+Streamlined registration experience
+Built using CAMARA standards
+Leverage mobile networks to unlock a host of new functionality
+Powerful fraud prevention and detection capabilities
+Streamlined registration experience
+Built using CAMARA standards
+What are Vonage Network Features?
+Vonage Network Features expose new functionalities of communications service providers' (CSPs) networks beyond SMS and Voice, leveraging mobile networks, including 5G, to put new network capabilities into the hands of developers.
+Network Features
+Vonage Identity Insights API
+The Identity Insights API provides real-time access to a broad range of attributes related to the carrier, subscriber, or device associated with a phone number.
+Network Features
+Identity Insights
+Location Retrieval
+Identity Insights
+Location Retrieval
+Low Code and AI
+Vonage AI solutions empower developers to create and deploy customer engagement experiences that operate in natural language.
+Build complex conversational flows
+Easy-to-use drag-and-drop user interfaces to build flows
+End-to-end omni-channel conversational marketing, engagement, and commerce
+Reach customers on their preferred messaging channels
+Build complex conversational flows
+Easy-to-use drag-and-drop user interfaces to build flows
+End-to-end omni-channel conversational marketing, engagement, and commerce
+Reach customers on their preferred messaging channels
+Vonage AI Studio Overview
+Vonage AI Studio is a low-code / no-code solution for building complex conversational flows via an easy-to-use drag-and-drop interface
+Low Code and AI
+Vonage Conversational Commerce Overview
+End-to-end omni-channel conversational marketing SaaS application enabling brands to reach customers on their preferred channel.
+Low Code and AI
+AI Studio
+Conversational Commerce
+AI Studio
+Conversational Commerce
+Privacy and Security
+Vonage APIs provide powerful tools to integrate privacy and security protections that prevent fraud and validate users.
+Prevent fraud with two-factor authentication
+Authenticate your end-users where they prefer
+JWT authentication available
+Real-time Monitoring
+Fraud Notification
+Prevent fraud with two-factor authentication
+Authenticate your end-users where they prefer
+JWT authentication available
+Real-time Monitoring
+Fraud Notification
+Verify API: Getting Started with Silent Authentication
+Silent Authentication is a new method of using authentication for your users that relies on a cellular data connection from the users’ device to transmit authentication information.
+Privacy and Security
+Vonage Fraud Defender Overview
+Fraud Defender allows you to set rules to catch fraudulent traffic from phone numbers all from your Vonage API Dashboard.
+Privacy and Security
+Verify API
+Fraud Defender
+Number Insight
+Verify API
+Fraud Defender
+Number Insight
+Voice
+Voice
+Vonage Voice APIs allow you to connect people around the world and automate voice interactions using AI technologies.
+Send smart voice notifications
+Create IVRs and Voice Bots
+Speech to text and WebSockets
+Text to Speech with over 50+ languages
+Embed calls in web and mobile apps
+Web & Mobile (iOS, Android) SDKs
+Send smart voice notifications
+Create IVRs and Voice Bots
+Speech to text and WebSockets
+Text to Speech with over 50+ languages
+Embed calls in web and mobile apps
+Web & Mobile (iOS, Android) SDKs
+Getting Started with the Vonage Voice API
+The Vonage Voice API is the easiest way to build high-quality voice applications in the Cloud!
+Voice
+Make an outbound call
+This code snippet demonstrates how to make an outbound call and plays a text-to-speech message when the call is answered.
+Voice
+Voice API
+SIP Trunking
+In-app Voice
+Voice API
+SIP Trunking
+In-app Voice
+Video
+Messaging
+Network Features
+Low Code and AI
+Privacy and Security
+Learning Center
+Most Popular
+Video
+Verify Identity
+Voice
+Ready to start building?
+Create a free account now!
+Experience seamless connectivity, real-time messaging, and crystal-clear voice and video calls—all at your fingertips.
+I am interested in...
+Please let us know which languages you are interested in so that we can show you more targeted content.
+cURL
+Node.js
+Java
+.NET
+PHP
+Python
+Ruby
+From developers  for developers
+Support with your ideas
+Live Tutorial
+Support with fixing errors
+Events
+Dev Spotlight
+Dedicated experts
+29 September 2026 -
+29 September 2026
+Women Techmakers Barcelona Meetup
+Join us to hear how AI is transforming the way Product Managers learn, make decisions, collaborate and build products.
+5 October 2026 

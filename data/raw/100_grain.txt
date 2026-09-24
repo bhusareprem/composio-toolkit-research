@@ -1,0 +1,158 @@
+Grain | The AI Notetaker Built for Growing Teams
+Grain Homepage
+Product
+Grain AI
+Integrations
+Changelog
+Use Cases
+Sales
+Agencies & Consultants
+Product & User Research
+Customer Success
+Hiring & Recruiting
+Remote Teams
+Company
+About Us
+Careers
+Customers
+Resources
+Blog
+AI Workflows
+Help Center
+Self-guided Product Tour
+Contact Us
+Compare
+Gong
+Clari
+Jiminny
+Pricing
+Grain for Sales
+Sign In
+Get Grain for Free
+Book a Demo
+Get Grain Free
+Sign In
+Book a Demo
+Book my demo
+Get started free
+300+ reviews
+250+ testimonials
+The AI notetaker for
+agents
+and teams
+Grain captures and enriches your meetings, then delivers them to Claude, ChatGPT, or any AI tool so your agents can do the work. Start recording in minutes.
+Get started - free forever
+Book my demo
+Free forever
+Bots optional
+No credit card required
+Works with:
+Want help onboarding your team?
+Top teams use Grain to power their AI
+SOC 2 audited
+GDPR compliant
+Everything your AI agents and team need from meetings
+Grain is free to use, simple to set up, and cost-effective for your entire company.
+Universal capture
+Capture every meeting, everywhere.
+Context for AI
+Enrich your transcripts with the full picture, not just raw text.
+AI agent integrations
+Power your agents to do the work after the meeting.
+Team collaboration
+Accelerate team learning and alignment.
+Universal capture
+Capture your meetings, on any platform, with or without a bot
+Bot-less transcription
+Grain transcribes your computer's audio without meeting bots joining your call.
+Video recording with bots
+Get video recordings with the Grain bot in the meeting even when you can't attend.
+Capture rules
+Type notes, tag important moments, or clip segments to perfect your insights during your meeting.
+Bot-less transcription
+Grain transcribes your computer's audio without meeting bots joining your call.
+Video recording with bots
+Get video recordings with the Grain bot in the meeting even when you can't attend.
+Capture rules
+Set rules for which meetings get recorded, so everything you want is captured without thinking about it.
+Context for AI
+Give your agents the full picture behind every meeting
+Enriched transcripts
+Transcripts with participant and cross-meeting context. Available in 100+ languages in clean Markdown.
+Your notes, in the context
+Add notes, clips, and action items during meetings that sync to the transcript and flow to your AI agents.
+Action-items & AI notes
+Action items and meeting summaries for every meeting shareable from Grain or sent straight to your inbox.
+Enriched transcripts
+Transcripts with participant and cross-meeting context. Available in 100+ languages in clean Markdown.
+Your notes, in the context
+Add notes, flags, and action items during meetings that sync to the transcript and flow to your AI agents.
+Action-items & AI notes
+Action items and meeting summaries for every meeting shareable from Grain or sent straight to your inbox.
+AI agent integrations
+Put your meeting data to work in Claude, ChatGPT, or any AI tool
+One-click AI export
+Bulk download enriched Markdown transcripts or open them directly in Claude or ChatGPT.
+MCP Server & API
+Let your AI agents query transcripts, search across meetings, and access your full meeting history.
+Ask anything inside Grain
+Ask questions across your entire meeting library and get answers with precise citations in Grain.
+One-click AI export
+Bulk download enriched Markdown transcripts or open them directly in Claude or ChatGPT.
+MCP Server & API
+Let your AI agents query transcripts, search across meetings, and access your full meeting history.
+Ask anything inside Grain
+Ask questions across your entire meeting library and get answers with precise citations in Grain.
+Team collaboration
+Keep your whole team in sync, automatically
+Sharing
+Share clips, projects, and full meeting recordings with teammates and clients so everyone can stay in sync.
+Teams
+Create teams for automatic group sharing. Only the right people get access automatically.
+CRM sync
+Sync notes and properties to HubSpot or Salesforce contacts and deals so your reps can skip the data entry.
+Sharing
+Share clips, projects, and full meeting recordings with teammates and clients so everyone can stay in sync.
+Teams
+Create teams for automatic group sharing. Only the right people get access automatically.
+CRM sync
+Sync notes and properties to HubSpot or Salesforce contacts and deals so your reps can skip the data entry.
+↗ Customer results
+Teams using Grain are hyper productive
+75%+
+Action items handled by agents
+Agents complete most follow-up tasks directly from Grain meeting context.
+8+
+hours saved
+Saved weekly per person
+Recaps, follow-ups, and CRM updates happen without manual work.
+3x
+faster
+From meeting to work done
+Teams finish follow-up work three times faster after each meeting.
+Based on Grain customer interviews, 2026
+Grain integrations + AI destinations
+Integrations with Claude, ChatGPT, Slack, HubSpot, Zapier, API and more make it effortless to get your meeting data wherever you need it.
+Explore Integrations
+Frequently Asked Questions
+What is Grain?
+Grain is an AI notetaker and conversation intelligence platform that records video calls, Slack huddles, and in-person meetings to provide accurate summaries, insights, and coaching feedback. Unlike other notetaking tools, Grain captures all meeting content: video, desktop captured audio, and resulting transcripts and notes. We make it easy to share meaningful data with your clients and collaborators, and to transform your meeting data into actionable insights and deliverables using AI technology.
+Who is Grain for?
+Grain serves any team that relies on meetings, but we specialize in small to mid-market and enterprise sales, customer success, and product teams. These teams benefit most from automated meeting capture, call analysis, team coaching features, and AI-powered deliverables using meeting data that save time and improve collaboration.
+How do I use Grain with my team?
+Send clips, share notes, and deliver feedback to teammates with Grain's built-in Teams feature. Create groups to organize and automatically share specific meeting types with exactly who needs access, streamlining collaboration.
+‍
+How much does Grain cost?
+Grain offers a free plan with unlimited meetings for teams. Paid plans start at $15/month per user for unlimited meetings, advanced AI, conversational intelligence, and additional features. No hidden fees or long-term contracts required.
+What's included in the free plan?
+The free plan includes unlimited recordings, transcripts, basic AI notes, a collaborative workspace, and desktop capture. You can use Grain for free forever, with a 45-minute meeting limit and 90-day meeting history. Upgrade for advanced AI features, conversational intelligence, priority support, unlimited meeting length, and unlimited meeting history.
+How much time do I save with Grain vs. manual note-taking?
+On average, users save about 10 minutes per meeting by eliminating manual note-taking and follow-ups. Over a month, that's 20+ hours per team member that can be reinvested in coaching, strategy, or revenue-driving activities instead.
+Is Grain secure and compliant?
+Yes. Grain holds SOC 2 Type II. All data is hosted on AWS infrastructure in the USA within a dedicated virtual private cloud (VPC). Grain conducts annual penetration testing by third-party firms (Prescient Security) and maintains an A+ Qualys/SSL Labs rating. User authentication uses Google, Microsoft, or SSO, with SAML for enterprise clients coming soon. For more details, see
+https://grain.com/security
+.
+Do I need permission to record meetings with Grain?
+In most regions you are required to inform participants that a meeting is being recorded, and in some jurisdictions you must obtain explicit consent from all parties. Grain helps by clearly indicating when a bot is present or recording, but you remain responsible for complying with local recording and privacy laws.
+Does Grain share my data with AI providers?
+Grain uses AI models to provi

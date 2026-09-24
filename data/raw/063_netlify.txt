@@ -1,0 +1,334 @@
+Get started with the Netlify API | Netlify Docs
+Skip to content
+Netlify Docs
+Start
+Build
+Fundamentals
+Build with AI
+Configure builds
+Git workflows
+Environment variables
+Frameworks
+Post-processing
+User-Agent categories
+Primitives
+AI Gateway
+Serverless Functions
+Edge Functions
+Image CDN
+Blobs
+Database
+Caching
+Async Workloads
+Deploy
+Manage
+Accounts & Billing
+Projects
+Domains
+Data & Storage
+Security & access
+Monitoring & Insights
+Preview Servers
+Forms
+Visual Editor
+Routing & Redirects
+Extend
+Install & use
+Develop & share
+Netlify SDK for extensions
+Building code agents
+Framework adapter API
+Reference
+Error reference
+Netlify skills
+Request processing order
+CLI reference
+Netlify SDK for extensions
+Visual Editor reference
+APIs
+Netlify API
+Database API
+Frameworks API
+Cache API
+Blobs API
+Serverless Functions API
+Edge Functions API
+Dev Tool Guides
+API and CLI guides
+Terraform provider
+Command Palette
+Resources
+Troubleshooting
+Changelog
+Examples
+Migrate
+Support
+Checklists
+Release phases
+Enterprise credits
+AI
+API & CLI guides
+API & CLI guides
+Overview
+API guides
+Get started with API
+Deploy project from a zip file with API
+Deploy zip file to production
+More API guides
+API reference docs
+Go client
+JS client
+CLI guides
+Get started with CLI
+Local development
+Manage functions
+Debug with VSCode
+More CLI guides
+CLI reference docs
+On this page
+Overview
+Make a request
+Authentication
+Rate limiting
+Pagination
+Link header
+Deploy with the API
+File digest method
+ZIP file method
+Create and deploy at once
+Poll for deploy state
+Draft deploys
+Commonly used endpoints
+Sites
+Site metadata
+Environment variables
+Files
+Deploys
+Snippets
+Forms
+Hooks
+On this page
+Overview
+Make a request
+Authentication
+Rate limiting
+Pagination
+Link header
+Deploy with the API
+File digest method
+ZIP file method
+Create and deploy at once
+Poll for deploy state
+Draft deploys
+Commonly used endpoints
+Sites
+Site metadata
+Environment variables
+Files
+Deploys
+Snippets
+Forms
+Hooks
+For the complete Netlify documentation index, see
+llms.txt
+. Markdown versions of any documentation page are available by appending
+.md
+to its URL.
+More flexibility and credits now available for
+Pro plans
+🎉
+API And CLI Guides
+/
+API Guides
+/
+Get started with the Netlify API
+Copy page
+View as Markdown
+Copy as Markdown
+View as Markdown
+Use the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets, manage DNS
+DNS
+The system that translates a domain name like yoursite.com into the address computers use to find your site.
+×
+, and so much more.
+This document covers the basics for interacting with the Netlify API, plus instructions for
+deploying sites
+and notes on some
+commonly used endpoints
+.
+You can browse the
+OpenAPI reference for the Netlify API
+to explore available endpoints. Visit our Forums for more tips and conversation about
+understanding and using Netlify’s API
+.
+Project ID, site_id, and NETLIFY_SITE_ID are the same value
+The Netlify UI labels this identifier
+Project ID
+, but the API, CLI, and environment variables
+environment variables
+Named values stored outside your code that your site can read at build time or runtime.
+×
+still use
+site
+. Every project has exactly one identifier, and all of the following names refer to the same value:
+Netlify UI
+—
+Project ID
+(labeled
+Site ID
+before the rename)
+Netlify API
+—
+site_id
+, including in paths such as
+/api/v1/sites/{site_id}
+Netlify CLI, client libraries, and
+.netlify/state.json
+—
+siteId,
+siteID
+,
+--site
+, and
+NETLIFY_SITE_ID`
+To copy the value, go to
+Project configuration
+>
+General
+>
+Project details
+>
+Project information
+and copy
+Project ID
+.
+Project names work the same way: the UI’s
+Project name
+(formerly
+Site name
+) is the API’s
+site_slug
+. Wherever the API accepts a
+{site_id}
+, you can also pass the project’s domain
+domain
+The web address people use to visit your site, such as yoursite.com.
+×
+, such as
+mysite.netlify.app
+.
+Additionally, we have two API clients for your convenience:
+Go Client
+JS Client
+If you’d like to interact with the Netlify API using a no-code tool, you can use n8n.io’s
+Netlify node
+. The node currently supports the following operations:
+Create a new deployment
+Get a deployment
+Get all deployments
+Cancel a deployment
+Get a site
+Get all sites
+Delete a site
+Make a request
+Section titled “Make a request”
+All URLs start with
+https://api.netlify.com/api/v1/
+.
+SSL
+SSL
+The technology that enables HTTPS by encrypting the connection to your site.
+×
+only
+. The path is prefixed with the API version. If we change the API in backward-incompatible ways, we’ll bump the version marker and maintain stable support for the old URLs.
+To make a request for all sites you have access to, for example, append the
+sites
+index path to the base URL to form something like
+https://api.netlify.com/api/v1/sites
+. Here’s an example in curl:
+Terminal window
+curl
+-H
+"
+User-Agent: MyApp (YOUR_NAME@EXAMPLE.COM)
+"
+\
+-H
+"
+Authorization: Bearer YOUR_OAUTH2_ACCESS_TOKEN
+"
+\
+https://api.netlify.com/api/v1/sites
+Authentication
+Section titled “Authentication”
+Netlify uses OAuth2 for authentication
+authentication
+The process of verifying who someone is before letting them access your site.
+×
+. All requests must use HTTPS
+HTTPS
+The secure protocol, enabled by SSL, that encrypts data transferred between a browser and your site.
+×
+.
+To generate a personal access token
+personal access token
+A credential tied to your personal account that lets tools and scripts act on your behalf without your password.
+×
+(PAT
+PAT
+Short for personal access token, a credential tied to your personal account.
+×
+):
+Go to
+Applications
+>
+Personal access tokens
+.
+Select
+New access token
+.
+Enter a descriptive name to help you remember what the token will be used for.
+Select
+Allow access to my SAML-based Netlify team
+to authorize access to your SAML-based team data through the API.
+Select an
+Expiration
+date for your token to help keep your information secure.
+Select
+Generate token
+.
+Copy the token to your clipboard and store it in a safe location. Once you navigate away from this page, you won’t be able to access the value again.
+Select
+Done
+.
+Use your PAT for manual authentication in shell scripts or commands that use the Netlify API.
+To authenticate API requests, include the token in the authorization header:
+Authorization: Bearer <YOUR_PERSONAL_ACCESS_TOKEN>
+To authenticate in shell scripts, refer to the
+code sample above
+for an example of how to use this token in a curl request.
+Password resets invalidate tokens
+If you reset your Netlify password, all personal access tokens and OAuth tokens created before the reset will be permanently invalidated. After a password reset, you must
+generate new tokens
+and update any services or scripts that rely on them.
+SAML SSO
+If your team requires you to log in with
+single sign-on (SSO)
+, your personal access tokens will be denied access to the team by default. You can choose to grant access to the team when you generate a new token. You must be logged in to the team with SSO to grant access to it.
+If you’re making a public integration with Netlify for others to enjoy, you must use OAuth2. This allows users to authorize your application to use Netlify on their behalf without having to copy/paste API tokens or touch sensitive login info. You’ll need an application client key and a client secret
+secret
+Sensitive credentials, like passwords and API keys, that must be kept private.
+×
+to integrate with the Netlify API. You can register a new application in your Netlify user settings for
+OAuth applications
+. Visit our blog post on
+integrating with Netlify
+for more information including common grant types and an example project.
+The OAuth2 end-user authorization endpoint is
+https://app.netlify.com/authorize
+.
+Rate limiting
+Section titled “Rate limiting”
+To protect Netlify from getting flooded by automated deploys or misbehaving applications, the Netlify API is rate limited.
+You can make up to 500 requests per minute for most requests.
+Certain operat

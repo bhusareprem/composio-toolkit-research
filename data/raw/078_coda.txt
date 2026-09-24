@@ -1,0 +1,295 @@
+Superhuman Docs API (v1) Reference Documentation
+Introduction
+Getting Started
+Changes to the API
+Using the API
+API Endpoint
+Resource IDs and Links
+Rate Limiting
+Consistency
+Volatile Formulas
+Free and Paid Workspaces
+Examples
+OpenAPI/Swagger Spec
+Client libraries
+Folders
+Folders
+get
+List folders
+post
+Create folder
+get
+List folder children
+get
+Get folder
+patch
+Update folder
+del
+Delete folder
+Docs
+Docs
+get
+List available docs
+post
+Create doc
+get
+Get info about a doc
+del
+Delete doc
+patch
+Update doc
+Permissions
+get
+Get sharing metadata
+get
+List permissions
+post
+Add permission
+del
+Delete permission
+get
+Search principals
+get
+Get ACL settings
+patch
+Update ACL settings
+Publishing
+get
+Get doc categories
+put
+Publish doc
+del
+Unpublish doc
+Doc Structure
+Pages
+get
+List pages
+post
+Create a page
+get
+Get a page
+put
+Update a page
+del
+Delete a page
+get
+List page content
+del
+Delete page content
+post
+Begin content export
+get
+Content export status
+Automations
+post
+Trigger automation
+Tables and Views
+Tables
+get
+List tables
+get
+Get a table
+Columns
+get
+List columns
+get
+Get a column
+Rows
+get
+List table rows
+post
+Insert/upsert rows
+del
+Delete multiple rows
+get
+Get a row
+put
+Update row
+del
+Delete row
+post
+Push a button
+Formulas & Controls
+Formulas
+get
+List formulas
+get
+Get a formula
+Controls
+get
+List controls
+get
+Get a control
+Miscellaneous
+Account
+get
+Get user info
+Analytics
+get
+List doc analytics
+get
+List page analytics
+get
+Get doc analytics summary
+get
+List Pack analytics
+get
+Get Pack analytics summary
+get
+List Pack formula analytics
+get
+Get analytics last updated day
+Miscellaneous
+get
+Resolve browser link
+get
+Get mutation status
+API docs by Redocly
+Superhuman Docs API
+(
+1.6.0
+)
+Developer Support
+:
+care@superhuman.com
+URL:
+https://superhuman.com/developers
+License:
+Superhuman Developer Terms
+Terms of Service
+Introduction
+The Superhuman Docs API is a RESTful API that lets you programmatically interact with data in Superhuman Docs (formerly Coda):
+List and search documents
+Create new docs and copy existing ones
+Share and publish docs
+Discover pages, tables, formulas, and controls
+Read, insert, upsert, update, and delete rows
+If you plan to integrate Superhuman Docs with an AI tool, you may also want to consider using the
+Superhuman Docs MCP server
+. It's optimized for LLM usage
+patterns and often exposes more granular methods for accessing and modifying data.
+Getting Started
+Our
+Getting Started Guide
+helps you learn the
+basic of working with the API and shows a few ways you can use it. Check it out, and learn how to:
+Read data from tables and write back to them
+Build a one-way sync from one document to another
+Automate reminders
+Sync your Google Calendar to Superhuman Docs
+Changes to the API
+As we update and release newer versions of the API, we reserve the right to remove
+older APIs and functionality with a 3-month deprecation notice. We will post about such changes as well as announce
+new features in the
+Developers Central
+section of our Community,
+and update the
+API updates
+doc.
+Using the API
+The Superhuman Docs REST API is designed to be straightforward to use. You can use the language and platform of your choice to
+make requests. To get a feel for the API, you can also use a tool like
+Postman
+or
+Insomnia
+.
+API Endpoint
+This API uses a base path of
+https://coda.io/apis/v1
+.
+Resource IDs and Links
+Each resource instance retrieved via the API has the following fields:
+id
+: The resource's immutable ID, which can be used to refer to it within its context
+type
+: The type of resource, useful for identifying it in a heterogenous collection of results
+href
+: A fully qualified URI that can be used to refer to and get the latest details on the resource
+Most resources can be queried by their name or ID. We recommend sticking with IDs where possible, as names are
+fragile and prone to being changed by your doc's users.
+List Endpoints
+Endpoints supporting listing of resources have the following fields:
+items
+: An array containing the listed resources, limited by the
+limit
+or
+pageToken
+query parameters
+nextPageLink
+: If more results are available, an API link to the next page of results
+nextPageToken
+: If more results are available, a page token that can be passed into the
+pageToken
+query parameter
+The maximum page size may change at any time, and may be different for different endpoints.
+Please do not rely on it
+for any behavior of your application. If you pass a
+limit
+parameter that is larger than our maximum allowed limit,
+we will only return as many results as our maximum limit. You should look for the presence of the
+nextPageToken
+on the
+response to see if there are more results available, rather than relying on a result set that matches your provided limit.
+To fetch a subsequent page of results, pass the
+pageToken
+parameter. Set this parameter to the value given to you as the
+nextPageToken
+in a page response. If no value is provided, there are no more results available. You only need to pass the
+pageToken
+to get
+the next page of results, you don't need to pass any of the parameters from your original request, as they are all
+implied by the
+pageToken
+. Any other parameters provided alongside a
+pageToken
+will be ignored.
+Doc IDs
+While most object IDs will have to be discovered via the API, you may find yourself frequently wanting to get the
+ID of a specific document.
+Here's a handy tool that will extract it for you. (See if you can find the pattern!)
+Doc ID Extractor
+Your doc ID is:
+Rate Limiting
+The Superhuman Docs API sets a reasonable limit on the number of requests that can be made per minute. Once this limit is
+reached, calls to the API will start returning errors with an HTTP status code of 429.
+These are the current rate limits. They are subject to change at any time without notice. For robustness,
+all API scripts should check for HTTP 429 Too Many Requests errors and back off and retry the request.
+Limits apply per-user across all endpoints that share the same limit and across all docs.
+Reading data (with the exceptions below): 100 requests per 6 seconds
+Writing data (POST/PUT/PATCH): 10 requests per 6 seconds
+Writing doc content data (POST/PUT/PATCH): 5 requests per 10 seconds
+Listing docs: 4 requests per 6 seconds
+Reading analytics: 100 requests per 6 seconds
+Consistency
+While edits made in Superhuman Docs are shared with other collaborators in real-time, it can take a few seconds for them to
+become available via the API. You may also notice that changes made via the API, such as updating a row, are not
+immediate. These endpoints all return an HTTP 202 status code, instead of a standard 200, indicating that the
+edit has been accepted and queued for processing. This generally takes a few seconds, and the edit may fail if
+invalid. Each such edit will return a
+requestId
+in the response, and you can pass this
+requestId
+to the
+#getMutationStatus
+endpoint to find out if it has been applied.
+Similarly, when you get doc data from the API (rows, pages, columns, etc), the data you receive comes from
+the most recent "snapshot" of the doc, which might be slightly stale relative to the data you observe in
+your browser. If you want to ensure that the data you receive is up to date and are ok getting an error if not,
+you can pass this header in your request:
+X-Coda-Doc-Version: latest
+. If the API's view of the doc is
+not up to date, the API will return an HTTP 400 response.
+Volatile Formulas
+Superhuman Docs exposes a number of "volatile" formulas, as as
+Today()
+,
+Now()
+, and
+User()
+. When used in a live
+document, these formulas affect what's visible in realtime, tailored to the current user.
+Such formulas behave differently with the API. Time-based values may only be current to the last edit made to the
+doc. User-based values may be blank or invalid.
+Free and Paid Workspaces
+We make the Superhuman Docs API available to all of our users free of charge, in both free and paid workspaces. However, API
+usage is subject to the role of the user associated with the API token in the workspace a

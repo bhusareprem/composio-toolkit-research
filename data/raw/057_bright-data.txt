@@ -1,0 +1,330 @@
+Bright Data: Web Data Infrastructure for Humans & Agents
+Accessibility Menu
+skip to content
+en
+English
+Español
+Deutsch
+Français
+日本語
+Português
+简体中文
+한국어
+Start free trial
+User Dashboard
+Products
+Web Access APIs
+Unlocker API
+Say goodbye to blocks and CAPTCHAs
+SERP API
+Get multi-engine search results on-demand
+Google
+Bing
+Duckduckgo
+Yandex
+Browser API
+Spin up remote browsers, stealth included
+Data Feeds
+Scraper APIs
+Fetch real-time data from 800+ websites
+LinkedIn
+eComm
+Social media
+ChatGPT
+Scraper Studio
+Turn any website into a data pipeline
+Datasets
+Pre-collected data from 900+ domains
+LinkedIn
+eComm
+Social media
+Real estate
+Data Firehose
+Real-time web data, delivered as it’s collected
+Data And Insights
+Retail Intelligence
+Unlock real-time eCommerce insights & AI-powered recommendations
+Managed Data Acquisition
+Tailored enterprise-grade data acquisition
+Video Search API
+NEW
+Find the scenes your models need
+Business Search API
+NEW
+Search 700M+ fresh business profiles
+Proxy Services
+Residential Proxies
+50% OFF
+400M+ global IPs from real-peer devices
+ISP Proxies
+1.3M+ blazing fast static residential proxies
+Datacenter Proxies
+1.3M+ high-speed proxies for data extraction
+Data for AI
+Multimodal Training
+Video and Audio Data
+Train on more data, with fewer blockers
+Video Feeds – ready for VLA
+Get continuous, targeted web video for training humanoid robot policies
+Data Packages
+Get LLM-ready datasets for every industry
+Agentic web execution
+Search & Extract
+Instant knowledge acquisition for AI
+Agent Browser
+Enable agents to perform automated actions
+Bright Data MCP
+Free
+Fastest way to start
+resources
+resources
+Startup Program
+New
+Integrations
+Pricing
+Web Access APIs
+Unlocker API
+FREE TIER
+Starts from
+$1/1k req
+Crawl API
+Starts from
+$1/1k req
+SERP API
+FREE TIER
+Starts from
+$1/1k req
+Browser API
+Starts from
+$5/GB
+Data Feeds
+Scraper APIs
+FREE TIER
+Starts from
+$1
+$0.75/1k rec
+Scraper Studio
+FREE TIER
+Starts from
+$1/1k req
+Datasets
+Starts from
+$250/100K rec
+Data Firehose
+Starts from
+$0.2/1k HTML
+Data And Insights
+Retail Insights
+Starts from
+$2000/mo
+Managed Data
+Acquisition
+Starts from
+$1500/mo
+Proxy Infrastructure
+Residential
+50% OFF
+Starts from
+$5
+$2.5/GB
+Datacenter
+Starts from
+$0.9/IP
+ISP
+Starts from
+$1.3/IP
+Resources
+Tools
+Integrations
+Browser Extension
+Network Status
+Learning Hub
+Blog
+Case Studies
+Webinars
+Proxy Locations
+Masterclass
+Videos
+Company
+Partner Program
+Trust Center
+Bright SDK
+Bright Initiative
+Docs
+Log in
+User Dashboard
+Contact sales
+Start free trial
+Account
+Change password
+Sign out
+Build scrapers for any site in minutes - start free
+The web's data, unlocked
+Discover, access, extract, and interact with any public website. Get structured, reliable, real-time or historical data at petabyte-scale. Ready for any model, pipeline, or workflow.
+Get started for free
+Talk to a data expert
+No credit card required
+Instant
+scraper APIs
+Unstoppable browsing
+infrastructure
+AI-ready
+BI-ready datasets
+400M+ proxy IPs
+from 195 countries
+Trusted by 50,000+ customers worldwide
+PLATFORM
+From DIY scraping to hands-off data delivery
+Dataset Marketplace
+High-quality datasets from popular domains
+Scraper APIs
+Pre-built or custom-made scraping endpoints
+Web Archive
+Ever-growing, petabyte scale web archive
+AI Scraper Studio
+Turn any website into a data pipeline
+Data Feeds
+Easily access structured, high-quality web data on demand.
+Real-time, pre-collected, or historical – tailored to your needs.
+5B+ records regularly refreshed; 800+ domains
+Automated data quality validation checks
+Seamless API and webhook integration
+Minimize engineering effort required
+Get started
+Unlocker API
+Say goodbye to blocks and CAPTCHAs
+SERP API
+Get multi-engine search results on-demand
+Browser API
+Spin up remote browsers, stealth included
+Crawl API
+Turn entire websites into AI-friendly data
+Web Access APIs
+Build and scale advanced scraping operations effortlessly. Search, crawl, and navigate reliably – without being blocked.
+Automatically avoid anti-bot measures and CAPTCHAs
+Advanced JS rendering and remote browsers
+High performance with near-zero downtime
+Minimize setup and maintenance required
+Get started
+Residential
+400M+ diverse IPs from real user devices
+Datacenter
+High-speed IPs for large-scale extraction
+ISP
+1,300,000+ fast, stable residential-grade IPs
+Proxy Infrastructure
+Leverage the world’s largest proxy network for reliable web data extraction at scale. 100% ethically-sourced and compliant.
+Full control, visibility and enterprise-grade security
+Integrated Proxy Manager and Management APIs
+Optimized routing for speed and reliability
+99.99% uptime and 99.95% success rate
+Get started
+Popular use cases
+AI-ready data for every industry
+Data for AI
+Train and fine-tune models, power agents web
+access, enhance RAG, and fuel industry-specific AI solutions.
+eCommerce
+Access competitors’ prices, products and review
+data at scale.
+Marketing
+Master the art of social media marketing with
+web data.
+Travel
+Access competitor pricing, hotel availability and
+flight schedules.
+Market research
+Deeply understand your target audience.
+SERP tracking
+Maximize your SEO impact with real-time SERP
+ranking data.
+Financial Services
+Gain a competitive edge using high-quality
+reliable datasets.
+Data Security
+Fight fraud, mitigate risk, & achieve real-time
+visibility.
+Real Estate
+Predict how prices will move, anticipate market
+trends.
+Ad Tech
+Protect your brand, verify ads, & conduct real-time ad
+intelligence.
+Brand Protection
+Power your brand protection and anti-piracy
+efforts.
+Integrations
+Universal compatibility with all AI/ML workflows and data infrastructure
+ML/AI, Datasets, SERP API, AI Agents
+How I Built a Web Scraping AI Agent
+MCP Server
+My AI Sales Bot Made $596 Overnight | MCP Build
+MCP Server
+How I Scrape Any Site Using This MCP Server + Claude, LangGraph & AI Agents
+MCP Server
+Model Context Protocol (MCP): Web Search Agent using Google ADK and Bright Data MCP
+MCP Server
+AI Agents Are Getting Blocked? – Use Bright Data’s MCP Server
+MCP Server
+Scrape ANY Website In Realtime With This Powerful AI MCP Server! | Bright Data MCP
+Startups
+Elio Narciso
+Startups
+Jessica Zizzamia
+Startups
+Arjun Chintapalli
+Startups
+TJ Richardson
+Startups
+Saroop Bharwani
+Startups
+Constantine Janashvilli
+Discover more
+Powered by an award-winning
+proxy network
+Over 400M+
+residential proxy IPs
+, best-in-class technology and the ability to target any country, city, carrier & ASN make our premium proxy services a top choice for developers.
+Proxy services
+All proxy locations
+Customer spotlight of the month
+How
+Yutori Powers AI Agents
+with
+Bright Data
+More customer stories
+SUPPORT
+We’ll support you every step of the way
+Talk to a web data expert to get the most out of your data
+Rated #1 by customers on G2
+Under 10 minutes average response time
+24/7 support anytime, anywhere
+COMPLIANCE
+Leading the way in ethical web data collection
+We have set the
+gold standard for ethical and compliant web data practices.
+Our peer network is built on trust, with every member personally opting in and the guarantee of zero personal data collection. We champion the collection of only publicly available data, backed by an industry-leading Know Your Customer process and a transparent Acceptable Use Policy. Our global, multilingual Compliance & Ethics team, the first of its kind, ensures we stay ahead of regulatory changes and best practices.
+Unwavering commitment to security and privacy
+Collaborations with
+security giants
+like VirusTotal, Avast, and AVG
+Monitoring of 30+ billion domains, blocking unapproved content and ensuring domain health
+Adherence to
+GDPR, CCPA, and SEC
+regulations, with a dedicated Privacy Center for user empowerment
+Proactive abuse prevention through global partnerships and multiple reporting channels
+A pro bono program using web data and data
+expertise to drive change across the world
+700+
+Partner Organizations
+300+
+Academic Institutions
+180+
+Nonprofit Organizations
+135+
+NGOs
+25+
+Public Sector Bodies
+Learn more
+Ready to get started?
+Get s

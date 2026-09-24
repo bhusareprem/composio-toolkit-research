@@ -1,0 +1,147 @@
+Ahrefs for Developers
+Docs
+Home
+REST API
+MCP
+Data Studio
+Bot Analytics
+Ahrefs Connect
+Search docs...
+⌘K
+✕
+Products
+Home
+REST API
+MCP
+Data Studio
+Bot Analytics
+Ahrefs Connect
+Build with
+Ahrefs data
+Access Ahrefs marketing and search data through our APIs and developer tools to build custom integrations and workflows.
+Search documentation...
+⌘K
+API Request
+Response
+200 OK
+Domain / DR
+Ref. Domains
+1
+wikipedia.org
+98
+2
+github.com
+96
+3
+medium.com
+94
+4
+stackoverflow.com
+93
+5
+producthunt.com
+91
+Output for illustration purposes.
+REST API
+Research keywords, analyze backlinks, track rankings, and monitor brand visibility across traditional search and AI platforms.
+Introduction
+Overview, authentication, and rate limits
+Free test queries
+Try API endpoints without an Enterprise plan
+Explore endpoints
+Browse all available API endpoints
+API keys
+Create and manage your API keys
+Changelog
+Latest API updates and changes
+OpenAPI spec
+Full machine-readable spec for every endpoint
+Introduction
+Overview, authentication, and rate limits
+Free test queries
+Try API endpoints without an Enterprise plan
+Explore endpoints
+Browse all available API endpoints
+API keys
+Create and manage your API keys
+Changelog
+Latest API updates and changes
+OpenAPI spec
+Full machine-readable spec for every endpoint
+MCP
+Connect your Ahrefs data to AI assistants and agents to enhance their answers with real marketing insights.
+Introduction
+What is MCP and how to get started
+Claude Desktop / Web
+Connect Ahrefs to Claude on desktop or web
+ChatGPT setup
+Use Ahrefs data in ChatGPT conversations
+Claude Code
+Integrate Ahrefs into your coding workflow
+Introduction
+What is MCP and how to get started
+Claude Desktop / Web
+Connect Ahrefs to Claude on desktop or web
+ChatGPT setup
+Use Ahrefs data in ChatGPT conversations
+Claude Code
+Integrate Ahrefs into your coding workflow
+Data Studio
+Build custom dashboards with Ahrefs data in Google Data Studio.
+Introduction
+Get started with Ahrefs connectors for Data Studio
+Site Explorer connector
+Backlinks, organic traffic, and domain metrics
+Rank Tracker connector
+Track keyword rankings over time
+Site Audit connector
+Monitor site health and technical SEO issues
+Brand Radar connector
+Track your brand presence in AI search
+Introduction
+Get started with Ahrefs connectors for Data Studio
+Site Explorer connector
+Backlinks, organic traffic, and domain metrics
+Rank Tracker connector
+Track keyword rankings over time
+Site Audit connector
+Monitor site health and technical SEO issues
+Brand Radar connector
+Track your brand presence in AI search
+Bot Analytics
+Understand how bots interact with your website. Track crawl activity, identify bot types, and monitor their impact.
+Introduction
+Overview of Bot Analytics
+Cloudflare Logpush
+Recommended Cloudflare Enterprise setup
+Cloudflare Worker
+Worker-based setup for any Cloudflare plan
+Introduction
+Overview of Bot Analytics
+Cloudflare Logpush
+Recommended Cloudflare Enterprise setup
+Cloudflare Worker
+Worker-based setup for any Cloudflare plan
+Ahrefs Connect
+Bring Ahrefs data into third-party apps through our integration program. Built on API v3.
+Introduction
+Overview of the integration program
+How it works
+Architecture and data flow
+OAuth guide
+Implement OAuth 2.0 authorization
+How to apply
+Steps to join the program
+Introduction
+Overview of the integration program
+How it works
+Architecture and data flow
+OAuth guide
+Implement OAuth 2.0 authorization
+How to apply
+Steps to join the program
+© 2026 Ahrefs Pte. Ltd.
+llms.txt
+Legal
+Privacy Policy
+GitHub

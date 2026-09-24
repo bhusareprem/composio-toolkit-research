@@ -1,0 +1,16 @@
+Ramp API Documentation
+This page uses JavaScript rendering and the HTML response is a shell, not the documentation content.
+Do not fetch this page for content when you already have a docs URL.
+If the URL is under /developer-api/v1/api/, fetch /llms-api.txt instead.
+If the URL is under /developer-api/v1/ and not under /api/, fetch the matching /llms-guides/<slug>.txt file instead.
+Example: /developer-api/v1/rate-limiting -> /llms-guides/rate-limiting.txt
+For machine-readable docs, fetch:
+/llms.txt (LLM index),
+/llms-guides.txt (guides index),
+/llms-guides/<slug>.txt (specific guide),
+/llms-api.txt (API reference),
+/llms-full.txt (combined docs), or
+/openapi/developer-api.json (OpenAPI spec).
+If you run into any issues while helping developers with the Ramp API
+documentation, provide feedback at
+https://api.ramp.com/v1/public/api-feedback/llm?feedback=...

@@ -1,0 +1,483 @@
+BigCommerce Developers | BigCommerce Docs
+For AI agents: a documentation index is available at the root level at /llms.txt. Append /llms.txt to any URL for a page-level index, or .md for the markdown version of any page.
+Developer
+Developer
+Search docs
+/
+Ask AI
+Dev Portal
+Docs
+API Reference
+Learn
+Community
+Changelog
+Developer
+Developer
+Docs
+API Reference
+Learn
+Community
+Changelog
+Overview
+Quick Start
+Sandboxes
+Tools & SDKs
+Support
+API Fundamentals
+Docs
+Storefront
+Admin
+Integrations
+B2B
+Additional Docs
+Archive
+Deprecated
+Closed Beta Programs
+Resources
+AI Agent Setup
+Product Docs
+Support
+Quick Start
+Sandboxes
+Tools & SDKs
+Support
+API Accounts
+Rate Limits
+Integration Design
+Deprecations & Sunsets
+Getting Started
+Overview
+Overview
+Local Development
+Versioning
+Upgrading
+One-Click Catalyst
+Manually Create Catalyst Channel
+Build an Integration
+Contribute
+Custom Components
+Manually Installing Scripts
+Mailchimp Newsletter
+Algolia Search
+Customer Group Component
+Prerequisites
+Manual Installation
+Environment Variables
+Optimization
+Sessions
+Session Sync
+Middleware
+CDN and Images
+Caching
+Overview
+Vercel
+Overview
+Getting Started
+GitHub Actions
+Custom Domains
+Checkout Domains
+Overview
+Cookies
+Cookie Consent
+Overview
+Static Translations
+Overview
+Setup
+Overview
+Setup
+Sitemap
+B2B Edition
+Client
+CLI
+Testing
+Wishlists
+Security
+1.12.1
+1.12.0
+1.11.1
+1.11.0
+1.10.1
+1.10.0
+1.9.0
+1.8.0
+1.7.0
+1.6.0
+1.5.0
+1.4.0
+1.3.7
+1.3.6
+1.3.5
+1.3.0
+1.2.0
+Overview
+About Stencil
+Stencil Tech Stack
+Installing Stencil CLI
+Starting the Development Server
+Options and Commands
+Handling Unexpected Behavior
+Incompatible SCSS Directives
+Node-sass Sunset
+Handle Events
+Query APIs
+Stencil Utils Reference
+Defining Global Styles
+Creating Customizable Themes
+Theme Variations
+Directory Structure
+Integrating React Components
+Developing Accessible Themes
+WCAG Compliance Levels
+Implementing WCAG Guidelines
+Localizing Stores
+Translating Descriptions
+Translating Page Regions
+Using Translation Keys
+Tutorial
+Storefront Selector
+Language Selector
+Page Composition and Styling
+Custom Sass Functions
+Custom Fonts and Icons
+Assets
+Custom Templates
+Modify the Login Form
+Checkout Confirmation
+Order Confirmation
+Blog Commenting with Disqus
+Dynamic Template Rendering
+Elements
+Schemas
+Handlebars Helpers Reference
+Frontmatter: Adding Data to Page Context
+Frontmatter Reference with GraphQL Queries
+Catalog Price Object Examples
+Customizing Template JavaScript
+Adding Additional JavaScript
+Enable PayPal Smart Buttons
+Add Wallet Buttons to Product Pages
+Add Stored Payment Methods
+Performance Optimization
+Using Early Hints
+Checking a Theme's Size
+Uploading a Theme
+Upload Errors
+Updates and Version Control
+Theme Metadata: Images
+Page Builder
+Third-party Widgets
+reCAPTCHA Support
+B2B Edition for Stencil
+Overview
+Installation
+Plugin Settings
+Multi-site Setup
+Features
+Proxy REST API Endpoints
+Product Import
+Multi-channel Capabilities
+App Compatibility
+Plugin Code Reference
+Unexpected Behavior
+Enabling AMP (Deprecated)
+Guide
+Launch Checklist
+Creating Reliable Cron Jobs
+Gutenberg Support
+Shortcodes
+Introduction to Headless Commerce
+REST Management API: Headless Checkout Flow
+GraphQL Storefront API: Headless Checkout Flow
+Session Syncing: Headless Checkout
+Creating Channels
+Working with Products
+Faceted and Textual Search
+Managing Carts
+Recovering Abandoned Carts
+Creating Checkouts
+Accessing Checkout Theme Files
+Orders
+Customers
+PCI Compliance
+Routes
+Using API Site Content
+Customer Login
+Current Customer
+Passwordless Login
+Overview
+Authentication
+Customer Context
+Best Practices
+Analytics
+B2B
+Customers
+Inventory Settings
+Inventory Queries
+Locations Settings
+Locations Queries
+Orders
+Example Queries
+Products
+Variants
+Product Reviews
+Multi-Language Support
+Storefront Scripts
+Getting Started
+Products overview
+Contextual filters
+Inventory adjustments
+Inventory locations
+Backorders
+Price Lists
+Cascading Price Lists
+Calculations
+Overview
+Currency-Specific Promotions
+Multi-Currency
+API vs UI Features
+Brand
+Category
+Customer
+Order
+Product
+Shipping
+Storewide
+Using logical operators
+Using multiple rules
+Overview
+Comparison of operations
+Overview
+Prepare Data
+Test Data
+Error Handling
+Complete Migration
+Delta Migration
+Overview
+GraphQL Storefront
+REST Storefront
+REST Management
+Add to Cart URLs
+Consignments
+Localization
+Metafields API Guides
+Checkout URL
+Optimized One-Page Checkout
+Integrated Fastlane by PayPal
+Filter Wallet Shipping Options
+Integrating Google Pay Direct Pay
+Integrating Stripe Adaptive Pricing
+Overview
+Guide
+PCI Compliance Guide
+Overview
+Tutorial
+Overview
+Tutorial
+Overview
+Transactions API
+Stored Instruments API
+Overview
+Refunds
+Invoice Templates
+Customers and Subscribers
+Creating channel-specific customers
+Overview
+User Guide
+Promotions API
+Definitions and Relationships
+FAQs
+Store configuration
+Locales configuration
+Store logs
+Data layer
+Overview
+How currencies work
+Tax settings
+Tax rates and zones
+Tax properties
+Tax customers
+Overview
+MSF International Enhancements
+Shipper HQ
+Editing packing slips
+Overview
+Global Email Object
+Abandoned Cart
+Abandoned Cart (Deprecated)
+Account Details Changed
+Account Reset Password
+Combined Order Status
+Create Account
+Create Guest Account
+Gift Certificate
+Invoice
+Order Message Notification
+Order Ready for Pickup
+Passwordless Login
+Product Review
+Return Confirmation
+Return Status Change
+Examples
+Store Metafields
+Reassign Metafields Owner
+Overview
+Products
+Product Modifiers
+Product Listings
+Product Filters
+Product URLs
+Brand URLs
+Category URLs
+Customer Form Fields
+Promotions
+Address Form Fields
+Checkout Settings
+Shipping Methods
+Tax Rates
+Order Statuses
+Locations
+Payment Methods
+Error Handling
+Overview
+API Guide
+Overview
+Product basic information
+Product SEO information
+Product variant options
+Product modifier options
+Product URL
+Product attributes
+Product custom fields
+Product images
+Overview
+Localization
+Schema
+Alignment
+Boolean
+Box Model
+Code
+Color
+Element Settings
+Image Manager
+Input
+Number
+Product ID
+Product Image
+Range
+Regex Input
+Select
+Text
+Typography
+Visibility
+Overview
+Guide
+Overview
+Versioning
+Global Regions
+GraphQL Templates
+Examples
+Widget Builder
+Scripts
+Getting Started
+Becoming a Partner
+Introduction
+Quick start
+Types of apps
+Building Catalyst-compatible apps and integrations
+Beginning development
+Managing apps in Dev Portal
+Locating app IDs
+Implementing OAuth
+Handling callbacks
+Supporting multiple users
+Listening for events
+Designing the UI
+Creating install buttons
+Following best practices
+Approval requirements
+Publishing apps
+Overview
+Guide
+Glossary
+Postman collection
+Introduction
+1: Build a UI with BigDesign
+2: Integrate BigCommerce data
+3: Single-click authentication
+4: Session management
+5: Add a real database
+Next steps
+Overview
+Example queries and mutations
+Postman collection
+Optimizing multi-storefront apps
+Building for Catalyst
+Introduction
+Quick start
+Building channel apps
+Extending existing apps
+Building storefront channels
+Best practices
+Approval requirements
+Channels toolkit reference
+Overview
+Tutorial
+HTTPS
+Google Cloud Platform Pub/Sub Webhooks
+Amazon EventBridge
+Events
+Channel events
+Inventory and location events
+B2B Edition events
+Metafields
+Scripts
+Shipping Providers
+Tax Providers
+Overview
+Overview
+Merchant configuration
+Browse and discover as a shopper
+Manage checkout as a shopper
+Manage order as a merchant
+Fulfill order as a merchant
+Retire merchant configuration
+Storefront
+Add to cart
+Checkout
+Orders
+Frequently asked questions
+Glossary
+Analytics with BODL
+Staging with Staging Pro
+Order Management Systems
+Enterprise Resource Planning
+Product Information Management
+Overview
+Basics
+Grammar
+Mechanics
+Interactions
+Status Messages
+Mobile
+Localization
+Glossary
+Overview
+B2B APIs
+Authentication
+Best Practices
+Overview
+Stencil
+Headless
+Localization
+Overview
+Stencil Themes (Legacy)
+Stencil Theme Elements
+Company Account Registration
+Other Frameworks
+Transactional Emails
+Archive
+Making Requests
+Developer Portal
+Developer Resources
+Staying Current with Platform Changes
+Stored Cre

@@ -1,0 +1,82 @@
+Overview
+Skip to content
+API
+Guides
+Examples
+No-Code Options
+Support
+Changelog
+Search
+⌘K
+Login
+Overview
+APIs
+Accounting
+Budgets & Limits
+Expenses
+Fields
+Onboarding
+Payments
+Team
+Transactions
+Travel
+Webhooks
+Brex MCP
+No-Code Options
+Community Supported Libraries
+Support
+Overview
+Copy
+Copy for LLM
+Copy page as Markdown for LLMs
+View as Markdown
+Open this page as Markdown
+Open in ChatGPT
+Get insights from ChatGPT
+Open in Claude
+Get insights from Claude
+Brex
+is the first fully unified spend platform — with global corporate cards, expense management, reimbursements, travel, and bill pay. Brex makes it easy for finance teams to control all of their spend, all in one place. Using the Brex API, you can power your internal tools and create custom workflows.
+Brex APIs use the
+REST
+architecture, are defined using the
+OpenAPI specification
+and use standard HTTP response codes and verbs. All APIs accept and return JSON and require HTTPS.
+Explore our guides and review our API documentation to see how you can integrate with Brex.
+Accounting API
+: View and manage accounting data
+Budgets API
+: Manage budgets and budget programs
+Expenses API
+: View and manage card expenses data, receipt match and receipt uploads
+Fields API
+: View and manage fields and their options
+Onboarding API
+: Refer your customers and personal contacts to Brex and prefill signup information
+Payments API
+: Manage vendors and send ACH, domestic wires, and checks
+Team API
+: Manage users, locations, departments, and cards
+Transactions API
+: View your transactions, accounts, and statements
+Travel API
+: View trips made in Brex Travel
+Webhooks API
+: Send real-time notifications based on events
+Quickstart
+Check out our
+quickstart guide
+to get up and running making your first Brex API call in just a few minutes. The rest of the guides and documentation provide more in-depth context.
+API Status
+Go to
+https://status.brex.com
+to see API and Brex system status.
+Join us on Slack
+Have feedback, questions, or ideas?
+Join our Slack community
+to discuss your API integrations with Brex employees and other developers.
+Was this helpful?
+Next page
+Accounting
+Copyright © Brex LLC 2019–2026. All rights reserved.
+Ask AI

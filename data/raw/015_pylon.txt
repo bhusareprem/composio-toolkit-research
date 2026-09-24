@@ -1,0 +1,239 @@
+Pylon: Agentic B2B Support
+See what's new at Pylon this September. Join us live on 9/25
+Register Now
+Product
+Back
+use cases
+B2B Support
+Customer Success
+AI & Agents
+Assist Agent
+Background Agent
+Slack Agent
+Support Agent
+Skills
+PLATFORM
+Analytics & Reporting
+Account Intelligence
+Knowledge Base
+Workforce Management
+Surveys (NPS & CSAT)
+Ticketing
+channel & integrations
+Slack
+Microsoft Teams
+Discord
+Telegram
+WhatsApp
+Phone & SMS
+Chat Widget
+Email
+Product
+Back
+use cases
+B2B Support
+Customer Success
+AI & Agents
+Assist Agent
+Background Agent
+Slack Agent
+Support Agent
+Skills
+PLATFORM
+Analytics & Reporting
+Account Intelligence
+Knowledge Base
+Workforce Management
+Surveys (NPS & CSAT)
+Ticketing
+channel & integrations
+Slack
+Microsoft Teams
+Discord
+Telegram
+WhatsApp
+Phone & SMS
+Chat Widget
+Email
+Enterprise
+Integrations
+Customers
+Resources
+Back
+Learn
+Events & Webinars
+Resource Center
+Interactive Demos
+Connect
+About Us
+Careers
+platform
+Trust & Security
+Help Center
+Documentation
+Changelog
+Resources
+Back
+Learn
+Events & Webinars
+Resource Center
+Interactive Demos
+Connect
+About Us
+Careers
+platform
+Trust & Security
+Help Center
+Documentation
+Changelog
+Sign in
+Book a demo
+The Agentic Support Platform
+Support at
+Lightspeed
+Pylon lets humans and agents collaborate on customer work —investigating, resolving, and acting on every signal.
+Thank you! Your submission has been received!
+Oops! Something went wrong while submitting the form.
+Book a demo
+View walkthrough
+Trusted by 1,500+ B2B customers globally
+Set up & improve
+Build and run your entire support system in natural language. Create workflows, configure agents, routing, and agents just by asking.
+Intake
+Support customers across Slack, Microsoft Teams, email, chat, SMS, WhatsApp, and phone. Every conversation becomes account context.
+Contextualize
+Give humans and agents full context across every customer interaction, account, and product system.
+Operate
+Open any ticket to a finished investigation. Ask follow-up questions, send agents into other systems, and keep multiple streams of work moving at once.
+Stop doing the work.
+Start directing agents.
+Pylon investigates every issue before your team opens it. Direct agents to dig deeper, check other systems, and handle follow-up work while your team focuses on judgment.
+Assist Agent
+Your personal AI operator. Ask it to investigate, use your tools, take action, or delegate work to external agents.
+Background Agent
+Specialized agents that run skills automatically when triggered, then post their work back into the issue.
+Slack Agent
+Ask questions and take action from Slack using the same customer context, tools, and permissions available in Pylon.
+Support Agent
+Resolve customer questions automatically across every channel, bringing in humans when judgment is needed.
+Skills
+Teach agents how your team works with reusable instructions for investigating, resolving, and taking action.
+Turn raw customer data into usable intelligence.
+Build support, account, and product intelligence across conversations, CRM, product usage, logs, and code, then make it available via MCP to your agents and team.
+Book a demo
+Slack
+Channel
+Microsoft Teams
+Channel
+Phone
+Channel
+Email
+Channel
+Whatsapp
+Channel
+Telegram
+Channel
+Discord
+Channel
+Notion
+Knowledge Base
+Salesforce
+Crm
+Hubspot
+Crm
+Gong
+Call Recorder
+Snowflake
+DATA WAREHOUSE
+BigQuery
+DATA WAREHOUSE
+Linear
+Issue Tracking
+Jira
+Issue Tracking
+Confluence
+Knowledge Base
+Claude
+LLM
+ChatGPT
+LLM
+Cursor
+CODE CONTEXT
+MCP
+MODEL CONTEXT PROTOCOL
+PostHog
+PRODUCT ANALYTICS
+Mixpanel
+PRODUCT ANALYTICS
+LaunchDarkly
+FEATURE FLAGS
+"Pylon’s AI agents handle the repetitive work that used to consume my day, so I can spend more time on the work that actually needs me."
+Mike Sholkov
+Head of Support Engineering at Cognition
+The latest from Pylon
+Guides, playbooks, and product deep dives from the team building Pylon — plus lessons from the teams who use it.
+View Resource Center
+EBOOKS
+How Pylon adopted Agentic Support
+This is some text inside of a div block.
+August 25, 2026
+Reports
+The agent that talks can't look. The agent that looks can't talk.
+Fred Zhao
+September 10, 2026
+Reports
+Categorize what your AI can't do
+Fred Zhao
+September 1, 2026
+Go Agentic.
+Pylon Workforce Management is available now. See it in action with a live demo.
+Pylon is the only agentic support platform purpose-built for B2B.
+Thank you! Your submission has been received!
+Oops! Something went wrong while submitting the form.
+Button Text
+The Agentic
+Support Platform
+AI & Agents
+Assist Agent
+Background Agent
+Slack Agent
+Support Agent
+Skills
+Platform
+Analytics & Reporting
+Account Intelligence
+Knowledge Base
+Workforce Management
+Surveys (NPS & CSAT)
+Ticketing
+Resources
+Resource Center
+Case Studies
+Events & Webinars
+Interactive Demos
+Videos
+Help Center
+API & Developers
+Trust & Security
+Privacy Policy
+Terms of Service
+Connect
+About Us
+Careers
+Talk to Us
+Compare
+Pylon vs Zendesk
+Pylon vs Intercom
+Pylon vs Plain
+Pylon vs Front
+Pylon vs Salesforce
+Pylon vs Jira
+Integrations
+Chat Widget
+Email
+HubSpot
+Microsoft Teams
+Salesforce
+Slack
+Explore All
+© 2026 Pylon Labs, Inc.

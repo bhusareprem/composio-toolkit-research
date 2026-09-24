@@ -1,0 +1,124 @@
+Overview - Airtable Developers
+Docs
+Agent tools
+Web API
+Interface extensions
+Scripting
+Overview
+Quickstart
+MCP server
+MCP server overview
+Connecting to Airtable MCP
+Claude
+ChatGPT
+Google Gemini
+Cursor
+Claude Code
+CLI
+Other
+Controls
+Tools reference
+Skills & Plugins
+Getting started
+Core skills
+Airtable overview agent skill
+Airtable filters agent skill
+Airtable CLI agent skill
+Solution skills
+Product ops agent skill
+Sales ops agent skill
+Marketing ops agent skill
+Airtable for agents and humans
+Copy page
+Copy page as markdown
+Open markdown
+Airtable's structured field types, relational links, and built-in automations make it a rich data layer for AI agents. Any MCP-compatible tool can read, write, and query your bases through natural language, scoped to your existing permissions.
+Query and edit your data
+Ask questions, summarize records, create and edit fields without leaving your chat. Works with Claude, ChatGPT, or any connected MCP client.
+Build with schema
+Turn anything into structured data
+Terminal
+Prioritize my Q3 projects based on due date, owner capacity, and current blockers, and call out what's blocking each one.
+Initiatives
+/
+Planning
+Project
+Priority
+Summary
+Mobile app redesign
+P0
+Blocked on iOS App Store review
+Client portal MVP
+P1
+API integration with billing system incomplete
+Onboarding flow redesign
+P1
+Waiting on user research findings
+Navigation refresh
+P2
+Key stakeholder unavailable for final review
+Checkout redesign
+P2
+A/B test results pending before rollout
+Connect your tool of choice
+Start querying your Airtable data in minutes from the tools your team already uses.
+Claude
+Best for:
+Querying and updating your data through natural conversation. Connects in one click via OAuth.
+Add Airtable to Claude
+ChatGPT
+Best for:
+Querying and updating your data through natural conversation. Connects in one click via OAuth.
+Add Airtable to ChatGPT
+Claude Code
+Best for:
+Building interfaces, authoring skills, and schema-aware workflows. Install the plugin to get Airtable MCP & full skills library.
+View install guide
+CLI
+Best for:
+Scripting, scheduled operations, and running workflows against your Airtable data. Install via npm.
+npm install -g @airtable/mcp-cli
+Built to work with any agent
+Airtable is model agnostic and works with the AI tools your team already use. You're not locked into a single provider.
+View the quickstart
+What our
+MCP server allows agents to do
+The Airtable MCP server gives agents your base's full structure — field types, relationships, and views — so they can make context-aware decisions.
+Query your data
+Ask questions across your bases, surface records, and analyze information.
+Update records
+Create, edit, and delete records, fields, and tables through conversation.
+Build bases
+Set up new bases and tables, define schemas, and structure your data.
+Make your AI tool smarter with skills
+Skills are expert playbooks that make your agent fluent in Airtable starting from core techniques to opinionated workflows for your specific use case.
+Airtable skills plugin
+The easiest way to install Airtable skills is via the plugin. It installs all available skills and keeps them up to date.
+Claude Code
+Codex
+/plugin marketplace add airtable/skills
+/plugin install airtable@airtable-skills
+Official Airtable skills
+Skills can also be installed individually. Airtable provides core skills and role-based solutions skills.
+Core skills
+Description
+airtable-overview
+Teaches your AI tool how Airtable is structured — bases, tables, field types, views, and relationships.
+airtable-filters
+Improves the accuracy of record queries by teaching your AI tool how Airtable filters work.
+airtable-cli
+Teaches your agent about the Airtable CLI.
+Solution skills
+Description
+product-ops
+Teaches your AI tool sprint tracking, roadmap management, and prioritization workflows.
+sales-ops
+Teaches your AI tool pipeline management, deal tracking, and revenue reporting workflows.
+marketing-ops
+Teaches your AI tool campaign tracking, asset management, and launch coordination workflows.
+View the full skills catalog
+Quickstart
+→
+© Airtable
+Terms
+Privacy

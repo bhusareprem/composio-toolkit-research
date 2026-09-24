@@ -1,0 +1,413 @@
+SendGrid Email API and Email Marketing Campaigns | Twilio
+English
+English
+French
+German
+Japanese
+Portuguese
+Spanish
+Support
+Help Center
+Support Plans
+Partner Solutions
+Login
+Log in to
+Twilio Console
+Conversations, Communications and Authentication
+Or log in to access:
+Twilio Segment
+Customer Data Platform
+Twilio SendGrid
+Email and Marketing Campaigns
+Products
+Twilio Platform
+Next gen
+Built for engagement in the agentic era. Twilio connects communication channels, customer context, and AI on one flexible platform.
+Conversations
+Conversation Memory
+New
+Build a persistent memory of customer interactions
+Conversation Orchestrator
+New
+Keep conversations connected across channels
+Conversation Intelligence
+Extract context from real-time conversations
+Conversation Relay
+Build advanced voice AI for natural conversations
+Conversations
+Communications
+Messaging
+SMS
+WhatsApp
+RCS
+Voice
+SIP Trunking
+Email
+SMTP Service
+Phone Numbers
+Toll-free
+10DLC
+Short Codes
+Video API
+Flex
+Communications
+Authentication
+Verify
+Lookup
+Authentication
+Customer Data
+Connections
+Warehouses
+Protocols
+Unify
+Engage
+Audiences
+Journeys
+Customer Data
+See all products
+See Twilioâs
+latest innovations
+Â and
+CDP integrations
+Solutions
+Use Cases
+Verification and identity
+Fraud prevention
+Alerts and notifications
+Appointment reminders
+Lead alerts
+Mass texting
+Marketing and promotions
+SMS marketing
+Cross-sell and upsell
+Optimize ad spend
+Support and sales
+Voice AI
+AI agent productivity
+IVR
+Contact center
+Customer data management
+Teams
+Developers
+Data Engineering
+Marketing
+Product
+Customer Experience
+Industry
+Financial services
+Healthcare
+Retail
+Nonprofit
+Hospitality
+Ecommerce
+Public sector
+Education
+Company Size
+Enterprise
+Startup
+See all solutions
+Why Twilio
+Overview
+Why Twilio
+We help you build amazing experiences with contextual data, the right communication channels, and AI to scale personalization and increase efficiency.
+Customer stories
+Differentiators
+One platform
+Privacy and security
+Built for builders
+Enterprise scale
+Extensible by design
+Real-time customer data
+Artificial intelligence
+Infrastructure
+Company
+About us
+Values
+Diversity
+Careers
+Twilio.org
+Investor relations
+Press and media
+Events
+2026 GartnerÂ® Magic Quadrantâ¢ for CPaaS
+1Â
+Twilio was once again named a Leader and positioned highest for our Ability to Execute.
+Read now
+1Â
+GartnerÂ®, Magic Quadrantâ¢ for Communications Platform as a Service, By Lisa Unden-Farboud et. al,Â May 18, 2026
+Resources
+Developers
+Documentation
+Code samples
+Developer Hub
+Champions
+Changelog
+Serverless
+Learn
+Blog
+Resource Center
+Guides
+Reports
+Webinars
+Podcasts
+Customer stories
+State of Customer Engagement
+Events
+Customer data recipes
+Support and services
+Help Center
+Find a partner
+Become a partner
+Professional services
+Support plans
+Status
+SendGrid status
+Segment status
+Twilio Talks: The New Era of Conversations
+Unify your channels, carry context across AI and human agents, and build seamless customer journeys.
+Register now
+Pricing
+Overview
+All Pricing
+Transparent pricing with discounts as you scale. Sign up for a free trialâno credit card required.
+Conversations
+Conversations
+Conversation Memory
+Conversation Orchestrator
+Conversation Intelligence
+Conversation Relay
+Communications
+Messaging
+SMS
+WhatsApp
+Conversations API
+Voice
+SIP Trunking
+Conferencing
+Email API
+Marketing Campaigns
+Video API
+Flex
+Authentication
+Verify
+Lookup
+Customer Data
+Customer Data Platform
+Customer Data Pipeline
+Data is collected based on search terms.Â
+Privacy Policy
+Contact sales
+Start for free
+Data is collected based on search terms.Â
+Privacy Policy
+Products
+Twilio Platform
+Next gen
+Built for engagement in the agentic era. Twilio connects communication channels, customer context, and AI on one flexible platform.
+Conversations
+Conversation Memory
+New
+Build a persistent memory of customer interactions
+Conversation Orchestrator
+New
+Keep conversations connected across channels
+Conversation Intelligence
+Extract context from real-time conversations
+Conversation Relay
+Build advanced voice AI for natural conversations
+Conversations
+Communications
+Messaging
+SMS
+WhatsApp
+RCS
+Voice
+SIP Trunking
+Email
+SMTP Service
+Phone Numbers
+Toll-free
+10DLC
+Short Codes
+Video API
+Flex
+Communications
+Authentication
+Verify
+Lookup
+Authentication
+Customer Data
+Connections
+Warehouses
+Protocols
+Unify
+Engage
+Audiences
+Journeys
+Customer Data
+See all products
+See Twilioâs
+latest innovations
+Â and
+CDP integrations
+Solutions
+Use Cases
+Verification and identity
+Fraud prevention
+Alerts and notifications
+Appointment reminders
+Lead alerts
+Mass texting
+Marketing and promotions
+SMS marketing
+Cross-sell and upsell
+Optimize ad spend
+Support and sales
+Voice AI
+AI agent productivity
+IVR
+Contact center
+Customer data management
+Teams
+Developers
+Data Engineering
+Marketing
+Product
+Customer Experience
+Industry
+Financial services
+Healthcare
+Retail
+Nonprofit
+Hospitality
+Ecommerce
+Public sector
+Education
+Company Size
+Enterprise
+Startup
+See all solutions
+Why Twilio
+Overview
+Why Twilio
+We help you build amazing experiences with contextual data, the right communication channels, and AI to scale personalization and increase efficiency.
+Customer stories
+Differentiators
+One platform
+Privacy and security
+Built for builders
+Enterprise scale
+Extensible by design
+Real-time customer data
+Artificial intelligence
+Infrastructure
+Company
+About us
+Values
+Diversity
+Careers
+Twilio.org
+Investor relations
+Press and media
+Events
+2026 GartnerÂ® Magic Quadrantâ¢ for CPaaS
+1Â
+Twilio was once again named a Leader and positioned highest for our Ability to Execute.
+Read now
+1Â
+GartnerÂ®, Magic Quadrantâ¢ for Communications Platform as a Service, By Lisa Unden-Farboud et. al,Â May 18, 2026
+Resources
+Developers
+Documentation
+Code samples
+Developer Hub
+Champions
+Changelog
+Serverless
+Learn
+Blog
+Resource Center
+Guides
+Reports
+Webinars
+Podcasts
+Customer stories
+State of Customer Engagement
+Events
+Customer data recipes
+Support and services
+Help Center
+Find a partner
+Become a partner
+Professional services
+Support plans
+Status
+SendGrid status
+Segment status
+Twilio Talks: The New Era of Conversations
+Unify your channels, carry context across AI and human agents, and build seamless customer journeys.
+Register now
+Pricing
+Overview
+All Pricing
+Transparent pricing with discounts as you scale. Sign up for a free trialâno credit card required.
+Conversations
+Conversations
+Conversation Memory
+Conversation Orchestrator
+Conversation Intelligence
+Conversation Relay
+Communications
+Messaging
+SMS
+WhatsApp
+Conversations API
+Voice
+SIP Trunking
+Conferencing
+Email API
+Marketing Campaigns
+Video API
+Flex
+Authentication
+Verify
+Lookup
+Customer Data
+Customer Data Platform
+Customer Data Pipeline
+Contact sales
+Start for free
+Support
+Help Center
+Support Plans
+Partner Solutions
+Login
+Contact sales
+Start for free
+Contact sales
+Start for free
+SendGrid â¤ï¸ Twilio. We're finally moving in together on Twilio.com!
+We're merging our websites to make things simpler. You can now find all our trusted email solutions, plus everything else Twilio offers, over onÂ
+Twilio.com
+.
+Visit Twilio.com
+Same email solutions, new home base.
+Donât worryâthe same SendGrid email products and services, documentation and resources you know and love are available and fully supported onÂ
+Twilio.com
+.
+Log in now
+Email at scale, proven deliverability, and so much more
+Send email on a world-class platform that delivers more than 200 billion emails every monthâand explore the rest of the Twilio Platform to build a complete solution for verification and identity, alerts, support and sales, and more.
+Twilio SendGrid Email API and SMTP service
+The trusted SendGrid Email API for delivery at scale.
+Explore SendGrid Email API
+View pricing
+Email campaigns for marketers
+Flexible tools for creating engaging email campaigns.
+Explore Marketing Campaigns
+View pricing
+View all Twilio products
+Explore Twilio Platform
+Resources to learn, build, or troubleshoot
+Documentation
+Use up-to-date documentation to quickly integrat

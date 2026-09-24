@@ -1,0 +1,154 @@
+Supabase Docs
+Skip to content
+DOCS
+Start
+Products
+Build
+Manage
+Reference
+Resources
+DOCS
+Search
+docs...
+Ctrl K
+DOCS
+Start
+Products
+Build
+Manage
+Reference
+Resources
+DOCS
+Search
+docs...
+Ctrl K
+Supabase Documentation
+Learn how to get up and running with Supabase through tutorials, APIs and platform resources.
+Agent Prompt
+CLI
+Help me get set up with Supabase. Do the following:
+Install the Supabase CLI as a project dev dependency with
+npm install supabase --save-dev
+, so the version is pinned per project.
+Install the Supabase Plugin with
+npx plugins add supabase-community/supabase-plugin
+.
+Review my project and determine whether Supabase is already initialized. If it is not initialized, run
+npx supabase init
+.
+Suggest the most relevant next steps.
+Show more
+npm
+install
+supabase
+--save-dev
+npx
+plugins
+add
+supabase-community/supabase-plugin
+Connect a framework
+Start with a quickstart guide to connect your project in minutes.
+React
+Next.js
+TanStack Start
+Astro
+Vue
+Nuxt
+SvelteKit
+SolidJS
+RedwoodJS
+Refine
+Hono
+iOS Swift
+Android Kotlin
+Expo React Native
+Flutter
+Python
+Reflex
+Laravel
+Ruby on Rails
+Spring Boot
+Build your backend
+Build with a complete backend platform, from your database to your application logic.
+Database
+Supabase provides a full Postgres database for every project with Realtime functionality, database backups, extensions, and more.
+Auth
+Add and manage email and password, passwordless, OAuth, and mobile logins to your project through a suite of identity providers and APIs.
+Storage
+Store, organize, transform, and serve large files—fully integrated with your Postgres database with Row Level Security access policies.
+Realtime
+Listen to database changes, store and sync user states across clients, broadcast data to clients subscribed to a channel, and more.
+Edge Functions
+Globally distributed, server-side functions to execute your code closest to your users for the lowest latency.
+Extend your database
+Extend your database with built-in tools for AI, APIs, scheduled jobs, and queues.
+AI & Vectors
+Cron
+Queues
+Data REST API
+GraphQL API
+Use a client library
+Use Supabase from the language and framework your application is built with.
+JavaScript
+Flutter
+Python
+C#
+Swift
+Kotlin
+Migrate to Supabase
+Bring your existing data, auth and storage to Supabase following our migration guides.
+Explore more resources about /guides/resources
+Explore more resources
+Amazon RDS
+Auth0
+Firebase Auth
+Firebase Storage
+Firestore Data
+Heroku
+MSSQL
+MySQL
+Neon
+Postgres
+Render
+Vercel Postgres
+Explore more
+Explore the tools, integrations, and guides that help you get more from Supabase.
+AI tools
+Develop with Supabase AI-first using plugins, MCP, and skills.
+Platform guides
+Learn more about the tools and services powering Supabase.
+Supabase CLI
+Use the CLI to develop, manage and deploy your projects.
+Management API
+Manage your Supabase projects and organizations.
+Integrations
+Explore a variety of integrations from Supabase partners.
+Supabase Library
+A collection of pre-built Supabase components to speed up your project.
+Troubleshooting
+Our troubleshooting guide for solutions to common Supabase issues.
+Self-host Supabase
+Get started with self-hosting Supabase.
+More on self-hosting about /guides/self-hosting
+More on self-hosting
+Auth
+Realtime
+Storage
+Analytics
+Need some help?
+Contact support
+Latest product updates?
+See Changelog
+Something's not right?
+Check system status
+© Supabase Inc
+—
+Contributing
+Author Styleguide
+Open Source
+SupaSquad
+Privacy Settings
+Twitter
+GitHub
+Discord
+Youtube

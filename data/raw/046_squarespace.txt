@@ -1,0 +1,55 @@
+Squarespace Developer Platform: APIs, Apps, and Docs
+Commerce APIs
+Webhooks
+Template Docs
+Custom Code
+Upcoming Changes
+Build on Squarespace
+Everything you need to build and publish external apps â reliable APIs, clear documentation, and a marketplace to reach Squarespace's global customer base.
+Read the docs
+Start building
+What can you build on Squarespace?
+Integration, customization, or extension. Our docs can get you started, and the rest is up to you.
+01
+App creation
+Use our APIs to connect your business to Squarespace and reach more customers.
+02
+Advanced commerce management
+Manage your storefront's orders, inventory, transactions, and more.
+03
+Website & domain reselling
+Add Squarespace websites and domains to your business offering.
+04
+Custom themes & code
+Inject CSS, JavaScript, and full code blocks against the 7.1 layout model.
+05
+Webhooks & automation
+Subscribe to order, inventory, content, and customer events with signed delivery.
+06
+AI compatibility
+Integrate our API docs directly into Claude or ChatGPT.
+What APIs and tools does the platform include?
+Get deep control with Commerce APIs, Reseller APIs, and a reliable custom code spec.
+Commerce APIs
+Read and write orders, products, inventory, and transactions. REST endpoints, webhooks for order events, and signed payloads for safe server-to-server delivery.
+â
+Custom Code Spec
+A documented contract for injecting code into 7.1 sites â code blocks, code injection points, and the Fluid Engine layout model. No version drift.
+â
+Reseller APIs
+Provision, configure and bill for Squarespace sites and domains on behalf of clients. Built for companies looking to integrate our products into their offering.
+Coming soon
+Stay in the loop
+Get notified about API updates, breaking changes, and new developer tools.
+Email address
+Sign Up
+By pressing Sign Up, I consent to receive updates about Squarespace developer tools and acknowledge that my information is subject to the
+Squarespace Privacy Policy
+.
+Ready to build?
+Get started.
+Read the Docs
+Start building
+Developer Terms
+Privacy Policy
+Imprint

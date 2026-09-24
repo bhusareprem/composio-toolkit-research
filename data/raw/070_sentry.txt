@@ -1,0 +1,93 @@
+API Reference | Sentry Docs
+Skip to content
+Docs
+Get Started
+SDKs
+Product
+AI
+Concepts
+API
+Manage
+Ask AI
+Go to Sentry
+Open Main Menu
+API Reference
+Authentication
+Paginating Results
+Permissions & Scopes
+Rate Limits
+Requests
+Crons
+Dashboards
+Discover & Performance
+Environments
+Events & Issues
+Explore
+Integration Platform
+Integrations
+Mobile Builds
+Monitors & Alerts
+Organizations
+Profiling
+Projects
+Releases
+Replays
+SCIM
+Seer
+Snapshots
+Spike Protection Notifications
+Teams
+Users
+Product Changelog
+Sandbox
+More
+Home
+API Reference
+Copy page
+API Reference
+The Sentry web API is used to access the Sentry platform programmatically. You can use the APIs to manage account-level resources, like organizations and teams, as well as manage and export data.
+If you're looking for information about the API surface for Sentry's SDKs, see the
+SDK Development
+docs.
+Versioning
+The current version of the Sentry's web API is considered
+v0
+. Our public endpoints are generally stable, but beta endpoints are subject to change.
+Getting Started
+Authentication
+Pagination
+Permissions
+Rate Limits
+Requests
+Sentry API Tutorials
+Tutorial: Create a Sentry Authentication Token
+Tutorial: Create and List Teams with the Sentry API
+Choosing the Right API Base Domain
+While many of Sentry's APIs use
+sentry.io
+as the host for API endpoints, if you want to indicate a specific
+data storage location
+, you can use your region-specific domain. Using your organization's region-specific domain will generally result in lower latency for most API calls. For example, if you are hosted in the US region, you would use
+us.sentry.io
+. You can check which region your organization is in by viewing your
+organization’s settings page
+.
+US region is hosted on
+us.sentry.io
+DE region is hosted on
+de.sentry.io
+.
+To find out which API resources are available on region-based domains, see
+what types of data are stored where
+for more information.
+Previous
+Sentry CLI
+Next
+API Authentication
+Was this helpful?
+Yes 👍
+No 👎
+How can we improve this page?
+Email
+(optional)
+Submit feedback

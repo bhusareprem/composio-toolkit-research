@@ -1,0 +1,121 @@
+Snowflake Documentation
+DOCUMENTATION
+/
+EN
+Language
+English
+Français
+Deutsch
+日本語
+한국어
+Português
+Get started
+Guides
+Developer
+Reference
+Release notes
+Tutorials
+Status
+For AI agents: documentation index at /llms.txt — fetch to discover all Snowflake documentation pages. Markdown version of this page: /en/.md
+Snowflake Documentation
+Streamline your Snowflake journey with comprehensive documentation and learning resources
+Featured Resources
+Dive into our top picks
+user guide
+Connecting to Snowflake
+Learn about the applications and tools that you can use to access Snowflake
+user guide
+Working with Virtual Warehouses
+Learn how to create and manage warehouses, which are used to process queries
+user guide
+Databases, Tables and Views
+Learn how to create and manage databases, tables, and views for storing and accessing your data
+user guide
+Load Data into Snowflake
+Learn about the different options for getting data into Snowflake and setting up a pipeline to transform your data
+Discover the Most Popular Resources
+Getting Started
+Basic information and instructions for first-time users of Snowflake.
+Getting a Trial Account
+Snowflake in 20 Minutes
+Key Concepts and Architecture
+Connecting to Snowflake
+See all
+User Guides
+Instructions on performing various Snowflake operations.
+Understanding & Using Time Travel
+Working with Temporary and Transient Tables
+Working with Materialized Views
+About Snowflake Openflow
+See all
+Developer Guides
+Write applications that extend Snowflake, act as a client, or act as an integrating component.
+Snowflake Native App Framework
+Snowpark API
+User-defined Functions (UDFs) and Stored Procedures
+Drivers
+See all
+Reference
+Reference for SQL data types, SQL commands, SQL functions, SQL classes, scripting, views, and other areas
+SQL Data Types
+SQL Commands
+SQL Functions
+SQL Classes
+Snowflake Scripting
+See all
+Tutorials
+Tutorials to help you learn the basics of using Snowflake
+Snowflake in 20 Minutes
+Bulk Loading from a Local File System
+Bulk Loading from Amazon S3 Using COPY
+See all
+Releases
+Overview of the new features, enhancements, and important fixes introduced in the most recent releases of Snowflake.
+New features
+Behavior change log
+Snowflake connector, driver, and library monthly releases
+See all
+What's New
+New features, enhancements, and important behavior changes introduced in the most recent Snowflake releases.
+See all
+Recent Release Highlights
+preview
+On September 30th, 2025
+Declarative Sharing - Preview
+Snowflake is pleased to announce the preview of Declarative Sharing. Declarative Sharing in the Snowflake Native App Framework enables providers to share and sell data products, and to enhance those apps by including notebooks that help Snowflake consumers visualize data.
+preview
+On June 2nd, 2025
+Snowpipe Streaming with High-Performance Architecture
+Snowflake is pleased to announce the preview of the Snowpipe Streaming high-performance architecture. This next-generation implementation delivers significantly enhanced throughput and optimized streaming performance with a predictable, throughput-based pricing model.
+generally available
+On May 5th, 2025
+Release channels for Snowflake Native Apps
+generally available
+On May 23rd, 2025
+Search optimization: Support for Apache Iceberg™ tables
+generally available
+On May 23rd, 2025
+Query Acceleration Service: Support for Apache Iceberg™ tables
+generally available
+On May 23rd, 2025
+Triggered tasks: Support for streams hosted on directory tables and data shares
+Announcements
+Stay informed and discover the latest updates, improvements, and enhancements
+Behavior Changes
+Behavior changes that may impact your usage
+Performance Improvements
+All features that can improve performance and make queries run faster
+Visit Snowflake
+Join the conversation
+Develop with Snowflake
+Share your feedback
+Read the latest on our blog
+Get your own certification
+Privacy Notice
+Site Terms
+Cookies Settings
+©
+2026
+Snowflake, Inc.
+All Rights Reserved
+.

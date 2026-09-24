@@ -1,0 +1,430 @@
+Attio: The CRM for agentic revenue
+Orchestrate revenue agents with Workflows
+Platform
+Context
+Universal Context
+The AI context layer
+Data Model
+Sync and structure your data
+Enrichment
+Auto-enrich every record
+Call Intelligence
+Record and analyze meetings
+Reporting & Forecasts
+Insights in real time
+Agents & automations
+Ask Attio
+Analyze and create with AI
+Workflows
+Orchestrate any revenue motion
+Custom Agents
+Agents ready for any task
+Web Agent
+Research the web on autopilot
+Sequences
+Personalized outreach at scale
+Ecosystem
+Apps
+Discover the tools you need
+MCP
+Connect everywhere you work
+Developer Platform
+Extend and integrate with Attio
+Attio for
+Slack
+ChatGPT
+Claude
+Get started
+Attio 101
+Startup program
+Talk to sales
+Resources
+Support
+Help Center
+Learn about Attio's features
+Academy
+Essential Attio, explained
+Developer Docs
+Start building on Attio
+Attio Community
+Connect with other Attio users
+Partners
+Technology partners
+Expert partners
+Creator partners
+Company
+Changelog
+Announcements
+Engineering blog
+Careers
+Developers
+Customers
+Pricing
+Sign in
+Start for free
+GTM lessons from Elena Verna and more
+Welcome to agentic revenue.
+Attio is the CRM that builds pipeline, advances deals, and grows accounts around the clock.
+Talk to sales
+Talk to sales
+Start for free
+Send me a demo
+Product Demo w/ GreenLeaf
+10:00
+28:14
+Meeting
+Transcript
+Speakers
+A
+Ashley
+0:02
+Everything's in spreadsheets right now and it's getting unmanageable. I'd like the whole team moved over by Monday if we can.
+S
+Sam
+0:11
+We can have you live well before then. How many seats are you thinking?
+A
+Ashley
+0:24
+Six, on the Pro plan. I'll be the one signing off.
+S
+Sam
+0:38
+Perfect — I'll send a Pro quote over today. It covers the workflow automations you flagged.
+A
+Ashley
+0:55
+Can we bring our existing deal history across too?
+S
+Sam
+1:09
+Yep — we'll map it during onboarding, and I'll include a migration checklist.
+A
+Ashley
+1:23
+Love it. Looking forward to finally getting off spreadsheets.
+# pipeline
+Marcus
+10:24
+@Attio
+what deals should I focus on today?
+Attio
+App
+10:24
+GreenLeaf
+(verbal yes, no quote out) and Ramp (stalled in Legal 5d).
+>
+Score companies from recent activity and write the score back to Attio.
+●
+Ran 3 commands
+⎿
+search-notes-by-metadata
+⎿
+search-emails-by-metadata
+⎿
+update-record
+●
+Ranked companies by engagement drop-off and pushed updated health scores to Attio.
+Ranked companies by engagement drop-off and pushed updated health scores to Attio.
+>
+Score companies from recent activity and write the score back to Attio.
+>
+▶▶ auto
+Opus 4.8 · 1M context
+GTM lessons from Elena Verna and more
+Welcome to agentic revenue.
+Attio is the CRM that builds pipeline, advances deals, and grows accounts around the clock.
+Start for free
+Send me a demo
+Talk to sales
+Talk to sales
+Platform
+The intelligent system that never sleeps.
+Picks up leads at 2am. Catches renewals before they slip. Hands you the answer before you ask.
+Build pipeline
+Convert leads
+Run sales motions
+Forecast revenue
+Retain and expand
+Build pipeline
+Convert leads
+Run sales motions
+Forecast revenue
+Retain and expand
+Your team, amplified.
+Agents prospect and reach out when buyers are looking, building a pipeline of deals ready to win.
+Companies to work
+A
+L
++1
+Share
+Ask Attio
+All Companies
+View settings
+New person
+Company
+OpenAI
+Harvey
+Browserbase
+Cursor
+Notion
+Granola
+Ramp
+Elevenlabs
+Linear
+ICP Score
+98
+98
+97
+96
+96
+92
+91
+91
+88
+Owner
+Isla Harrington
+George Wilkes
+Theo Marshall
+Amelia Carter
+Nathan Cole
+Daniel Fraser
+Maxwell Turner
+Theo Marshall
+Samuel Clarke
+Research agent
+Opened 40+ GTM roles
+Hired a new CRO
+Building its first GTM team
+Opened 14 AE roles this quarter
+Opening a new sales hub
+Raised $125M Series C
+Doubling its sales org this year
+New VP Sales from enterprise SaaS
+Made its first sales hires
+Send email
+Send follow up email to Maya White
+The intro email ties Maya's new VP role, the Series C, and 14 open AE roles to faster hiring.
+To
+M
+Maya White
+CC / BCC
+Send email
+Discard
+Save draft
+Free your reps to sell.
+Agents handle the research and busywork. Reps focus their time where deals get won.
+Ask something...
+10 accounts ready for outreach
+Granola
+Raised $125M Series C
+Linear
+Building out its sales team
+Notion
+New VP Sales from enterprise SaaS
+OpenAI
+Scaling faster than it can hire
+Shopify
+Doubling down on enterprise sales
+Dropbox
+GTM reset under a new CRO
+Agents dig. You close.
+Every lead is enriched and qualified, so reps know when and why to engage.
+Speed to lead, every time.
+New leads get enriched, scored, and routed to the right rep before they ever cool off.
+Trigger
+Record created
+New record created
+Web agent
+Enrich lead with web research
+Custom agent
+Score lead for ICP fit
+If
+Route lead by segment
+True
+False
+Enroll in sequence
+Enterprise sequence
+Enroll in sequence
+SMB sequence
+Run every motion, your way.
+Pipeline built for how you sell, while agents brief the meetings and keep deals moving.
+Discovery
+2
+Lumio AI
+Sep 30, 2026
+USD
+$20,800
+A
+Amelia Carter
+Set Next step...
+12d
+Verda Labs
+Sep 10, 2026
+USD
+$36,400
+G
+George Hall
+Scheduling demo
+15d
+Demo
+1
+Cortexa
+Aug 28, 2026
+USD
+$54,000
+T
+Theo Marshall
+Demo went well, sending fo...
+7d
+Proposal
+3
+Driftwave
+Jul 31, 2026
+USD
+$31,200
+N
+Nathan Cole
+Proposal sent, in procurem...
+22d
+Synthred
+Aug 12, 2026
+USD
+$62,500
+I
+Isla Harrington
+Security review underway
+25d
+Pinevox
+Jul 20, 2026
+USD
+$11,000
+R
+Rachel Adams
+Add note...
+9d
+Negotiation
+2
+Northpeak
+Jun 30, 2026
+USD
+$78,000
+S
+Samuel
+Verbal yes, drafting contract
+31d
+Westwind
+Jul 8, 2026
+USD
+$26,400
+P
+Paul
+Finalizing terms
+18d
+Catch changes to the deal.
+Spot new stakeholders, competitor moves, and stalls before your next call.
+M
+Michael James
+VP Sales at Cortexa
+michael@cortexa.ai
++3
+San Francisco, California
+Cortexa
+4
+1d
+Skip the review scramble.
+Walk in with quota coverage, deal velocity, and potential risks already mapped.
+Thinking
+Thinking
+🚨
+Deals at Risk
+These are in late stages but showing warning signs:
+Forage - Negotiation, $29,288. Close date passed today with no signature. Jordan asked for a demo to share internally, a sign a new stakeholder needs convincing.
+Helix - Procurement/Signing, $18,280. Unsigned since June 1 despite a June 15 follow-up. Stalling in legal.
+For the people who own the number.
+Ask any revenue question. From the weekly forecast to performance by rep, get the answer in seconds.
+What is the estimate of this week’s closed-won deal value
+2 tools used
+Attributes searched:
+19 results
+SQL query executed:
+1452 rows in 6.2s
+SQL
+Show all
+Keep more. Grow more.
+Agents track the whole book, so you save what's slipping and grow what's rising.
+Book Size - ARR
+US
+EMEA
+1.4m
+0.7m
+0.0m
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Account Health
+Healthy
+Watch
+At risk
+Count
+100
+80
+60
+40
+20
+0
+Jan
+Feb
+Mar
+Apr
+May
+2 tools used
+Here are the top 5 accounts at risk that CS should prioritize this week:
+1. Brightloop — $107,000 ARR
+High
+Brightloop
+Risk Signals:
+Last two invoices failed in Stripe (card declined). Logins down 40% over 30 days.
+CSM Tier:
+Named T0
+—
+Action:
+Reach out today to fix the card on file, and check whether the usage drop signals broader churn
+2. Vela — $86,000 ARR
+High
+Vela
+Risk Signals:
+Subscription past due. Renews June 30 — two weeks out, no renewal call booked.
+CSM Tier:
+Named T1
+—
+Action:
+Confirm renewal intent and clear the past-due balance before June 30.
+Spot the shift early.
+Whether an account's climbing or cooling, you'll know weeks before the call.
+D
+Drew Austin
+Changed roles
+Head of IT
+GreenLeaf
+New funding round
+$250M
+J
+Joshua Reed
+Upcoming renewal date
+Joshua to send documentation on the public API
+The move's ready. You make the call.
+Save, upsell, or renewal, agents draft the play for you to approve and run.
+Email suggestion
+Looking for more seats?
+M
+E
+Hi Marcus, saw Quanta's usage jumped 42% this month. Looks like the team is scaling fast. Happy to add more seats on your plan so no one gets blocked.
+Email suggestion
+Ahead of your renewal
+J
+P
+Hi Joshua, your renewal is coming up at the end of the month. Happy to

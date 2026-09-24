@@ -1,0 +1,224 @@
+Waterfall | One B2B data solution to connect them all
+Products
+Contact enrich
+Verified emails & profiles, instantly
+Phone enrich
+Find phone numbers that convert
+Prospector
+Find contacts at your target accounts
+Job change
+Track your best customers
+Contact search
+Search any contact, at any company
+Docs
+Book a Call
+Lorem Ipsum
+Lorem Ipsum has been the industry's standard dummy text ever.
+Waterfall Enrichment api, powered by 30+ data vendors
+One GTM API to
+Track job changes
+Search for prospects
+Find verified emails
+Find mobile numbers
+Track job changes
+Verify emails
+*Waterfall™ aggregates 30+ different data vendors so that you can maximize contact, email and mobile number coverage without signing multiple data vendors or long-term contracts.
+✓
+Thanks, we’ll review your request shortly.
+Something went wrong. Please try again or book a call.
+or book a call
+GTM & Revenue leaders at top B2B companies use Waterfall
+Why Waterfall?
+3 reasons (plus a bonus) why these brands choose Waterfall
+Before
+All your data vendors
+AFTER
+>
+1
+Quality
+1
+Quality
+Before
+Incomplete & Outdated Data
+You’re working with outdated information. Emails bounce and phone numbers disconnect. Contact profiles don’t match reality.
+After
+Cleaned, Structured and Verified Data
+Every profile verified in real-time. What you see is current, accurate and ready to use.
+2
+Coverage
+2
+Coverage
+Before
+Missing Contact Coverage
+You look for complete profiles across multiple platforms. One vendor has North America covered but not Europe, others give you emails but no phones - leaving you with prospects you can't actually reach.
+After
+Global Contact Coverage
+You pull verified contact data that's comprehensive globally. Email, phone, title, company - all accurate and together in one place.
+3
+Cost
+3
+Cost
+Before
+Multiple Vendors, Multiple Costs & Integrations
+You pay for the same missing, partial or inaccurate data multiple times across vendors. Credits expire and subscriptions require minimum commitments regardless of actual usage.
+After
+One Contract & Integration, Complete Access
+Pay only for what you actually use. No monthly commitments or short-term credit expiration - scale up or down whenever you need.
++
+Support
++
+Support
+Before
+Pending Tickets. Ignored Emails. Limited Product Input
+You submit tickets and wait days for answers. Your emails get buried in their inbox. Feature requests are prioritized by contract size, not urgency or potential business impact.
+After
+Direct Access to Founders & Engineers
+Message our team directly in Slack - no tickets, no waiting. Your feedback turns into features in days, and we prioritize by impact, not account size.
+Customers
+Hear what our customers say about us
+Use cases
+How teams use Waterfall
+From GTM engineers and RevOps to PLG teams, here are the most effective ways our customers use Waterfall to improve data coverage and quality.
+Find Contacts
+Find contacts by website, job titles & location
+Find Verified Emails
+Find real-time verified emails
+Find Mobile Numbers
+Get direct numbers for more connects and conversations with decision-makers
+Track Champions
+Monitor your best customers in their new positions
+Match Emails to Business Profiles
+Turn emails into complete business profiles - ready for scoring, segmenting and outreach
+Preview
+curl --location 'https://api.waterfall.io/v1/prospector' \
+--header 'Content-Type: application/json' \
+--header 'x-waterfall-api-key: YOURKEY' \
+--data '{
+"domain": "stripe.com",
+"title_filter": "(marketing director)",
+"verified_only":false,
+"limit": 50
+}'
+View API doc
+Prospector API
+Preview
+curl --location 'https://api.waterfall.io/v1/prospector' \
+--header 'Content-Type: application/json' \
+--header 'x-waterfall-api-key: YOURKEY' \
+--data '{
+"domain": "stripe.com",
+"title_filter": "(marketing director)",
+"verified_only":false,
+"limit": 50
+}'
+View API doc
+Contact Enrichment API
+Preview
+curl --location 'https://api.waterfall.io/v1/prospector' \
+--header 'Content-Type: application/json' \
+--header 'x-waterfall-api-key: YOURKEY' \
+--data '{
+"domain": "stripe.com",
+"title_filter": "(marketing director)",
+"verified_only":false,
+"limit": 50
+}'
+View API doc
+Phone Enrichment API
+Preview
+curl --location 'https://api.waterfall.io/v1/prospector' \
+--header 'Content-Type: application/json' \
+--header 'x-waterfall-api-key: YOURKEY' \
+--data '{
+"domain": "stripe.com",
+"title_filter": "(marketing director)",
+"verified_only":false,
+"limit": 50
+}'
+View API doc
+Job Changes API
+Preview
+curl --location 'https://api.waterfall.io/v1/prospector' \
+--header 'Content-Type: application/json' \
+--header 'x-waterfall-api-key: YOURKEY' \
+--data '{
+"domain": "stripe.com",
+"title_filter": "(marketing director)",
+"verified_only":false,
+"limit": 50
+}'
+View API doc
+Contact Enrichment API
+API Overview
+Modular & Scalable GTM API
+Everything you need to build reliable data pipelines - from flexible architecture to dedicated developer support
+Unified data schema
+One clean, consistent data format for all your contacts and target accounts. No more field mapping headaches or schema changes.
+High rate limits
+Unlike typical waterfall enrichment vendors who struggle with rate limits, we handle high volumes seamlessly - whether you need 100 or 1,000 requests per minute.
+99.99% uptime
+True 99.99% uptime with built-in redundancy. With 30+ data vendors, we keep running even if multiple providers go down.
+Dedicated onboarding
+Direct access to our engineering team via Slack. Get implementation help, custom solutions, and <1hr response times from the people who built it.
+Transparent pricing
+Usage-based pricing with no surprises. Pay for what you use, scale as you grow, no hidden fees.
+CURL
+PYTHON
+NODE
+Quick start
+Copy
+curl --location 'https://api.waterfall.io/v1/prospector' \
+--header 'Content-Type: application/json' \
+--header 'x-api-key: your_key' \
+--data '{
+"domain": "salesforce.com",
+"title_filters": "(chief executive officer) OR (chief marketing officer) OR (chief operating officer) OR (chief revenue officer)",
+"location_countries": ["United States","France","Canada"],
+"limit": 10
+}'
+import requests
+url = "https://api.waterfall.io/v1/prospector"
+headers = {
+"Content-Type": "application/json",
+"x-api-key": "your_key"
+}
+data = {
+"domain": "salesforce.com",
+"title_filters": "(chief executive officer) OR (chief marketing officer) OR (chief operating officer) OR (chief revenue officer)",
+"location_countries": ["United States","France","Canada"],
+"limit": 10
+}
+r = requests.post(url, headers=headers, json=data)
+print(r.status_code, r.json())
+import fetch from "node-fetch";
+const res = await fetch("https://api.waterfall.io/v1/prospector", {
+method: "POST",
+headers: {
+"Content-Type": "application/json",
+"x-api-key": "your_key"
+},
+body: JSON.stringify({
+domain: "salesforce.com",
+title_filters: "(chief executive officer) OR (chief marketing officer) OR (chief operating officer) OR (chief revenue officer)",
+location_countries: ["United States","France","Canada"],
+limit: 10
+})
+});
+console.log(res.status, await res.json());
+99.99% uptime
+•
+30+ sources
+View API docs →
+View API doc
+Enterprise-grade security, reliability and compliance
+We don’t store, reuse or resell any of your data. On top, our infrastructure design allow us to be up even multiple (hand-vetted) vendors go down.
+SOC 2 Type II Certified
+While most vendors stop at the required Security module, we went further - achieving the complete compliance suite with Confidentiality and Privacy modules.
+GDPR & CCPA
+Full GDPR & CCPA compliance with data minimization, processing records, and privacy by design. We're ready for your EU & US data requirements.
+Enterprise-grade Security
+We don't just claim security; we prove it with the industry's best. Our pen tests are conducted by the same auditors who secure brands like Snowflake and T-Mobile.
+Monited by Drata
+Continuous security monitoring and compliance automation through Drata. Real-time alerts and regular audits keep us ahead of threats.
+Book a call
+Every company has different needs. Talk to o

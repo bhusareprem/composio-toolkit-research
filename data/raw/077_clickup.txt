@@ -1,0 +1,35 @@
+ClickUp
+For AI agents: visit https://developer.clickup.com/llms.txt for an index of all pages formatted in Markdown and endpoints in OpenAPI. Append .md to any documentation page URL to get its markdown version.
+Jump to Content
+Home
+Guides
+API Docs
+Home
+Jump to Content
+Home
+Guides
+API Docs
+Develop innovative solutions with the ClickUp API
+Build integrations and apps with our Public API.
+Connect your AI with ClickUp using our MCP Server.
+API
+Browse our Public API specification.
+MCP
+Use ClickUp right from your AI assistant.
+Webhooks
+Trigger workflows from ClickUp events.
+OAuth
+Let people sign into their ClickUp account.
+Get started with the API
+Try the API
+Download the spec
+Get started with the MCP
+MCP setup instructions
+MCP tools
+Get support
+Contact ClickUp support
+Share your feedback
+© 2026 ClickUp
+Security
+Your Privacy
+Terms

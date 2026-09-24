@@ -1,0 +1,250 @@
+Introduction - HTTP API
+Docs
+Docs
+Neo4j DBMS
+Getting Started
+Operations
+Migration and Upgrade
+Status Codes
+Java Reference
+Kerberos Add-on
+Neo4j Aura
+Neo4j Tools
+Neo4j Bloom
+Neo4j Browser
+Neo4j Data Importer
+Neo4j Desktop
+Neo4j Enterprise Studio
+Neo4j Ops Manager
+Neodash commercial
+Neo4j Graph Data Science
+Neo4j Graph Data Science Library
+Neo4j Graph Data Science Client
+Neo4j Graph Analytics for Snowflake
+Cypher Query Language
+Cypher
+Cypher Cheat Sheet
+APOC Library
+Generative AI
+Neo4j GraphRAG for Python
+Embeddings and vector indexes tutorial
+GenAI plugin
+Vector search indexes
+Vector search functions
+GraphQL vector index search documentation
+Create applications
+Python Driver
+Go Driver
+Java Driver
+JDBC Driver
+JavaScript Driver
+.Net Driver
+Neo4j GraphQL Library
+Neo4j Visualization Library
+OGM Library
+Spring Data Neo4j
+HTTP API
+Neo4j Query API
+Bolt
+Connect data sources
+Neo4j Connector for Apache Spark
+Neo4j Connector for Apache Kafka
+Change Data Capture (CDC)
+BigQuery to Neo4j
+Google Cloud to Neo4j
+Labs
+GenAI Ecosystem
+LLM Knowledge Graph Builder
+Vector Index & Search
+LangChain
+LangChain.js
+LlamaIndex
+Haystack
+DSPy
+Developer Tools
+APOC Extended
+Aura CLI
+arrows.app
+Cypher Workbench
+ETL Tool
+NeoDash
+Frameworks & Integrations
+Needle Starter Kit
+Neo4j Plugin for Liquibase
+Neo4j Migrations
+neomodel
+RDF & Linked Data
+Neosemantics (Java)
+RDFLib-Neo4j (Python)
+Get Help
+Community Forum
+Discord Chat
+Product Support
+Neo4j Developer Blog
+Neo4j Videos
+GraphAcademy
+Beginners Courses
+Neo4j Fundamentals
+Cypher Fundamentals
+Importing Data Fundamentals
+Importing CSV Data
+Graph Data Modeling
+Data Scientist Courses
+Get started with Graph Data Science
+Path Finding
+Generative AI Courses
+Neo4j & Generative AI Fundamentals
+Vector Indexes & Unstructured Data
+Constructing Knowledge Graphs
+Building Agents in Neo4j Aura
+Neo4j Certification
+Neo4j Certified Professional
+Neo4j Graph Data Science Certification
+Get Started Free
+Theme
+Light
+Dark
+Search
+Skip to content
+HTTP API
+Product Version
+Version 2026.09 (Current)
+Version 5
+Version 4.4
+Introduction
+Authorize requests
+Query the database
+Run transactions
+Route queries to read cluster members
+Retrieve query statistics
+Profile queries
+Coordinate transactions and enforce causal consistency
+Error handling
+Reference
+Endpoints
+Headers
+Result formats
+Is this page helpful?
+HTTP API
+Introduction
+Raise an issue
+Introduction
+Not available on Aura
+Deprecated in 5.26
+The transactional HTTP API is deprecated and replaced by the Query API.
+See the
+Neo4j Query API
+documentation for more information.
+The Neo4j HTTP API allows to execute a series of Cypher statements against a Neo4j server through HTTP requests.
+The main use case of the HTTP API is for developing client applications in languages for which there is no supported library.
+If there exists an official library (driver) for the language you are using, consider using that instead — see
+Create applications
+.
+By default, the API uses port 7474 for HTTP and port 7473 for HTTPS.
+This guide assumes that you have:
+A running instance of Neo4j — If you don’t have one,
+install Neo4j locally
+or sign up for an
+Aura cloud instance
+.
+Some familiarity with
+Cypher
+— If you are new to it, check out
+Getting started → Cypher
+.
+To execute queries through the HTTP API, you may use either:
+Implicit transactions
+— you just submit queries, the API takes care of the transaction handling for you
+Explicit transactions
+— you control the lifecycle of the transaction (open, commit, rollback), within which you can execute queries.
+As of Neo4j 5.17, the HTTP API supports HTTP/2 as well as HTTP/1.1, unless either is explicitly disabled in the server configuration setting
+server.http_enabled_transports
+.
+It’s up to the client to initiate a connection with the preferred protocol.
+Glossary
+Aura
+Aura
+is Neo4j’s fully managed cloud service.
+It comes with both free and paid plans.
+Cypher
+Cypher
+is Neo4j’s graph query language that lets you retrieve data from the database.
+It is like SQL, but for graphs.
+ACID
+Atomicity, Consistency, Isolation, Durability (ACID) are properties guaranteeing that database transactions are processed reliably.
+An ACID-compliant DBMS ensures that the data in the database remains accurate and consistent despite failures.
+causal consistency
+A database is causally consistent if read and write queries are seen by every member of the cluster in the same order.
+This is stronger than eventual consistency.
+transaction
+A transaction is a unit of work that is either
+committed
+in its entirety or
+rolled back
+on failure.
+An example is a bank transfer: it involves multiple steps, but they must
+all
+succeed or be reverted, to avoid money being subtracted from one account but not added to the other.
+Authorize requests
+Products
+Neo4j Graph Database
+Neo4j AuraDB
+Neo4j Graph Data Science
+Deployment Center
+Professional Services
+Pricing
+Developers
+Developer Home
+Documentation
+Deployment Center
+Developer Blog
+Community
+Virtual Events
+GraphAcademy
+Learn
+Resource Library
+Neo4j Blog
+GraphAcademy
+Research Center
+Case Studies
+Events Calendar
+NODES 2026
+Webinars
+Company
+About Us
+Newsroom
+Awards and Honors
+Careers
+Culture
+Leadership
+Support
+Social Networks
+Â©
+2026
+Neo4j, Inc.
+Terms
+|
+Privacy Policy
+|
+Sitemap
+Neo4j
+Â®
+, Neo Technology
+Â®
+, Cypher
+Â®
+, Neo4j
+Â®
+Bloom
+â¢
+, Neo4j
+Â®
+AuraDB
+â
+and
+Neo4j
+Â®
+AuraDS
+â
+are registered trademarks
+of Neo4j, Inc. All other marks are owned by their respective companies.

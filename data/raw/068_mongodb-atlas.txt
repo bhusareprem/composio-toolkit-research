@@ -1,0 +1,308 @@
+Atlas Programmatic Access - Atlas - MongoDB Docs
+For AI agents: a documentation index is available at https://www.mongodb.com/docs/llms.txt — markdown versions of all pages are available by appending .md to any URL path.
+Products
+Platform
+Atlas
+Build and scale with an AI-ready platform
+Platform Services
+Database
+Deploy a multi-cloud database
+Search
+Deliver engaging search experiences
+Vector Search
+Design intelligent apps with gen AI
+Stream Processing
+Integrate MongoDB and Kafka
+Self Managed
+Enterprise Advanced
+Run and manage MongoDB yourself
+Community Edition
+Develop locally with MongoDB
+Tools
+Compass
+Work with MongoDB data in a GUI
+Integrations
+Integrations with third-party services
+Relational Migrator
+Migrate to MongoDB with confidence
+View All Products
+Explore our full developer suite
+MongoDB 8.0
+Our fastest version ever
+Build with MongoDB Atlas
+Get started for free in minutes
+Sign Up
+Test Enterprise Advanced
+Develop with MongoDB on-premises
+Download
+Try Community Edition
+Explore the latest version of MongoDB
+Download
+Resources
+Documentation
+Atlas Documentation
+Get started using Atlas
+Server Documentation
+Learn to use MongoDB
+Tools and Connectors
+Learn how to connect to MongoDB
+MongoDB Drivers
+Use drivers and libraries for MongoDB
+Resources Hub
+Get help building the next big thing with MongoDB
+Connect
+Community
+Join a global community of developers
+Courses and Certification
+Learn for free from MongoDB
+Events and Webinars
+Find an event or webinar near you
+Solutions
+Use cases
+Artificial Intelligence
+Modernization
+Payments
+Serverless Development
+Gaming
+Intelligent Search
+Edge and Mobile
+Industries
+Financial Services
+Telecommunications
+Healthcare
+Retail
+Public Sector
+Manufacturing
+Solutions Library
+Organized and tailored solutions to kick-start projects
+AI Applications Program
+Expedite your AI journey with expert guidance
+Learn more
+Startups and AI Innovators
+For world-changing ideas and AI pioneers
+Learn more
+Customer Case Studies
+Hear directly from our users
+See Stories
+Company
+Careers
+Start your next adventure
+Blog
+Read articles and announcements
+Newsroom
+Read press releases and news stories
+Partners
+Learn about our partner ecosystem
+Leadership
+Meet our executive team
+Company
+Learn more about who we are
+Contact Us
+Reach out to MongoDB
+Connect with an expert
+Investors
+Visit our investor portal
+Learn more
+Pricing
+Eng
+Support
+Sign In
+Get Started
+Products
+Platform
+Atlas
+Build and scale with an AI-ready platform
+Platform Services
+Database
+Deploy a multi-cloud database
+Search
+Deliver engaging search experiences
+Vector Search
+Design intelligent apps with gen AI
+Stream Processing
+Integrate MongoDB and Kafka
+Self Managed
+Enterprise Advanced
+Run and manage MongoDB yourself
+Community Edition
+Develop locally with MongoDB
+Tools
+Compass
+Work with MongoDB data in a GUI
+Integrations
+Integrations with third-party services
+Relational Migrator
+Migrate to MongoDB with confidence
+View All Products
+Explore our full developer suite
+MongoDB 8.0
+Our fastest version ever
+Build with MongoDB Atlas
+Get started for free in minutes
+Sign Up
+Test Enterprise Advanced
+Develop with MongoDB on-premises
+Download
+Try Community Edition
+Explore the latest version of MongoDB
+Download
+Resources
+Documentation
+Atlas Documentation
+Get started using Atlas
+Server Documentation
+Learn to use MongoDB
+Tools and Connectors
+Learn how to connect to MongoDB
+MongoDB Drivers
+Use drivers and libraries for MongoDB
+Resources Hub
+Get help building the next big thing with MongoDB
+Connect
+Community
+Join a global community of developers
+Courses and Certification
+Learn for free from MongoDB
+Events and Webinars
+Find an event or webinar near you
+Solutions
+Use cases
+Artificial Intelligence
+Modernization
+Payments
+Serverless Development
+Gaming
+Intelligent Search
+Edge and Mobile
+Industries
+Financial Services
+Telecommunications
+Healthcare
+Retail
+Public Sector
+Manufacturing
+Solutions Library
+Organized and tailored solutions to kick-start projects
+AI Applications Program
+Expedite your AI journey with expert guidance
+Learn more
+Startups and AI Innovators
+For world-changing ideas and AI pioneers
+Learn more
+Customer Case Studies
+Hear directly from our users
+See Stories
+Company
+Careers
+Start your next adventure
+Blog
+Read articles and announcements
+Newsroom
+Read press releases and news stories
+Partners
+Learn about our partner ecosystem
+Leadership
+Meet our executive team
+Company
+Learn more about who we are
+Contact Us
+Reach out to MongoDB
+Connect with an expert
+Investors
+Visit our investor portal
+Learn more
+Pricing
+Eng
+Support
+Sign In
+Get Started
+Docs Menu
+Ask MongoDB AI
+Docs Home
+/
+Management
+Docs Home
+/
+Management
+Docs Home
+/
+Management
+Atlas
+Programmatic Access
+Copy page
+You can interact with
+Atlas
+programmatically to perform administrative tasks or manage your deployments using the following resources.
+Atlas Administration API
+Programmatically perform administrative tasks on your
+Atlas
+cluster outside of the Atlas UI with the Atlas Administration API. Atlas Administration API resources add, edit, or delete administrative objects within
+Atlas
+, including projects, users, and clusters.
+You can explore the various endpoints available through the Atlas Administration API in MongoDB's
+Postman workspace.
+To configure access for the Atlas Administration API, see
+Get Started with the Atlas Administration API.
+Tip
+Learn about the Atlas Admin API.
+See the Atlas Admin API Specification.
+Atlas Go
+SDK
+The Atlas Go
+SDK
+provides platform-specific and Go language-specific tools, libraries, and documentation to help you build applications that interact with
+Atlas
+quickly and easily using the Atlas Administration API.
+Tip
+Atlas Go SDK.
+Atlas Embedding and Reranking API
+The Embedding and Reranking API provides endpoints for accessing Voyage AI's state-of-the-art embedding and reranking models. Use the REST API and available client SDKs to power search and retrieval in your AI applications.
+Learn about the Embedding and Reranking API
+See the Embedding and Reranking API Specification
+Atlas CLI
+The Atlas CLI is a command-line interface built specifically for
+MongoDB Atlas
+. You can use Atlas CLI to interact with
+Atlas
+from the terminal with short and intuitive commands and accomplish complex operational tasks such as creating a cluster or setting up an access list interactively and programmatically.
+Tip
+Learn more about the Atlas CLI.
+Get Started with the Atlas CLI.
+HashiCorp Terraform MongoDB Atlas Provider
+HashiCorp Terraform MongoDB
+Atlas
+Provider provides refined programmatic access and management of
+MongoDB Atlas
+resources. You can define your environment using the HashiCorp Configuration Language (HCL) and deploy, update, and manage
+Atlas
+infrastructure as code through HashiCorp Terraform. This allows you to integrate
+Atlas
+into your continuous delivery workflows.
+Tip
+Learn more about MongoDB Atlas and HashiCorp Terraform.
+Managing IaC with MongoDB Atlas and HashiCorp Terraform
+(Video Walkthrough).
+Cloud Development Kit for Terraform
+CDK
+for Terraform leverages the
+MongoDB Atlas
+Atlas Administration API to enable provisioning across popular programming languages such as JavaScript, TypeScript, Python, Java, Go, and C#. Utilizing the powerful capabilities of Terraform, with
+CDKTF
+you can now create, manage, and update your
+Atlas
+resources with ease and deploy them seamlessly in the cloud without context switching from the native programming language of choice.
+Tip
+MongoDB Cloud Development Kit for Terraform.
+Managing IaC with MongoDB Atlas and the Terraform CDK
+(Video Walkthrough).
+MongoDB Atlas AWS CloudFormation Resources
+Atlas
+CloudFormation Resources helps you to manage
+MongoDB Atlas
+. It simplifies provisioning and management of
+Atlas
+features on
+AWS
+. You can create YAML- or JSON-based templates for the service or application architectures you want and have
+AWS
+CloudFormation use those templates for quick and reliable provisioning of the services or applications (called "stacks"). You can also easily update or replicate the stacks as

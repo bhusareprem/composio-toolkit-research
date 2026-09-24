@@ -1,0 +1,69 @@
+Skip to content →
+Developers
+Sign up
+Open app
+GraphQL API
+Getting started
+Pagination
+Filtering
+Rate limiting
+Deprecations
+Webhooks
+Attachments
+Managing Customers
+GraphQL Schema
+↗
+Authentication
+OAuth 2.0 authentication
+OAuth actor authorization
+OAuth application manifests
+File storage authentication
+Agents
+Agent Interaction Guidelines (AIG)
+Getting Started
+Developing the Agent Interaction
+Interaction Best Practices
+Signals
+TypeScript SDK
+Getting started
+Fetching & modifying data
+Errors
+Advanced usage
+Webhooks
+Migrating from 1.x to 2.x
+GitHub
+↗
+Guides
+How to upload a file to Linear
+Create issues using linear.new
+Integration Directory
+Docs
+Developers
+Learn
+Contact support
+Linear Developers
+Learn about building apps and integrations for Linear using the GraphQL API and TypeScript SDK.
+Getting Started
+GraphQL API
+Learn how to use the GraphQL API to query and mutate your data
+Authentication
+Use OAuth 2.0 or personal API keys to authenticate your requests to the Linear API
+Agents
+How to best integrate an AI agent into Linear
+TypeScript SDK
+Install the Linear SDK to use strongly typed models and operations
+Guides
+Upload a file
+Learn how to reference a file in markdown content, or upload with the API
+Create issues via URL
+Open issue creation with pre-filled fields from a URL
+CLI importer
+Import data from other services into Linear
+Resources
+Changelog
+Stay up to date with the latest changes to Linear and the API
+Brand Guidelines
+Resources and assets for presenting the Linear brand
+Agent Interaction Guidelines
+Principles and practices for designing agent interactions
+Linear Developers

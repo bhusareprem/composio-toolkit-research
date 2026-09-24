@@ -1,0 +1,456 @@
+API Reference
+For AI agents: A markdown version of this page is available at
+https://docs.datadoghq.com/api/latest.md
+.
+A documentation index is available at
+/llms.txt
+.
+Product
+The integrated platform for monitoring & security
+Observability
+Security
+Digital Experience
+Software Delivery
+Service Management
+AI
+Platform Capabilities
+View Product Pricing
+Observability
+End-to-end, simplified visibility into your stack’s health & performance
+Infrastructure
+Infrastructure Monitoring
+Custom Metrics
+Network Monitoring
+Container Monitoring
+Kubernetes Autoscaling
+Serverless Monitoring
+Cloud Cost Management
+Storage Management
+GPU Monitoring
+Applications
+Application Performance Monitoring
+Universal Service Monitoring
+Continuous Profiler
+Dynamic Instrumentation
+Agent Observability
+Data
+Database Monitoring
+Data Observability
+Data Streams Monitoring
+Logs
+Log Management
+Audit Trail
+Observability Pipelines
+Error Tracking
+Bring Your Own Cloud Log Management
+Sensitive Data Scanner
+Infrastructure
+Applications
+Data
+Logs
+Security
+Outpace AI-powered attacks with unified security and observability
+Learn More
+Code Security
+Code Security
+Software Composition Analysis
+Static Code Analysis
+Runtime Code Analysis
+IaC Security
+Secret Scanning
+Cloud Security
+Cloud Security
+Sensitive Data Scanner
+Cloud Security Posture Management
+Cloud Infrastructure Entitlement Management
+Vulnerability Management
+Compliance
+Cloud Workload Protection
+App & API Protection
+SIEM
+Cloud SIEM
+Bits Security Analyst
+Digital Experience
+Optimize front-end performance and enhance user experiences
+Digital Experience
+Product Analytics
+Experiments
+Browser Real User Monitoring
+Mobile Real User Monitoring
+Session Replay
+Synthetic Monitoring
+Mobile App Testing
+Continuous Testing
+Error Tracking
+Dashboards
+Software Delivery
+Build, test, secure and ship quality code faster
+Software Delivery
+Continuous Testing
+Internal Developer Portal (IDP)
+CI Visibility
+Test Optimization
+Feature Flags
+Code Coverage
+Software Composition Analysis
+DORA Metrics + AI Impact
+Service Management
+Integrated, streamlined workflows for faster time-to-resolution
+Incident Response
+Incident Management
+Work Management
+Service Level Objectives
+Actions
+Workflow Automation
+Datadog Apps
+Event Management
+Context Graph
+Internal Developer Portal (IDP)
+Software Catalog
+AI
+Monitor and improve model performance. Pinpoint root causes and detect anomalies
+AI for Datadog
+Bits Investigation
+Bits AI
+Bits Chat
+Bits Agent Builder
+Bits Code
+Bits Security Analyst
+Datadog for AI
+Agent Observability
+MCP Server
+Pup CLI
+GPU Monitoring
+Platform Capabilities
+Built-in features & integrations that power the Datadog platform
+Built-in Features
+Bits AI
+Bits Chat
+Bits Agent Builder
+Alerts
+Custom Metrics
+Dashboards
+Notebooks
+Mobile App
+Fleet Automation
+Access Control
+Governance Console
+DORA Metrics + AI Impact
+Incident Management
+Work Management
+Workflow Automation
+Teams
+Extensibility
+OpenTelemetry
+integrations
+IDE Plugins
+MCP Server
+Agent Directory
+Datadog Apps
+API
+Marketplace
+Pup CLI
+Software Catalog
+Service Level Objectives
+Customers
+Pricing
+Solutions
+Industry
+Financial Services
+Manufacturing & Logistics
+Healthcare/Life Sciences
+Retail/E-Commerce
+Government
+Education
+Media & Entertainment
+Technology
+Gaming
+Technology
+Amazon Web Services Monitoring
+Azure Monitoring
+Google Cloud Monitoring
+Oracle Cloud Monitoring
+Kubernetes Monitoring
+Red Hat OpenShift
+Pivotal Platform
+OpenAI
+SAP Monitoring
+OpenTelemetry
+Use-case
+Application Security
+Cloud Migration
+Monitoring Consolidation
+Unified Commerce Monitoring
+SOAR
+DevOps
+FinOps
+Shift-Left Testing
+Digital Experience Monitoring
+Security Analytics
+Compliance for CIS Benchmarks
+Hybrid Cloud Monitoring
+Edge Device Monitoring
+Real-Time BI
+On-Premises Monitoring
+Log Analysis & Correlation
+CNAPP
+Docs
+Looking for Datadog logos?
+You can find the logo assets on our press page.
+Download Media Assets
+About
+Contact
+Partners
+Newsroom
+Events & Webinars
+Leadership
+Careers
+Analyst Reports
+Investor Relations
+ESG Report
+Trust Hub
+Blog
+The Monitor
+Engineering
+AI
+Security Labs
+Login
+GET STARTED FREE
+FREE TRIAL
+Toggle navigation
+Home
+Docs
+API
+Agents
+Essentials
+Getting Started
+Agent
+API
+APM Tracing
+Containers
+Autodiscovery
+Datadog Operator
+Dashboards
+Database Monitoring
+Datadog
+Datadog Site
+DevSecOps
+Incident Management
+Integrations
+AWS
+Azure
+Google Cloud
+OCI
+Terraform
+Stripe
+Internal Developer Portal
+Logs
+Monitors
+Notebooks
+OpenTelemetry
+Profiler
+Search
+Product-Specific Search
+Session Replay
+Security
+App and API Protection
+Cloud Security
+Cloud SIEM
+Code Security
+Serverless for AWS Lambda
+Software Delivery
+CI Visibility
+Feature Flags
+Test Optimization
+Test Impact Analysis
+MCP Tools
+Synthetic Monitoring and Testing
+API Tests
+Browser Tests
+Mobile App Tests
+Continuous Testing
+Private Locations
+Tags
+Assigning Tags
+Unified Service Tagging
+Using Tags
+Teams
+Workflow Automation
+Access for Enterprises
+Choosing Your Datadog Topology
+Permissions and Feature Access
+Assigning Users to Roles and Teams
+Protecting Assets
+Protecting Sensitive Data
+Credential Management
+Creating Access Policies
+Sharing Across Organizations
+Example Implementations
+Learning Center
+Support
+Glossary
+Standard Attributes
+Guides
+Agent
+Architecture
+IoT
+Supported Platforms
+AIX
+Linux
+Ansible
+Chef
+Heroku
+MacOS
+Puppet
+SaltStack
+SCCM
+Windows
+From Source
+Log Collection
+Log Agent tags
+Advanced Configurations
+Proxy
+Transport
+Multi-Line Detection
+Configuration
+Commands
+Configuration Files
+Log Files
+Status Page
+Network Traffic
+Proxy Configuration
+FIPS Compliance
+Dual Shipping
+Secrets Management
+Fleet Automation
+Fleet View
+Configure Agents
+Configure Agent Integrations
+Configure Custom Logs
+Upgrade Agents
+Upgrade SDKs
+Troubleshooting
+Container Hostname Detection
+Debug Mode
+Agent Flare
+Agent Check Status
+NTP Issues
+Permission Issues
+Integrations Issues
+Site Issues
+Autodiscovery Issues
+Windows Container Issues
+Agent Runtime Configuration
+High CPU or Memory Consumption
+Guides
+Data Security
+Integrations
+Guides
+Client SDKs
+Setup
+Advanced Configuration
+Data Collected
+Integrated Libraries
+Troubleshooting
+Extend Datadog
+Authorization
+OAuth2 in Datadog
+Authorization Endpoints
+DogStatsD
+Datagram Format
+Unix Domain Socket
+High Throughput Data
+Data Aggregation
+DogStatsD Mapper
+Custom Checks
+Writing a Custom Agent Check
+Writing a Custom OpenMetrics Check
+Integrations
+Build an Integration with Datadog
+Create an Agent-based Integration
+Create an API-based Integration
+Create a Log Pipeline
+Integration Assets Reference
+Build a Marketplace Offering
+Create an Integration Dashboard
+Create a Monitor Template
+Create a Cloud SIEM Detection Rule
+Install Agent Integration Developer Tool
+Service Checks
+Submission - Agent Check
+Submission - DogStatsD
+Submission - API
+Community
+Libraries
+Guides
+OpenTelemetry
+Getting Started
+Datadog Example Application
+OpenTelemetry Demo Application
+Feature Compatibility
+Instrument Your Applications
+Using OTel SDK
+Using Datadog SDK
+Send Data to Datadog
+DDOT Collector (Recommended)
+OpenTelemetry Collector
+OTLP Ingest in the Agent
+Direct OTLP Ingest
+Semantic Mapping
+Resource Attribute Mapping
+Metrics Mapping
+Infrastructure Host Mapping
+Hostname Mapping
+Service-entry Spans Mapping
+Ingestion Sampling
+Correlate Data
+Logs and Traces
+Metrics and Traces
+RUM and Traces
+DBM and Traces
+Integrations
+Apache Metrics
+Apache Spark Metrics
+Collector Health Metrics
+Datadog Extension
+Docker Metrics
+HAProxy Metrics
+Host Metrics
+IIS Metrics
+Kafka Metrics
+Kubernetes Metrics
+MySQL Metrics
+PostgreSQL Metrics
+NGINX Metrics
+Podman Metrics
+Runtime Metrics
+SQL Server Metrics
+Trace Metrics
+Troubleshooting
+Guides and Resources
+Produce Delta Temporality Metrics
+Visualize Histograms as Heatmaps
+Instrument Unsupported Runtimes
+Migration Guides
+Reference
+Terms and Concepts
+Trace Context Propagation
+Trace IDs
+OTLP Metric Types
+Administrator's Guide
+Getting Started
+Plan
+Build
+Run
+API
+Command Line
+MCP Server
+Setup
+MCP Tools
+Code Execution
+Partners
+Datadog Mobile App
+Enterprise Configuration
+Datadog for Intune
+Shortcut Configurations
+Push Notific

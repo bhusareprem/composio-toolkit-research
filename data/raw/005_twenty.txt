@@ -1,0 +1,654 @@
+Twenty | #1 Open Source CRM
+Product
+Resources
+Customers
+Pricing
+57.4K
+7.3K
+Log in
+Get started
+Get started
+Build your Enterprise CRM
+at AI Speed
+Twenty gives technical teams the building blocks for a custom CRM that meets complex business needs and quickly adapts as the business evolves.
+Get started
+Talk to us
+Twenty
+Apple
+Home
+Favorites
+S
+Sales Dashboard
+·
+Dashboard
+Workspace
+Companies
+People
+Opportunities
+Tasks
+Notes
+Dashboards
+Workflows
+Book a demo
+Companies
+New Record
+All Companies
+9
+Filter
+Sort
+Options
+Companies
+Url
+Created By
+Address
+Account Owner
+ICP
+ARR
+Linkedin
+Industry
+Main contact
+Employees
+Opportunities
+Added
+Anthropic
+anthropic.com
+Dario Amodei
+18 Rue De Navarin
+Dario Amodei
+True
+$500,000
+anthropic
+AI Research
+Dario Amodei
+612
+E
+Enterprise Expansion
+Jul 1, 2023
+Linkedin
+linkedin.com
+Reid Hoffman
+1226 Moises Causeway
+Ryan Roslansky
+False
+$1,000,000
+linkedin
+Professional Networking
+Ryan Roslansky
+19,300
+T
+Talent Outreach
+Jul 3, 2023
+Slack
+slack.com
+Stewart Butterfield
+1316 Dameon Mountain
+Stewart Butterfield
+True
+$2,300,000
+slack
+Collaboration Software
+Lidiane Jones
+4,500
+W
+Workspace Renewal
+Jul 5, 2023
+Notion
+notion.com
+API
+API - Key name
+1162 Sammy Creek
+Ivan Zhao
+False
+$750,000
+notion
+Productivity Software
+Ivan Zhao
+620
+W
+Workspace Consolidation
+Jul 8, 2023
+Figma
+figma.com
+WF
+Workflow name
+110 Oswald Junction
+Dylan Field
+True
+$3,500,000
+figma
+Design Tools
+Dylan Field
+1,300
+AI
+AI Prototyping
+D
+Design Ops
+Jul 12, 2023
+Github
+github.com
+Chris Wanstrath
+3891 Ranchview Drive
+Thomas Dohmke
+True
+$900,000
+github
+Developer Platform
+Thomas Dohmke
+3,800
+C
+Copilot Rollout
+Jul 14, 2023
+Airbnb
+airbnb.com
+Joe Gebbia
+4517 Washington Avenue
+Brian Chesky
+True
+$4,200,000
+airbnb
+Travel
+Brian Chesky
+6,900
+H
+Host Ops
+Jul 15, 2023
+Stripe
+stripe.com
+Patrick Collison
+2118 Thornridge Circle
+Patrick Collison
+True
+$1,800,000
+stripe
+Payments
+Patrick Collison
+7,400
+B
+Billing Expansion
+Jul 17, 2023
+Sequoia
+sequoia.com
+Roelof Botha
+1316 Dameon Mountain
+Roelof Botha
+False
+$6,000,000
+sequoia
+Venture Capital
+Roelof Botha
+1,100
+F
+Fund Ops
+Jul 20, 2023
+Segment
+segment.com
+Peter Reinhardt
+8502 Preston Rd. East
+Peter Reinhardt
+True
+$2,750,000
+segment
+Customer Data
+Peter Reinhardt
+1,550
+W
+Warehouse Rollout
+Jul 21, 2023
+Mailchimp
+mailchimp.com
+Ben Chestnut
+3517 W. Gray St.
+Ben Chestnut
+False
+$1,250,000
+mailchimp
+Marketing Automation
+Rania Succar
+1,900
+L
+Lifecycle Campaigns
+Jul 23, 2023
+Accel
+accel.com
+Ray Damm
+4140 Parker Rd.
+Ping Li
+True
+$5,800,000
+accel
+Venture Capital
+Ping Li
+540
+P
+Portfolio Sync
+Jul 24, 2023
+Founders Fund
+foundersfund.com
+SYS
+System
+2715 Ash Dr. San Jose
+Peter Thiel
+True
+$2,100,000
+foundersfund
+Private Equity
+Peter Thiel
+734
+F
+Fundraising
+Jul 25, 2023
+Google
+google.com
+Sundar Pichai
+4140 Parker Rd.
+Sundar Pichai
+False
+$7,500,000
+google
+Computer Software
+Sundar Pichai
+734
+G
+Google AI and Data Solutions
+L
+Relation 2
+L
+Relation 3
+Jul 1, 2023 2:25 pm
+Calculate
+Editor
+AI Chat
++
+1795
+-
+112
+Scaffold a launch-ops CRM in my workspace with rockets, launches, payloads, customers, and launch sites, with relevant actions for each.
+~/code/my-twenty-app
+main
+Mythos
+…my-twenty-app/src/constants/schema-identifiers.ts
++
+84
+-
+0
+1
+export
+const
+SCHEMA_IDS
+= {
+2
+rocket: { object:
+'733956fd-…'
+, fields: {
+launches
+:
+'5b877c2a-…'
+} },
+3
+launch: { object:
+'e7f1e750-…'
+, fields: {
+rocket
+:
+'42c9106f-…'
+} },
+4
+payload: { object:
+'16ffcc45-…'
+, fields: {
+customer
+:
+'d84468aa-…'
+} },
+5
+launchSite: { object:
+'2f18d525-…'
+, fields: {
+launches
+:
+'b94b7f00-…'
+} },
+79
+unmodified lines
+…my-twenty-app/src/objects/launch.object.ts
++
+237
+-
+0
+1
+import
+{
+defineObject
+,
+FieldType
+,
+RelationType
+}
+from
+'twenty-sdk'
+;
+3
+export
+default
+defineObject
+({
+4
+nameSingular:
+'launch'
+,
+5
+labelSingular:
+'Launch'
+, labelPlural:
+'Launches'
+,
+6
+icon:
+'IconRocket'
+,
+7
+fields: [
+8
+{ name:
+'missionCode'
+, type:
+FieldType
+.
+TEXT
+, isUnique:
+true
+},
+9
+{ name:
+'status'
+, type:
+FieldType
+.
+SELECT
+, options: [ … ] },
+10
+{ name:
+'plannedLaunchAt'
+, type:
+FieldType
+.
+DATE_TIME
+},
+11
+{ name:
+'rocket'
+, type:
+FieldType
+.
+RELATION
+, relationType:
+RelationType
+.
+MANY_TO_ONE
+},
+226
+unmodified lines
+…my-twenty-app/src/objects/payload.object.ts
++
+198
+-
+0
+1
+import
+{
+STANDARD_OBJECT
+}
+from
+'twenty-sdk'
+;
+4
+{ name:
+'payloadType'
+, type:
+FieldType
+.
+SELECT
+},
+5
+{ name:
+'customer'
+, type:
+FieldType
+.
+RELATION
+,
+6
+relationTargetObjectMetadataUniversalIdentifier:
+STANDARD_OBJECT
+.company.universalIdentifier,
+7
+universalSettings: { relationType:
+RelationType
+.
+MANY_TO_ONE
+, joinColumnName:
+'companyId'
+},
+8
+},
+190
+unmodified lines
+…my-twenty-app/src/objects/rocket.object.ts
++
+28
+-
+32
+140
+unmodified lines
+141
+141
+{
+142
+name:
+'launches'
+,
+143
+type:
+FieldType
+.
+RELATION
+,
+144
+relationType:
+RelationType
+.
+ONE_TO_MANY
+,
+145
+relationTargetObjectMetadataUniversalIdentifier:
+SCHEMA_IDS
+.launch.object,
+146
+},
+…my-twenty-app/src/views/upcoming-launches.view.ts
++
+82
+-
+0
+1
+import
+{
+defineView
+,
+ViewFilterOperand
+,
+ViewType
+}
+from
+'twenty-sdk'
+;
+3
+export
+default
+defineView
+({
+4
+name:
+'Upcoming launches'
+,
+5
+type:
+ViewType
+.
+TABLE
+,
+6
+filters: [
+7
+{ fieldMetadataUniversalIdentifier:
+SCHEMA_IDS
+.launch.fields.plannedLaunchAt,
+8
+operand:
+ViewFilterOperand
+.
+IS_IN_FUTURE
+},
+9
+],
+73
+unmodified lines
+…my-twenty-app/src/__tests__/schema.integration-test.ts
++
+412
+-
+40
+150
+unmodified lines
+151
+expect
+(application.objects).
+toHaveLength
+(
+1
+);
+151
+expect
+(application.objects).
+toHaveLength
+(
+4
+);
+152
+expectObject
+(application.objects,
+SCHEMA_IDS
+.launch.object,
+'launch'
+,
+'Launch'
+);
+153
+expectObject
+(application.objects,
+SCHEMA_IDS
+.payload.object,
+'payload'
+,
+'Payload'
+);
+154
+expectObject
+(application.objects,
+SCHEMA_IDS
+.launchSite.object,
+'launchSite'
+,
+'Launch site'
+);
+155
+expectRelationPair
+(payloadCustomerField, [payload.object,
+STANDARD_OBJECT
+.company.universalIdentifier], [...]);
+325
+unmodified lines
+trusted by
++10k others
+The Problem.
+A custom CRM gives your org an edge,
+but building one
+comes with
+tradeoffs
+The Giant Monolith
+Proprietary languages, slow deployment cycles, and "black box" logic.
+The In-house Burden
+It's fragile. V1 ships quickly, but maintaining and making changes is a long term burden.
+Stop settling for trade-offs.
+Assemble, iterate and adapt a robust CRM,
+that's quick to flex
+Compose your CRM and internal apps with a single extensibility toolkit.
+Production grade quality
+W3villa used Twenty as a production-grade framework for the data model, permissions, authentication, and workflow engine they would otherwise have rebuilt themselves.
+VP of Engineering
+W3villa Technologies
+AI for rapid iterations
+Alternative Partners used agentic AI to compress what would typically be weeks of Salesforce migration work into something a single person could oversee.
+Principal and Founder
+Alternative Partners
+Control without drag
+AC&T moved to a self-hosted Twenty instance with no vendor risk, no forced migration, and CRM costs reduced by more than 90%.
+CRM Engineer
+AC&T Education Migration
+01
+02
+03
+Begin with production-grade
+building blocks
+Compose your CRM and internal apps with a single extensibility toolkit. Data model, layout, and automation.
+Continue iteration
+without friction
+Enjoy unlimited customization using the AI coding tools you already love. Adapt your CRM to fit the way your business grows and wins.
+Stay in control with our
+open-source software
+Don't get locked into someone else's ecosystem. Twenty's developer experience looks like normal software, with local setup, real data, live testing, and no proprietary tooling.
+Skip the clunky UX that always comes with custom.
+Make your GTM team happy with
+a CRM they'll love
+All opportunities
+9
+Identified
+3
+Qualified
+1
+Github
+$6,562.04
+Github
+Eddy Cue
+Jun 16, 2023
+Chris Wanstrath
+OPP-1
+Figma
+$6,562.04
+Figma
+Jeff Williams
+Jun 21, 2023
+Dylan Field
+OPP-2
+Airbnb
+$2,433.89
+Airbnb
+Katherine Adams
+Jun 6, 2023
+I
+Ivan Zhao
+OPP-8
+New
+Notion
+$2,650
+Notion
+A
+Airbnb
+Jun 6, 2023
+I
+Ivan Zhao
+OPP-6
+New
+Familiar, modern interface
+Twenty makes it simple. It's clean, intuitive, and built to feel like Notion.
+Al

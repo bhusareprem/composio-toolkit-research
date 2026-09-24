@@ -1,0 +1,469 @@
+API Reference | Cloudflare API
+Skip to content
+Cloudflare API
+Search
+Ctrl
+K
+Auto
+Light
+Dark
+Start here
+Start here
+API Reference
+Overview
+Account & User Management
+Abuse Reports
+Abuse Reports
+Submit an abuse report
+Abuse Report Details
+List abuse reports
+Submitted
+Submitted
+List submitted abuse reports
+Get a submitted abuse report
+Emails
+Emails
+List emails sent to an abuse report submitter
+Mitigations
+Mitigations
+List abuse report mitigations
+Request review on mitigations
+Accounts
+Accounts
+List Accounts
+Account Details
+Create an Account
+Update Account
+Delete a specific account
+Account Organizations
+Account Organizations
+Move account
+Account Profile
+Account Profile
+Get account profile
+Modify account profile
+Members
+Members
+List Members
+Member Details
+Add Member
+Update Member
+Remove Member
+Roles
+Roles
+List Roles
+Role Details
+Subscriptions
+Subscriptions
+List Subscriptions
+Get Subscription
+Create Subscription
+Update Subscription
+Delete Subscription
+Cancel Delayed Downgrade
+Cancel Reason
+Cancel Reason
+Create Cancel Reason
+Get Cancel Reason
+Actions
+Actions
+Append Subscription Action
+Bulk
+Bulk
+Create Subscriptions
+Tokens
+Tokens
+List Tokens
+Token Details
+Create Token
+Update Token
+Delete Token
+Verify Token
+Permission Groups
+Permission Groups
+List Permission Groups
+List Permission Groups
+Value
+Value
+Roll Token
+Logs
+Logs
+Audit
+Audit
+Get account audit logs (Version 2)
+Get resource change history from an account audit log entry (Version 2)
+List account audit log product categories (Version 2)
+Entitlements
+Entitlements
+Get Account Entitlements
+Speed Settings
+Speed Settings
+Transformations
+Transformations
+List Image Resizing configurations for account
+Payment Methods
+Payment Methods
+List Payment Methods
+Create Payment Method
+Get Payment Method
+Update Payment Method
+Delete Payment Method
+Set Default Payment Method
+Pay Invoice
+Pay Invoice
+Pay Invoice
+Pay Bad Debt
+Pay Bad Debt
+Pay Bad Debt
+Receipts
+Receipts
+Get Receipt PDF
+Invoices
+Invoices
+Toggle PDF Invoices
+Client Secret
+Client Secret
+Create Setup Intent
+Alerting
+Alerting
+Available Alerts
+Available Alerts
+Get Alert Types
+Destinations
+Destinations
+Eligible
+Eligible
+Get delivery mechanism eligibility
+Pagerduty
+Pagerduty
+List PagerDuty services
+Create PagerDuty integration token
+Delete PagerDuty Services
+Connect PagerDuty
+Webhooks
+Webhooks
+List webhooks
+Get a webhook
+Create a webhook
+Update a webhook
+Delete a webhook
+History
+History
+List History
+Policies
+Policies
+List Notification policies
+Get a Notification policy
+Create a Notification policy
+Update a Notification policy
+Delete a Notification policy
+Silences
+Silences
+List Silences
+Get Silence
+Create Silences
+Update Silences
+Delete Silence
+Audit Logs
+Audit Logs
+Get account audit logs
+Billing
+Billing
+Validate Billing Address
+Profiles
+Profiles
+Get Billing Profile
+Create Billing Profile
+Update Billing Profile
+Delete Billing Profile
+Update Billing Email
+Payment Method
+Payment Method
+Create Payment Intent for Billing Profile
+Usage
+Usage
+Get Account Billable Usage Info (Version 1, Alpha)
+Get Account Billable Usage (Version 1, Alpha)
+Get Account Usage (Version 2, Alpha, Restricted)
+Get Account Billable Usage Info (Version 1, Alpha)
+Get Account Billable Usage (Version 1, Alpha)
+Get Account Usage (Version 2, Alpha, Restricted)
+Credits
+Credits
+Get Account Credits
+History
+History
+Get Account Billing History
+Bad Debt
+Bad Debt
+Get Account Bad Debt
+Unpaid Invoice
+Unpaid Invoice
+Get Unpaid Invoices
+Rate Plans
+Rate Plans
+Get Rate Plan by Public Key
+Custom Pages
+Custom Pages
+List custom pages
+Get a custom page
+Update a custom page
+Assets
+Assets
+List custom assets
+Get a custom asset
+Create a custom asset
+Update a custom asset
+Delete a custom asset
+IAM
+IAM
+Permission Groups
+Permission Groups
+List Account Permission Groups
+Permission Group Details
+Resource Groups
+Resource Groups
+List Resource Groups
+Resource Group Details
+Create Resource Group
+Update Resource Group
+Remove Resource Group
+User Groups
+User Groups
+List User Groups
+User Group Details
+Create User Group
+Update User Group
+Remove User Group
+Members
+Members
+List User Group Members
+Get User Group Member
+Add User Group Members
+Update User Group Members
+Remove User Group Member
+SSO
+SSO
+Get all SSO connectors
+Get single SSO connector
+Initialize new SSO connector
+Update SSO connector state
+Delete SSO connector
+Begin SSO connector verification
+OAuth Clients
+OAuth Clients
+List OAuth Clients
+OAuth Client Details
+Create OAuth Client
+Update OAuth Client
+Delete OAuth Client
+Rotate OAuth Client Secret
+Delete Rotated OAuth Client Secret
+OAuth Scopes
+OAuth Scopes
+List OAuth Scopes
+Memberships
+Memberships
+List Memberships
+Membership Details
+Update Membership
+Delete Membership
+Resource Sharing
+Resource Sharing
+List account shares
+Get account share by ID
+Create a new share
+Update a share
+Delete a share
+Recipients
+Recipients
+List share recipients by share ID
+Get share recipient by ID
+Create a new share recipient
+Delete a share recipient
+Resources
+Resources
+List share resources by share ID
+Get share resource by ID
+Create a new share resource
+Update a share resource
+Delete a share resource
+User
+User
+User Details
+Edit User
+Audit Logs
+Audit Logs
+Get user audit logs
+Billing
+Billing
+History
+History
+Billing History Details
+Profile
+Profile
+Billing Profile Details
+Invites
+Invites
+List Invitations
+Invitation Details
+Respond to Invitation
+Organizations
+Organizations
+List Organizations
+Organization Details
+Leave Organization
+Spectrum Analytics
+Spectrum Analytics
+Zones
+Zones
+Reports
+Reports
+Get zones bandwidth report
+Subscriptions
+Subscriptions
+Get User Subscriptions
+Update User Subscription
+Delete User Subscription
+Tenants
+Tenants
+List user tenants
+Tokens
+Tokens
+List Tokens
+Token Details
+Create Token
+Update Token
+Delete Token
+Verify Token
+Permission Groups
+Permission Groups
+List Token Permission Groups
+Value
+Value
+Roll Token
+AI
+AI
+AI
+Execute AI model
+Finetunes
+Finetunes
+List Finetunes
+Create a new Finetune
+Assets
+Assets
+Upload a Finetune Asset
+Public
+Public
+List Public Finetunes
+Authors
+Authors
+Author Search
+Tasks
+Tasks
+Task Search
+Models
+Models
+Model Search
+Schema
+Schema
+Get Model Schema
+To Markdown
+To Markdown
+Convert Files into Markdown
+Get all converted formats supported
+AI Audit
+AI Audit
+Robots
+Robots
+Get robots.txt rules
+Bulk get robots.txt rules
+AI Gateway
+AI Gateway
+List Gateways
+Fetch a Gateway
+Create a new Gateway
+Update a Gateway
+Delete a Gateway
+Evaluation Types
+Evaluation Types
+List Evaluators
+Custom Providers
+Custom Providers
+List Account Providers
+Fetch a Account Provider
+Create a new Account Provider
+Delete a Account Provider
+Logs
+Logs
+List Gateway Logs
+Get Gateway Log Detail
+Patch Gateway Log
+Delete Gateway Logs
+Get Gateway Log Request
+Get Gateway Log Response
+Datasets
+Datasets
+List Datasets
+Fetch a Dataset
+Create a new Dataset
+Update a Dataset
+Delete a Dataset
+Evaluations
+Evaluations
+List Evaluations
+Fetch a Evaluation
+Create a new Evaluation
+Delete a Evaluation
+Dynamic Routing
+Dynamic Routing
+List all AI Gateway Dynamic Routes.
+Get an AI Gateway Dynamic Route.
+Create a new AI Gateway Dynamic Route.
+Update an AI Gateway Dynamic Route.
+Delete an AI Gateway Dynamic Route.
+List all AI Gateway Dynamic Route Deployments.
+Create a new AI Gateway Dynamic Route Deployment.
+List all AI Gateway Dynamic Route Versions.
+Create a new AI Gateway Dynamic Route Version.
+Get an AI Gateway Dynamic Route Version.
+Provider Configs
+Provider Configs
+List Provider Configs
+Create a new Provider Configs
+URLs
+URLs
+Get Gateway URL
+Billing
+Billing
+Get credit balance
+Get usage history
+Get invoice history
+Get invoice preview
+Topup
+Topup
+Create a top-up
+Check top-up status
+Config
+Config
+Get auto top-up configuration
+Set auto top-up configuration
+Delete auto top-up configuration
+Spending Limit
+Spending Limit
+Get spending limit
+Set spending limit (deprecated)
+Delete spending limit
+AI Search
+AI Search
+Namespaces
+Namespaces
+List namespaces
+Create a namespace
+Get a namespace
+Update a namespace
+Delete a namespace
+Multi-Instance Search
+Multi-Instance Chat Completions
+Instances
+I

@@ -1,0 +1,441 @@
+SEO API by SE Ranking: SEO & AEO Data at Scale
+Start doing more with your
+AI Visibility Data
+→
+SE Ranking
+Grow your visibility with AI SEO
+SE Visible
+Analyze AI visibility strategically
+Planable
+Manage your socials as a team
+API
+Solutions
+By business type
+Migrate to SE Ranking
+See product tour
+Agencies
+Enterprises
+Growing business
+Tools
+Core SEO tools
+AI Search tools
+Other SEO tools
+Agency Pack
+Content Marketing
+Local Marketing Software
+Integrations
+See product tour
+Rank Tracker
+Keyword Research
+On-Page SEO Checker
+Website Audit
+Competitor Analysis Tool
+Backlink Checker
+AI Search Toolkit
+AI Overviews Tracker
+AI Mode Tracker
+ChatGPT Tracker
+Gemini Tracker
+Perplexity Tracker
+ChatGPT ads tracker
+AI Mode ads tracker
+SERP Tracker
+Insights
+Keyword Grouper
+SEO Dashboard
+Agency Pack
+SEO Report Generator
+Lead Generator
+White Label
+Content Marketing Tool
+Content Editor
+AI Writer
+Resources
+Education
+Customer Hub
+Agency Catalog
+See product tour
+Blog
+Webinars
+Podcast
+Academy
+Help center
+What’s new
+Case studies
+Pricing
+Platform plans
+API Plans
+API & MCP
+API
+MCP
+Our data
+API Pricing
+See product tour
+API
+Keyword Research API
+Backlinks API
+Domain Analysis API
+MCP
+SEO Skills for Claude
+Marketing Skills for Claude
+Content Skills for Claude
+Products
+SE Ranking
+Grow your visibility with AI SEO
+SE Visible
+Analyze AI visibility strategically
+Planable
+Manage your socials as a team
+See product tour
+Start free trial
+en
+en
+English
+de
+Deutsch
+fr
+Français
+es
+Español
+nl
+Nederlands
+it
+Italiano
+pt
+Português
+ua
+Українська
+ru
+Русский
+あ
+日本語
+Sign in
+See product tour
+Start free trial
+Back
+API
+Introduction
+Getting API access
+API credit system
+API rate limits
+Integrations
+Data Studio
+MCP
+n8n
+Make.com
+Usage guidelines for commercial purposes
+Data
+Overview
+Getting started
+Authentication
+Making requests
+Postman collection
+Unit costs
+Plans and pricing
+Quickstarts
+Find keyword opportunities
+Assess AI search visibility
+Retrieve URLs with SEO issues
+Use Website Audit API for SEO growth
+Generate reports with SEOIntel
+Build authority with link building
+Analyze domain traffic & competitors
+Backlinks
+Get backlink summary
+Get backlink metrics
+List all backlinks
+Fetch backlinks in batches
+Get total backlinks count
+Export backlinks data
+List new/lost backlinks
+Get daily new/lost backlinks
+Get cumulative backlinks
+Get backlink anchor texts
+List referring domains
+Get referring domains count
+List new/lost referring domains
+Get daily new/lost referring domains
+List referring IPs
+Get total referring IPs count
+Get total referring subnets count
+List pages with backlinks
+Get page/domain authority
+Get domain authority
+Get domain authority distribution
+Get domain authority history
+Get page authority
+Get page authority history
+Domain Analysis
+Get domain overview by region
+Get worldwide domain overview
+Get worldwide URL overview
+Get traffic/keyword history
+Get keyword rankings
+Get domain pages
+Get domain subdomains
+Get paid ads by keyword
+Get paid ads for domain
+Get domain competitors
+Analyze keyword overlap/gaps
+Keyword Research
+Get Keywords metrics
+Get similar keywords
+Get related keywords
+Get question keywords
+Get longtail keywords
+AI Search
+Get AI search overview
+Get AI search leaderboard
+Discover brand by URL
+Get prompts by brand
+Get prompts by target
+Filtering results
+Website Audit
+Create audit
+List audits
+Get audit status
+Get audit report
+Get all crawled pages
+Get audit pages by issue
+Get all issues by URL
+Get all found links
+Get audit by date
+Update audit title
+Delete audit
+Recheck audit
+Account System
+Get subscription details
+Reference
+Glossary
+Regional codes
+SERP features
+Site Audit issue codes
+Error handling
+Project
+Overview
+Getting started
+API access and keys
+Making requests
+Rate limits
+Error handling
+Project Management
+List projects
+List project search engines
+Add search engine to project
+Change search engine in project
+Delete search engine from project
+List website keywords
+Get project summary statistics
+Get keyword statistics
+Get total number of ads chart
+Get historical dates
+Add keywords to project
+Add project
+Change project settings
+Delete project
+Delete keywords
+Set manual keyword position
+Run position check
+Project Groups
+Add project group
+Rename project group
+Delete project group
+List project groups
+Move projects to project group
+Keyword Groups
+Add keyword group
+Move keywords to another group
+Rename keyword group
+Delete keyword group
+List keyword groups
+Competitors
+Add competitor
+List competitors
+Get competitor keyword positions
+Delete competitor
+Get TOP 10 results
+Get TOP 100 results
+Get all competitors
+URL Tags
+List tags
+Add tag
+Update tag assignment
+Delete tag
+Analytics Traffic
+Get Google Search Console data
+Calculate SEO potential
+Account Management
+Get user profile
+List sub-accounts
+Create sub-account
+Get sub-account details
+Delete sub-account
+Update sub-account
+List shared projects
+List owned projects
+Share project with sub-account
+General Data
+List search engines
+List languages for Google
+List regions to get search volume
+Get keyword search volume
+Marketing Plan
+List plan items
+Add task
+Update task
+Delete task
+Set task status
+Website Audit
+Create audit
+List audits
+Get audit status
+Get audit report
+Get all crawled pages
+Get audit pages by issue
+Get all issues for URL
+Get all links
+Get audit history
+Update audit title
+Delete audit
+Recheck audit
+Backlink Checker
+List backlinks
+Add backlink
+Import backlinks list
+Update backlink import settings
+Start backlink import from Google Search Console
+Get backlink import status from Google Search Console
+Delete backlinks
+Recheck backlinks
+Get backlink statistics
+List disavowed backlinks
+Add disavowed backlinks
+Delete disavowed backlink
+List backlink groups
+Create backlink group
+Delete backlink group
+Rename backlink group
+Move backlinks to group
+AI Results Tracker
+Get site brand
+Save site brand
+List LLM engines
+Get LLM engine
+Create LLM engine
+Update LLM engine
+Delete LLM engine
+Get LLM status
+Get LLM statistics
+List prompts
+Add prompts
+Delete prompts
+Get prompt answer
+Get prompt rankings
+AIRT Sources
+Get sources summary
+List source domains
+List source pages
+Get sources recommendations
+AIRT Competitors
+Get competitors breakdown
+Get competitors check dates
+Get source metrics
+AIRT Groups
+List prompt groups
+Create prompt group
+Rename prompt group
+Delete prompt group
+Change group order
+Delete all prompts in group
+Move prompts to group
+Move all prompts from one group to another
+Local Marketing
+Overview
+Getting started
+Usage and limits
+Pagination
+Errors
+Locations
+List locations
+Get location details
+Location overview
+Get location overview
+Local Rankings
+Get Local Rankings keyword list
+Get Local Rankings positions
+Get rankings indexed percent
+Local Marketing Audit
+Get latest audit report
+Get audit report history
+Google Business Profile
+Get Google Business Profile metrics
+Get Google Business Profile keyword report
+Get Google Business Profile searches trend
+Business Listings
+List business listings
+Get business listings overview
+Reviews
+List reviews
+Get reviews overview
+SE Visible
+Beta
+Overview
+Getting started
+Base URL
+Authentication
+Resource model
+Making requests
+Pagination
+Filtering and array parameters
+Date ranges and compare mode
+Usage and limits
+Errors
+Support
+Projects
+List projects
+Create project
+Get project details
+Delete a project
+Brands
+List tracked brands
+Create competitor brand
+List mentioned brands
+Get aggregated brand metrics
+Update brand
+Delete brand
+Add aliases to brand
+Topics
+Create topics
+Update a topic title
+Delete a topic
+Prompts
+List prompts or topics
+Delete prompts
+Create prompts for a topic
+Move prompts to a topic
+Get prompt details
+Get prompt result list
+Get prompt result details
+Sources
+Get project sources
+Reference
+AI models
+Sentiment
+Project status
+Country codes
+Language codes
+Source type
+URL category types
+Brand match mode
+Prompt list grouping
+Brand metrics dimensions and metrics
+Sort fields
+Date ranges and compare mode
+Array parameters
+Pagination
+Error codes
+Authentication
+Subscription
+Get subscription details
+API
+API access is inclu

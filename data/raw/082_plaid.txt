@@ -1,0 +1,163 @@
+Home | Plaid Docs
+Docs
+Home
+Quickstart
+API
+Link
+Sandbox
+Institutions
+Resources
+Errors
+Launch checklist
+Account
+Support
+Changelog
+Payments and Funding
+Auth
+Balance
+Signal
+Identity
+Transfer
+Investments Move
+Payments (Europe)
+Financial Insights
+Transactions
+Investments
+Liabilities
+Enrich
+KYC/AML and anti-fraud
+Identity Verification
+Monitor
+Protect
+Credit and Underwriting
+Consumer Report (by Plaid Check)
+Assets
+Income
+Statements
+Instant Onboarding
+Layer
+Docs
+Search or Ask
+Â a Question
+Markdown
+Plaid.com
+Log in
+Get API Keys
+Open nav
+Close search modal
+Search the docs
+Ask Bill!
+Ask a question...
+Hi! I'm Bill! You can ask me all about the Plaid API. Try asking questions like:
+Pssst -- I also moonlight as your IDE's research librarian! Plug me in via the
+Plaid MCP Server
+.
+Note:
+Bill isn't perfect. He's just a robot platypus that reads our docs for fun. You should treat his answers with the same healthy skepticism you might treat any other answer on the internet. This chat may be logged for quality and training purposes. Please don't send Bill any PII -- he's scared of intimacy. All chats with Bill are subject to Plaid's
+Privacy Policy.
+Welcome to the Docs
+Here you'll find guides, resources, and references to build with Plaid.
+Quickstart
+Learn about Plaid's key concepts and run starter code
+Get started
+Quickstart
+Learn about Plaid's key concepts and run starter code
+Get started
+API Reference
+Explore server-side API libraries and integrate with API endpoints
+View reference
+API Reference
+Explore server-side API libraries and integrate with API endpoints
+View reference
+Link
+Link, Plaid's client-side component, helps your users connect their accounts
+Build with Link
+Link
+Link, Plaid's client-side component, helps your users connect their accounts
+Build with Link
+Payments and Funding
+Auth
+Retrieve bank account information for ACH, wire, and other bank-to-bank transfers.
+Auth
+Retrieve bank account information for ACH, wire, and other bank-to-bank transfers.
+Balance
+Retrieve real-time account balance information.
+Balance
+Retrieve real-time account balance information.
+Identity
+Verify users' financial account ownership and reduce fraud.
+Identity
+Verify users' financial account ownership and reduce fraud.
+Signal Transaction Scores
+Reduce fraud and provide instant funds access by assessing the return risk of an ACH debit transaction.
+Signal Transaction Scores
+Reduce fraud and provide instant funds access by assessing the return risk of an ACH debit transaction.
+Transfer
+Send and receive money end to end with Plaid.
+Transfer
+Send and receive money end to end with Plaid.
+Investments Move
+Get verified data for initiating an ACATS or ATON brokerage-to-brokerage transfer.
+Investments Move
+Get verified data for initiating an ACATS or ATON brokerage-to-brokerage transfer.
+Payments (Europe)
+Make one-time payments, recurring payments, or payouts within your app.
+Payments (Europe)
+Make one-time payments, recurring payments, or payouts within your app.
+Financial Insights
+Transactions
+Retrieve transaction data for budgeting tools, expense management, and more.
+Transactions
+Retrieve transaction data for budgeting tools, expense management, and more.
+Investments
+View holdings and transactions from investment accounts.
+Investments
+View holdings and transactions from investment accounts.
+Liabilities
+Access loan data, like balances and interest rates, for student loans, mortgages, and credit cards.
+Liabilities
+Access loan data, like balances and interest rates, for student loans, mortgages, and credit cards.
+Enrich
+Add detailed information and insights to your existing transactions data.
+Enrich
+Add detailed information and insights to your existing transactions data.
+KYC, AML, and anti-fraud
+Identity Verification
+Global KYC compliance and anti-fraud. Verify user identity data and documents.
+Identity Verification
+Global KYC compliance and anti-fraud. Verify user identity data and documents.
+Monitor
+Use with Identity Verification to enable sanction, PEP, and watchlist screening for anti-money laundering compliance.
+Monitor
+Use with Identity Verification to enable sanction, PEP, and watchlist screening for anti-money laundering compliance.
+Protect
+Prevent fraud before it happens â at every step of the user lifecycle.
+Protect
+Prevent fraud before it happens â at every step of the user lifecycle.
+Credit and Underwriting
+Consumer Report (by Plaid Check)
+Make smarter credit and lending decisions with insights powered by Plaid Check.
+Consumer Report (by Plaid Check)
+Make smarter credit and lending decisions with insights powered by Plaid Check.
+Assets
+Access users' financial information for loan underwriting.
+Assets
+Access users' financial information for loan underwriting.
+Statements
+Get PDF statements directly from the user's bank, for underwriting verification and compliance.
+Statements
+Get PDF statements directly from the user's bank, for underwriting verification and compliance.
+Income
+Verify income and employment, for lending use cases and more.
+Income
+Verify income and employment, for lending use cases and more.
+Instant Onboarding
+Layer
+Onboard users instantly with just a phone number.
+Layer
+Onboard users instantly with just a phone number.
+Developer community
+GitHub
+Stack Overflow
+YouTube
+Discord

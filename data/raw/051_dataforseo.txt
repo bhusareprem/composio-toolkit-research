@@ -1,0 +1,716 @@
+DataForSEO API v.3
+Search
+⌘
+K
+Ask AI
+Pricing
+Sign In
+Sign Up
+Menu
+Example
+Introduction
+Authentication
+SERP API
+Overview
+Screenshot
+AI Summary
+Google
+Overview
+Locations
+Languages
+Organic
+Overview
+Task POST
+Tasks Ready
+Task GET
+Advanced
+Regular
+HTML
+Live
+Advanced
+Regular
+HTML
+AI Mode
+Overview
+Languages
+Task POST
+Tasks Ready
+Task GET
+Advanced
+HTML
+Live
+Advanced
+HTML
+Maps
+Overview
+Task POST
+Tasks Ready
+Task GET
+Live
+Local Finder
+Overview
+Task POST
+Tasks Ready
+Task GET
+Advanced
+HTML
+Live
+Advanced
+HTML
+News
+Overview
+Task POST
+Tasks Ready
+Task GET
+Advanced
+HTML
+Live
+Advanced
+HTML
+Images
+Overview
+Task POST
+Tasks Ready
+Task GET
+Advanced
+HTML
+Live
+Advanced
+HTML
+Search By Image
+Overview
+Task POST
+Tasks Ready
+Task GET
+Advanced
+HTML
+Jobs
+Overview
+Locations
+Task POST
+Tasks Ready
+Task GET
+Advanced
+HTML
+Autocomplete
+Overview
+Task POST
+Tasks Ready
+Task GET
+Live
+Dataset Search
+Overview
+Task POST
+Tasks Ready
+Task GET
+Live
+Dataset Info
+Overview
+Task POST
+Tasks Ready
+Task GET
+Live
+Ads Advertisers
+Overview
+Locations
+Task POST
+Tasks Ready
+Task GET
+Live
+Ads Search
+Overview
+Locations
+Task POST
+Tasks Ready
+Task GET
+Live
+Finance Explore
+Overview
+Task POST
+Tasks Ready
+Task GET
+Advanced
+HTML
+Live
+Advanced
+HTML
+Finance Markets
+Overview
+Task POST
+Tasks Ready
+Task GET
+Advanced
+HTML
+Live
+Advanced
+HTML
+Finance Quote
+Overview
+Task POST
+Tasks Ready
+Task GET
+Advanced
+HTML
+Live
+Advanced
+HTML
+Finance Ticker Search
+Overview
+Task POST
+Tasks Ready
+Task GET
+Live
+Bing
+Overview
+Locations
+Languages
+Organic
+Task POST
+Tasks Ready
+Task GET
+Advanced
+Regular
+HTML
+Live
+Advanced
+Regular
+HTML
+YouTube
+Overview
+Locations
+Languages
+Organic
+Overview
+Task POST
+Tasks Ready
+Task GET
+Live
+Video Info
+Overview
+Task POST
+Tasks Ready
+Task GET
+Live
+Video Subtitles
+Overview
+Task POST
+Tasks Ready
+Task GET
+Live
+Video Comments
+Overview
+Task POST
+Tasks Ready
+Task GET
+Live
+Yahoo
+Overview
+Locations
+Languages
+Organic
+Task POST
+Tasks Ready
+Task GET
+Advanced
+Regular
+HTML
+Live
+Advanced
+Regular
+HTML
+Baidu
+Overview
+Locations
+Languages
+Organic
+Task POST
+Tasks Ready
+Task GET
+Advanced
+Regular
+HTML
+Naver
+Overview
+Organic
+Task POST
+Tasks Ready
+Task GET
+Advanced
+Regular
+HTML
+Seznam
+Overview
+Locations
+Languages
+Organic
+Task POST
+Tasks Ready
+Task GET
+Advanced
+Regular
+HTML
+AI Optimization API
+Overview
+LLM Mentions
+Overview
+Filters
+Locations and Languages
+Search Mentions
+Target Metrics
+Multi-Target Metrics
+Top Mentioned Pages
+Top Mentioned Domains
+Top Mentioned Brands
+Top Mentioned Brand Categories
+Historical
+Timeseries Delta
+Timeseries New & Lost
+LLM Mentions Lite
+Target Metrics Lite
+Top Mentioned Domains Lite
+Top Mentioned Pages Lite
+Top Mentioned Brands Lite
+Top Mentioned Brand Categories Lite
+AI Keyword Data
+Overview
+Locations and Languages
+Keywords Search Volume
+Chat GPT
+LLM Responses
+Overview
+Models
+Task POST
+Tasks Ready
+Task GET
+Live
+LLM Scraper
+Overview
+Locations
+Languages
+Task POST
+Tasks Ready
+Task GET
+Advanced
+HTML
+Live
+Advanced
+HTML
+Claude
+LLM Responses
+Overview
+Models
+Task POST
+Tasks Ready
+Task GET
+Live
+Gemini
+LLM Responses
+Overview
+Models
+Task POST
+Tasks Ready
+Task GET
+Live
+LLM Scraper
+Overview
+Locations
+Languages
+Task POST
+Tasks Ready
+Task GET
+Advanced
+HTML
+Live
+Advanced
+HTML
+Perplexity
+LLM Responses
+Overview
+Models
+Live
+Keywords Data API
+Overview
+Google Ads
+Overview
+Migration Guide
+Google Ads Status
+Locations
+Languages
+Search Volume
+Task POST
+Tasks Ready
+Task GET
+Live
+Keywords For Site
+Task POST
+Tasks Ready
+Task GET
+Live
+Keywords For Keywords
+Task POST
+Tasks Ready
+Task GET
+Live
+Ad Traffic By Keywords
+Task POST
+Tasks Ready
+Task GET
+Live
+Bing Ads
+Overview
+Locations
+Languages
+Bing Ads Status
+Search Volume
+Task POST
+Tasks Ready
+Task GET
+Live
+Search Volume History
+Locations and Languages
+Task POST
+Tasks Ready
+Task GET
+Live
+Keywords For Site
+Task POST
+Tasks Ready
+Task GET
+Live
+Keywords For Keywords
+Task POST
+Tasks Ready
+Task GET
+Live
+Keyword Performance
+Locations and Languages
+Task POST
+Tasks Ready
+Task GET
+Live
+Keyword Suggestions For URL
+Languages
+Task POST
+Tasks Ready
+Task GET
+Live
+Audience Estimation
+Job Functions
+Industries
+Task POST
+Tasks Ready
+Task GET
+Live
+Google Trends
+Overview
+Locations
+Languages
+Categories
+Explore
+Task POST
+Tasks Ready
+Task GET
+Live
+DataForSEO Trends
+Overview
+Locations
+Explore
+Subregion Interests
+Demography
+Merged Data
+Clickstream Data
+Overview
+Locations and Languages
+DataForSEO Search Volume
+Global Search Volume
+Bulk Search Volume
+Domain Analytics API
+Overview
+Technologies
+Overview
+Filters
+Locations
+Languages
+Technologies
+Aggregation Technologies
+Technologies Summary
+Technology Stats
+Domains by Technology
+Domains by HTML Terms
+Domain Technologies
+Whois
+Overview
+Filters
+Whois Overview
+DataForSEO Labs API
+Overview
+Status
+Filters
+Locations and Languages
+Google
+Overview
+Categories
+Available History
+Keyword Research
+Keywords For Site
+Related Keywords
+Keyword Suggestions
+Keyword Ideas
+Bulk Keyword Difficulty
+Search Intent
+Keyword Overview
+Historical Keyword Data
+Market analysis
+Languages for Categories for Keywords
+Categories For Domain
+Categories for Keywords
+Keywords For Categories
+Domain Metrics By Categories
+Top Searches
+Competitor Research
+SERP Competitors
+Ranked Keywords
+Competitors Domain
+Domain Intersection
+Subdomains
+Relevant Pages
+Domain Rank Overview
+Historical SERPs
+Historical Rank Overview
+Page Intersection
+Bulk Traffic Estimation
+Historical Bulk Traffic Estimation
+Amazon
+Overview
+Bulk Search Volume
+Related Keywords
+Ranked Keywords
+Product Rank Overview
+Product Competitors
+Product Keyword Intersections
+Google Play
+Overview
+Bulk App Metrics
+Keywords For App
+App Competitors
+App Intersection
+App Store
+Overview
+Bulk App Metrics
+Keywords For App
+App Competitors
+App Intersection
+Backlinks API
+Overview
+Filters
+Index
+Summary
+History
+Backlinks
+Anchors
+Domain Pages
+Domain Pages Summary
+Referring Domains
+Referring Networks
+Competitors
+Domain Intersection
+Page Intersection
+Timeseries Summary ‌
+New & Lost Timeseries
+Bulk Ranks
+Bulk Backlinks
+Bulk Spam Score
+Bulk Referring Domains
+Bulk New & Lost Backlinks
+Bulk New & Lost Referring Domains
+Bulk Pages Summary
+OnPage API
+Overview
+Filters and Thresholds
+Task POST
+Force Stop
+Tasks Ready
+Summary
+Pages
+Pages By Resource
+Resources
+Duplicate Tags
+Duplicate Content
+Links
+Redirect Chains
+Non-Indexable
+Waterfall
+Keyword Density
+Microdata
+Raw HTML
+Page Screenshot
+Content Parsing
+Content Parsing (Live)
+Instant Pages (Live)
+Lighthouse
+Overview
+Languages
+Audits
+Versions
+Task POST
+Tasks Ready
+Task GET
+Live
+Content Analysis API
+Overview
+Filters
+Locations
+Languages
+Categories
+Search
+Summary
+Sentiment Analysis
+Rating Distribution
+Phrase Trends
+Category Trends
+Merchant API
+Overview
+Google Shopping
+Overview
+Languages
+Locations
+Products
+Task POST
+Tasks Ready
+Task GET
+Advanced
+HTML
+Sellers
+Task POST
+Tasks Ready
+Task GET
+Sellers Ad URL
+Product Info
+Task POST
+Tasks Ready
+Task GET
+Reviews
+Task POST
+Tasks Ready
+Task GET
+Amazon
+Overview
+Locations
+Languages
+Products
+Task POST
+Tasks Ready
+Task GET
+Advanced
+HTML
+Live
+Advanced
+HTML
+ASIN
+Task POST
+Tasks Ready
+Task GET
+Advanced
+HTML
+Live
+Advanced
+HTML
+Sellers
+Task POST
+Tasks Ready
+Task GET
+Advanced
+HTML
+Live
+Advanced
+HTML
+App Data API
+Overview
+Google
+Overview
+Categories
+Locations
+Languages
+App Searches
+Task POST
+Tasks Ready
+Task GET
+Advanced
+HTML
+App List
+Task POST
+Tasks Ready
+Task GET
+Advanced
+HTML
+App Info
+Task POST
+Tasks Ready
+Task GET
+Advanced
+HTML
+App Reviews
+Task POST
+Tasks Ready
+Task GET
+App Listings
+Categories
+Search
+Apple
+Overview
+Categories
+Locations
+Languages
+App Searches
+Task POST
+Tasks Ready
+Task GET
+App List
+Task POST
+Tasks Ready
+Task GET
+App Info
+Task POST
+Tasks Ready
+Task GET
+App Reviews
+Task POST
+Tasks Ready
+Task GET
+App Listings
+Categories
+Search
+Business Data API
+Overview
+Business Listings
+Overview
+Locations
+Categories
+Filters
+Search
+Categories Aggregation
+Google
+Overview
+Locations
+Languages
+Google My Business
+My Business Info
+Task POST
+Tasks Ready
+Task GET
+Live
+My Business Updates
+Task POST
+Tasks Ready
+Task GET
+Google Hotels
+Hotel Searches
+Task POST
+Tasks Ready
+Task GET
+Live
+Hotel Info
+Task POST
+Tasks Ready
+Task GET
+Adv

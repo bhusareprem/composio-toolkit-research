@@ -1,0 +1,241 @@
+Selling Partner API
+For AI agents: visit https://developer-docs.amazon/sp-api/llms.txt for an index of all pages formatted in Markdown and endpoints in OpenAPI. Append .md to any documentation page URL to get its markdown version.
+Jump to Content
+Home
+Documentation
+Code Samples
+API Reference
+Announcements
+Models
+Release Notes
+FAQ
+GitHub
+Videos
+Home
+Support
+Home
+Developer Hub
+API Status
+Support
+Selling Partner API
+Welcome to Selling Partner API Documentation. Learn how to get started and build applications with Amazon's REST-based SP-API.
+Subscribe to updates via
+RSS feed
+.
+Home
+Documentation
+Code Samples
+API Reference
+Announcements
+Models
+Release Notes
+FAQ
+GitHub
+Videos
+Get Started
+Welcome to SP-API Documentation
+What is the Selling Partner API?
+Selling Partner API Onboarding Overview
+View More…
+Changelog
+SP-API Release Notes
+SP-API Deprecation Schedule
+SP-API Product Metadata Updates
+Directories
+SP-API Models
+SP-API Seller Use Cases
+SP-API Vendor Use Cases
+View More…
+Registration
+SP-API Registration Overview
+Developer Registration Request Status
+Third-Party Provider Registration
+View More…
+Authorization
+Authorize Applications
+Reauthorize Applications
+Reactivate Authorizations
+View More…
+Integration
+Building Robust Amazon SP-API Applications
+SP-API SDKs
+Delete an Application From Your Developer Account
+Calling the SP-API
+Configuration Details
+Call Structure
+Development Tools
+View More…
+Solution Provider Portal
+Manage Users in Solution Provider Portal
+Manage Your Business And Contact information in Solution Provider Portal
+Update Your Developer Profile in Solution Provider Portal
+View More…
+Tutorials
+Tutorial: Test Selling Partner API Endpoints
+Tutorial: Automate your SP-API Calls Using a C# SDK
+Tutorial: Automate your SP-API Calls Using a Java SDK
+View More…
+Troubleshooting
+Troubleshoot SP-API Errors
+URL Encoding
+Resolve Common HTTP and Authorization Error Codes
+View More…
+Selling Partner Appstore
+What is the Selling Partner Appstore?
+List Your App on the Selling Partner Appstore
+Edit Your Appstore Listing
+View More…
+Service Provider Network
+List Your Service
+Security and Compliance
+SP-API Security and Compliance Overview
+Amazon Selling Partner API Guard Implementation Guide
+VAT Calculation Service
+View More…
+A+ Content API
+A+ Content API
+A+ Content Examples
+A+ Content API Rate Limits
+Amazon Warehousing and Distribution API
+Amazon Warehousing and Distribution API
+Amazon Warehousing and Distribution API v2024-05-09 Reference
+App Integrations API
+App Integrations API
+Application Management API
+Application Management API
+Catalog Items API
+Catalog Items API
+Catalog Items API Rate Limits
+Catalog Items API v2022-04-01 Reference
+Customer Feedback API
+Customer Feedback API
+Customer Feedback API Rate Limits
+Data Kiosk
+Data Kiosk API
+Data Kiosk Schema Explorer User Guide
+Data Kiosk Query Processing Finished Notification
+View More…
+Delivery by Amazon API
+Delivery by Amazon API
+Easy Ship API
+Easy Ship API
+External Fulfillment
+External Fulfillment Inventory API
+External Fulfillment Returns API
+External Fulfillment Shipping API
+View More…
+Fulfillment By Amazon (FBA)
+FBA Inventory API
+FBA Inventory Dynamic Sandbox Guide
+Feeds API
+Feeds API
+Feed Type Values
+Feeds JSON Schemas
+View More…
+Finances
+Finances API
+Transfers API
+Invoices API
+Fulfillment Inbound API
+Fulfillment Inbound API
+Fulfillment Inbound API FAQ
+Migrating Fulfillment Inbound workflows
+View More…
+Fulfillment Outbound API
+Fulfillment Outbound API
+Fulfillment Outbound Workflow Guide
+Fulfillment Outbound Dynamic Sandbox Guide
+View More…
+Invoicing
+Invoices API (Brazil Only)
+Invoices API FAQ
+Listings
+Listings Items API
+Listings Items API Rate Limits
+Listings Restrictions API
+View More…
+Merchant Fulfillment API
+Merchant Fulfillment API
+Messaging API
+Messaging API
+Notifications API
+Notifications API
+Notification Type Values
+Subscribe to the ORDER_CHANGE Notification
+View More…
+Orders API
+Orders API
+Tutorial: Retrieve and Pass a Purchase Order Number to a Carrier
+Orders API Migration Guide
+View More…
+Product Fees API
+Product Fees API
+Product Pricing API
+Product Pricing API
+Product Pricing API and Notifications FAQ
+Price Adjustment Automation Workflows Guide
+View More…
+Promotions API
+Promotions API
+Replenishment API
+Replenishment API
+Reports API
+Reports API
+Report Type Values
+Reports JSON Schemas
+View More…
+Sales API
+Sales API
+Seller Wallet API
+Seller Wallet API
+Seller Wallet API Rate Limits
+Sellers API
+Sellers API
+Services API
+Services API
+Shipment Invoicing API
+Shipment Invoicing API
+Shipping API
+Shipping API v2 Resources
+Shipping API v1 Reference
+Solicitations API
+Solicitations API
+Supply Sources API
+Supply Sources API
+Multi-Location Inventory Integration Guide
+Supply Sources API Rate Limits
+Tokens API
+Tokens API
+TRACKING API
+Tracking API
+Uploads API
+Uploads API
+Vehicles API
+Vehicles API
+Vehicles API Rate Limits
+Vendor Direct Fulfillment APIs
+Vendor Direct Fulfillment Dynamic Sandbox Guide
+Vendor Direct Fulfillment Workflow Guide
+SP-API Bill-to-Party Addresses
+Vendor Direct Fulfillment Transaction Status API
+Vendor Direct Fulfillment Transaction Status API
+Vendor Direct Fulfillment Inventory API
+Vendor Direct Fulfillment Inventory API
+Vendor Direct Fulfillment Orders API
+Vendor Direct Fulfillment Orders API
+Vendor Direct Fulfillment Shipping API
+Vendor Direct Fulfillment Shipping API
+Vendor Direct Fulfillment Payments API
+Vendor Direct Fulfillment Payments API
+Vendor Retail Procurement Invoices API
+Vendor Retail Procurement Invoices API
+Vendor Retail Procurement Orders API
+Vendor Retail Procurement Orders API
+Vendor Retail Procurement Shipments API
+Vendor Retail Procurement Shipments API
+Vendor Retail Procurement Transaction Status API
+Vendor Retail Procurement Transaction Status API
+Policies and Agreements
+Privacy notice
+|
+Conditions of use

@@ -1,0 +1,133 @@
+API Reference & Technical Guides | Klaviyo Developers
+Jump to Content
+Home
+Guides
+API Reference
+legacy
+v2022-10-17
+v2023-01-24
+v2023-02-22
+v2023-06-15
+v2023-07-15
+v2023-08-15
+v2023-09-15
+v2023-10-15
+v2023-12-15
+v2024-02-15
+v2024-05-15
+v2024-06-15
+v2024-07-15
+v2024-10-15
+v2025-01-15
+v2025-04-15
+v2025-07-15
+v2025-10-15
+v2026-01-15
+v2026-04-15
+v2026-07-15
+Log In
+Home
+Changelog
+Help Center
+Community
+Contact Us
+v2026-07-15
+Home
+Guides
+API Reference
+Build personalized
+experiences that scale.
+Create apps and integrations using Klaviyo's API that help
+your business grow. Get started for free.
+Explore docs
+Join 300+ others who have integrated with Klaviyo
+Get started
+Start here
+Getting started
+Learn how to authenticate, how data is stored, and how to make your first API calls.
+Explore docs
+Guides
+Developer guides
+Read detailed guides for common developer use cases. Learn how our New APIs compare to our legacy APIs.
+Read guides
+Docs
+API docs
+Klaviyo's new and improved APIs are now available! Learn about our API objects, methods, attributes, and responses
+Read API docs
+Developer tools
+Speed up development with tools designed for your workflow.
+SDKs
+Install a Klaviyo maintained SDK to accelerate development– offered in Python, PHP, Ruby, and Node.
+Explore SDKs
+Test accounts
+Test custom integrations and apps without the risk of impacting your production account.
+Create test account
+Postman
+Make test calls using Postman’s UI tool with our collection of pre-built API requests.
+Test with Postman
+Sample code repository
+Find pre-built solutions, examples, and reference code guides in our Klaviyo Labs GitHub.
+View code samples
+Sample data
+Populate your test account with sample data to quickly explore our API and see how data is used in Klaviyo.
+Generate sample data
+Napkin
+Create and deploy serverless cloud functions instantly from the browser. Quickly add authentication for your API, schedule tasks, and replay events.
+Explore Napkin.io
+Use cases
+Custom integrations
+Better user experience
+Reporting
+Build custom integrations to bring data into Klaviyo to create personalized experiences. Integrate with point-of-sale software, inventory management systems, scheduling apps, and more.
+Read docs
+Brian Whalley - Co-Founder of Wonderment
+“Since Klaviyo doesn't impose a rigid data schema, it's easy to send in just about any arbitrary data without having to do annoying manipulations or data mappings and without having to pre-configure a data schema in the app.”
+Read story →
+Use profile information, custom events, catalog information, and other types of data to build custom customer experiences using Klaviyo's flows, template email builder, and more.
+Read docs
+Callum McMaugh - Techincal Lead at Giftnotes
+“Merchants can set up flows based on Klaviyo events to send out branded notifications to both the [gift] recipient and the customer. They can also segment the customer and the recipient for greater insights into their customer’s shopping habits.”
+Read story →
+Pull data from Klaviyo to create dashboards, sync to other systems, and perform analysis to keep up with your marketing performance.
+Read docs
+Kyle Tremblay - Sr. Product Manger at EXCLUSIVE
+“Integrating with Klaviyo’s APIs was a no-brainer as it allowed us to build reporting that’s informed by our clients’ goals. Additionally, we’re now able to highlight useful, holistic insights to determine what actions should be taken by our clients to meet their goals.”
+Read story →
+Join the community
+Developer blog
+Learn about use cases, how-tos, case studies, and more.
+Developer community
+Get support and inspiration from Klaviyo community experts.
+Power smarter
+digital relationships
+Sign up for our developer newsletter
+Get the latest API updates, product announcements, developer tool updates,
+and more sent right to your inbox.
+By entering your information and clicking “Sign up,” you consent to receive
+marketing emails (such as newsletters, blog posts, webinars, event invitations
+and new product updates) from Klaviyo from time to time. You can unsubscribe at
+any time by clicking on the “Unsubscribe” link at the bottom of our emails. For
+more information on how we process your personal information and what rights you
+have in this respect, please see our
+Privacy Policy
+.
+API docs
+API overview
+Events
+Profiles
+Lists
+Metrics
+Flows
+Resources
+Developer forum
+Slack channel
+Changelog
+SDK overview
+Help center
+Contact us
+Guides
+Get started
+Install SDKs
+Terms and Privacy
+Trademarks
+Security

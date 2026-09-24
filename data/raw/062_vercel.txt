@@ -1,0 +1,497 @@
+Vercel REST API Reference
+Skip to content
+Copy Wordmark
+Copy Logo
+Download Brand Assets
+Brand Guidelines
+Docs
+Build
+Build with AI
+AI Gateway
+AI SDK
+Sandbox
+Container Registry
+Workflow
+Vercel Agent
+v0
+↗
+Vercel MCP
+AI Integrations
+Deploy & scale
+Deployments
+CLI
+Functions
+Delivery Network
+Storage
+Integrations
+Microfrontends
+Domains
+Operate & protect
+Firewall
+Observability
+Feature Flags
+Toolbar
+Bot Management
+BotID
+Deployment Protection
+Compliance
+Learn
+Resources
+Changelog
+↗
+Blog
+↗
+Community
+↗
+Knowledge Base
+APIs & SDKs
+Templates
+Getting Started
+Ask AI
+Log In
+Sign Up
+Build
+Build with AI
+AI Gateway
+AI SDK
+Sandbox
+Container Registry
+Workflow
+Vercel Agent
+v0
+↗
+Vercel MCP
+AI Integrations
+Deploy & scale
+Deployments
+CLI
+Functions
+Delivery Network
+Storage
+Integrations
+Microfrontends
+Domains
+Operate & protect
+Firewall
+Observability
+Feature Flags
+Toolbar
+Bot Management
+BotID
+Deployment Protection
+Compliance
+Learn
+Resources
+Changelog
+↗
+Blog
+↗
+Community
+↗
+Knowledge Base
+APIs & SDKs
+Templates
+Getting Started
+Ask AI
+Sign Up
+Log In
+Vercel REST API
+Overview
+Getting Started
+Errors
+Access Groups
+Ai Gateway
+Aliases
+API Ai Gateway
+Artifacts
+Authentication
+Billing
+Bulk Redirects
+Certs
+Checks V2
+Connect
+Deployments
+DNS
+Domains
+Domains Registrar
+Drains
+Edge Cache
+Environment
+Feature Flags
+Global Config
+Integrations
+Kms
+Logs
+Marketplace
+Microfrontends
+Networking
+Observability
+Project Routes
+Projectmembers
+Projects
+Rolling Release
+Sandboxes
+Security
+Static Ips
+Storage
+Teams
+User
+VCR
+Web Analytics
+Webhooks
+APIs & SDKs
+Vercel REST API
+Using the REST API
+Interact programmatically with your Vercel account using the SDK or direct HTTP requests. You can deploy new versions of web applications, manage custom domains, retrieve information about deployments, and manage secrets and environment variables for projects.
+The API supports any programming language or framework that can send HTTP requests.
+API basics
+The API is exposed as an HTTP/1 and HTTP/2 service over SSL. All endpoints live under the URL
+https://api.vercel.com
+and follow the REST architecture.
+Authentication
+Vercel Access Tokens are required to authenticate and use the Vercel API. Include the token in the
+Authorization
+header:
+Authorization: Bearer <TOKEN>
+Create and manage Access Tokens in your
+account settings
+.
+Accessing team resources
+By default, you can access resources in your personal account. To access resources owned by a team, append the Team ID as a query string:
+https://api.vercel.com/v6/deployments?teamId=[teamID]
+Rate limits
+The API limits the number of calls you can make over a period of time. Rate limits are specified via response headers:
+X-RateLimit-Limit
+,
+X-RateLimit-Remaining
+, and
+X-RateLimit-Reset
+. See the
+limits documentation
+for details.
+Endpoints
+Browse all available REST API endpoints grouped by category.
+Access Groups
+11
+endpoint
+s
+Ai Gateway
+4
+endpoint
+s
+Aliases
+6
+endpoint
+s
+API Ai Gateway
+8
+endpoint
+s
+Artifacts
+7
+endpoint
+s
+Authentication
+5
+endpoint
+s
+Billing
+3
+endpoint
+s
+Bulk Redirects
+7
+endpoint
+s
+Certs
+5
+endpoint
+s
+Checks V2
+10
+endpoint
+s
+Connect
+13
+endpoint
+s
+Deployments
+10
+endpoint
+s
+DNS
+4
+endpoint
+s
+Domains
+9
+endpoint
+s
+Domains Registrar
+19
+endpoint
+s
+Drains
+6
+endpoint
+s
+Edge Cache
+4
+endpoint
+s
+Environment
+11
+endpoint
+s
+Feature Flags
+21
+endpoint
+s
+Global Config
+18
+endpoint
+s
+Integrations
+10
+endpoint
+s
+Kms
+13
+endpoint
+s
+Logs
+1
+endpoint
+Marketplace
+25
+endpoint
+s
+Microfrontends
+5
+endpoint
+s
+Networking
+11
+endpoint
+s
+Observability
+2
+endpoint
+s
+Project Routes
+8
+endpoint
+s
+Projectmembers
+3
+endpoint
+s
+Projects
+32
+endpoint
+s
+Rolling Release
+8
+endpoint
+s
+Sandboxes
+30
+endpoint
+s
+Security
+13
+endpoint
+s
+Static Ips
+1
+endpoint
+Storage
+3
+endpoint
+s
+Teams
+16
+endpoint
+s
+User
+4
+endpoint
+s
+VCR
+27
+endpoint
+s
+Web Analytics
+4
+endpoint
+s
+Webhooks
+4
+endpoint
+s
+Related Vercel documentation
+On this page
+API basics
+Authentication
+Accessing team resources
+Rate limits
+Endpoints
+Agent Stack
+AI SDK
+AI Gateway
+Sandbox
+Workflows
+Connect
+New
+Passport
+New
+eve
+New
+Core Platform
+CI/CD
+Content Delivery
+Fluid Compute
+Observability
+Security
+Platform Security
+WAF
+Bot Management
+BotID
+Tools
+Vercel Drop
+New
+Vercel Agent
+Vercel Plugin
+New
+Agent Skills
+Domains
+v0
+Frameworks
+eve
+New
+Next.js
+Nuxt
+SvelteKit
+Nitro
+Turborepo
+Tanstack Start
+FastAPI
+All frameworks
+SDKs
+Vercel SDK
+Workflow SDK
+New
+Flags SDK
+Chat SDK
+New
+Queues SDK
+New
+Streamdown
+Build
+AI Apps
+Web Apps
+Marketing Sites
+Platforms
+Commerce
+Platform Engineers
+Design Engineers
+Learn
+Docs
+Blog
+Changelog
+Knowledge Base
+Academy
+Articles
+Community
+Is Agentic
+Explore
+Customers
+Marketplace
+Templates
+Partner Finder
+Vercel + AWS
+Company
+About
+Careers
+Press
+Events
+Startups
+Shipped on Vercel
+Open Source Program
+Enterprise
+Pricing
+Help
+Legal & Trust
+Privacy Policy
+Terms of Service
+Cookie Policy
+DPA
+Acceptable Use Policy
+Legal (all documents)
+Trust Center
+Status
+Cookie Preferences
+Social
+GitHub
+X
+LinkedIn
+YouTube
+Instagram
+Cross-link map: Vercel REST API Reference (/docs/rest-api)
+From the Vercel docs graph (built 2026-09-24T05:36:56.592Z), spanning vercel.com docs + KB, nextjs.org, ai-sdk.dev, and other Vercel documentation sites. Full graph as JSON:
+https://vercel.com/docs/graph.json
+Semantically closest pages
+Vercel SDK Reference
+— Interact programmatically with your Vercel account using the SDK.
+Building Integrations with Vercel REST API
+— Learn how to use Vercel REST API to build your integrations and work with redirect URLs.
+Retrieve a list of all Drains
+— GET /v1/drains — Allows to retrieve the list of Drains of the authenticated team.
+Working with Drains
+— Drains collect logs, traces, speed insights, and analytics from your applications. Forward observability data to custom
+Update an existing Drain
+— PATCH /v1/drains/{id} — Update the configuration of an existing drain.
+This page links to (381)
+Create an access group project
+— POST /v1/access-groups/{accessGroupIdOrName}/projects — Allows creation of an access group project
+Creates an access group
+— POST /v1/access-groups — Allows to create an access group
+Delete an access group project
+— DELETE /v1/access-groups/{accessGroupIdOrName}/projects/{projectId} — Allows deletion of an access group project
+Deletes an access group
+— DELETE /v1/access-groups/{idOrName} — Allows to delete an access group
+List access groups for a team, project or member
+— GET /v1/access-groups — List access groups
+List members of an access group
+— GET /v1/access-groups/{idOrName}/members — List members of an access group
+List projects of an access group
+— GET /v1/access-groups/{idOrName}/projects — List projects of an access group
+Reads an access group
+— GET /v1/access-groups/{idOrName} — Allows to read an access group
+Reads an access group project
+— GET /v1/access-groups/{accessGroupIdOrName}/projects/{projectId} — Allows reading an access group project
+Update an access group
+— POST /v1/access-groups/{idOrName} — Allows to update an access group metadata
+Update an access group project
+— PATCH /v1/access-groups/{accessGroupIdOrName}/projects/{projectId} — Allows update of an access group project
+Create rule
+— POST /v1/ai-gateway/rules — Create a routing rule
+Delete rule
+— DELETE /v1/ai-gateway/rules — Delete a routing rule \(soft delete\)
+List rules
+— GET /v1/ai-gateway/rules — List the authenticated team's routing rules
+Update rule
+— PATCH /v1/ai-gateway/rules — Update a routing rule \(enabled, action, or description\)
+Assign an Alias
+— POST /v2/deployments/{id}/aliases — Creates a new alias for the deployment resolved from the given deployment or alias I
+Delete an Alias
+— DELETE /v2/aliases/{aliasId} — Delete an Alias with the specified ID.
+Get an Alias
+— GET /v4/aliases/{idOrAlias} — Retrieves an Alias for the given host name or alias ID.
+List aliases
+— GET /v4/aliases — Retrieves a list of aliases for the authenticated User or Team. When \
+domain\\
+is provided, only alia
+List Deployment Aliases
+— GET /v2/deployments/{id}/aliases — Retrieves all Aliases for the Deployment with the given ID. The authenticated user or
+Update the protection bypass for a URL

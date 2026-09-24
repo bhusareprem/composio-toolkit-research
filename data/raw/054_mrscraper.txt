@@ -1,0 +1,166 @@
+Overview | MrScraper Documentation
+Documentation
+Core Features
+Dashboard
+Getting Started
+Overview
+Quickstart
+Scraper API
+Token Plan
+CLI
+MCP Server
+Billing
+Features
+AI Scraper
+Workflow
+Workflow API Access
+Bulk Scraping
+Proxy
+Marketplace
+Schedule
+S3 Storage
+Web Unblocker
+Cookie
+Team
+Guides
+Common Use Case
+Optimizing Cost
+Create and Run a Scraper Programmatically
+Bulk Scraping With Custom Scraper
+Integrations
+Email
+SQL/Database
+Webhook
+Zapier
+ClawHub
+n8n
+SDKs
+Apify
+MrScraper
+Search
+⌘
+K
+Dashboard
+Documentation
+API Reference
+Residential Proxy
+Changelog
+Overview
+Overview
+Your all-in-one guide to understanding, configuring, and using the MrScraper platform, from your first scrape to AI agents, integrations, and APIs.
+Discover how our powerful scraping platform can transform the way you extract data. Whether you're scraping e-commerce product data, collecting job listings, gathering customer reviews for sentiment analysis, or extracting any website content, our AI scrapers and workflows are designed to automate and simplify the process, giving you a powerful edge in any project.
+Start Here
+New to MrScraper? These pages get you from sign-up to your first scraped dataset.
+Quickstart
+Run your first scraper in a few minutes with a step-by-step walkthrough.
+Scraper API
+Test API requests, explore features, and generate code without writing code.
+Token Plan
+Learn how tokens work and create an API token for authentication.
+Billing
+Understand subscription plans, token usage, and billing cycles.
+AI Agents
+Pick the agent that matches the page you're scraping, or chain several together.
+AI Scraper
+Automatically extract data with natural language instructions — no coding required.
+General Agent
+Extract structured data from a single web page using a natural language prompt.
+Listing Agent
+Scrape listing pages with automated pagination, infinite scroll, and load-more handling.
+Map Agent
+Discover and extract every URL from a website to understand its structure.
+Multi-Agent Flow
+Combine Map, Listing, and General agents into end-to-end extraction workflows.
+Features
+Explore MrScraper's key features and tools designed to make data extraction effortless.
+Workflow
+Build and customize your own scraper workflow step by step for full control.
+Self-Healing
+Let AI generate, repair, and extend workflows when a site changes.
+Bulk Scraping
+Scrape multiple URLs in one go by uploading a list or Excel file.
+Web Unblocker
+Bypass anti-scraping measures and reach geo-restricted content.
+Proxy
+Route individual scrapers through proxies to mask your IP and improve reliability.
+Cookie
+Use your own cookies to access content behind logins and restrictions.
+Scheduling
+Automate scraper runs on a schedule to keep your data fresh and up to date.
+Marketplace
+Use ready-to-run scrapers for popular websites and common scraping use cases.
+Workflow API Access
+Activate a scraper as an API endpoint and run it programmatically.
+S3 Storage
+Save scraped data straight into your own S3 bucket.
+Team
+Create a team to share scrapers and collaborate on projects.
+Use Cases
+Discover how MrScraper can support different real-world scenarios.
+E-Commerce
+Scrape product details, pricing, and availability from major e-commerce sites.
+Job Listings
+Collect job postings and company data for recruitment or market analysis.
+Sentiment Analysis
+Extract and analyze customer feedback to gain insights into sentiment and satisfaction.
+Real Estate
+Gather property listings, prices, and market trends from real estate websites.
+Flight Price
+Scrape flight prices, airlines, and schedules for price monitoring and booking analysis.
+Optimizing Cost
+Minimize token usage and maximize scraping efficiency without losing accuracy.
+Scrape Programmatically
+Create an AI scraper once, then run it from your own code via the API.
+Integrations
+Integrate MrScraper with your favorite tools to automate your data flow.
+Email
+Receive email notifications whenever a scraper finishes or encounters an error.
+Database
+Automatically store scraped data in your database for querying and analysis.
+Webhook
+Send scraper results directly to external services through webhooks.
+Zapier
+Connect your scrapers to thousands of apps with no-code Zapier automations.
+n8n
+Build automated workflows around your scrapers with the MrScraper n8n node.
+Apify
+Run MrScraper as Apify Actors and pipe results into the Apify platform.
+ClawHub
+Install the MrScraper skill to give your OpenClaw agent unblockable web scraping.
+Developer Tools
+Work with MrScraper from your terminal, your codebase, or your AI agent.
+The
+MrScraper MCP server source code
+is available on GitHub for local setup, contributions, and issue reports.
+CLI
+Scrape, crawl, and extract data from the web directly from your terminal.
+MCP Server
+Let AI agents fetch and extract web data through the Model Context Protocol.
+Python SDK
+Call the MrScraper API asynchronously with the
+mrscraper-sdk
+package.
+Node.js SDK
+Scrape, crawl, and extract structured data using the MrScraper Node SDK.
+LangChain SDK
+Use MrScraper as LangChain tools inside your own agents.
+API Reference
+Explore every endpoint, authentication, pagination, and error handling.
+Residential Proxy
+Route your own tools and browsers through our proxy network.
+Proxy Overview
+Understand proxy types, global coverage, and how to get started.
+Authentication
+Configure username patterns, sessions, and country targeting.
+Code Examples
+Ready-to-use snippets for Python, Node.js, Go, PHP, Playwright, and more.
+Quickstart
+A step-by-step guide to making your first MrScraper API request, scraping a product page with the General AI Agent in just a few minutes.
+On this page
+Start Here
+AI Agents
+Features
+Use Cases
+Integrations
+Developer Tools
+Residential Proxy

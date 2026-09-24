@@ -1,0 +1,600 @@
+YouTube Transcript API with Search, Channels & Playlists | TranscriptAPI
+TranscriptAPI.com
+Docs
+Pricing
+Blog
+Contact
+Login
+Get API Key
+YouTube Transcript API That Just Works
+Stop fighting YouTube blocks. Get transcripts, search videos, browse channels, and extract playlists via REST API or YouTube MCP — at scale.
+Get Started Free
+View Pricing
+Works everywhere
+Powering 15M+ transcripts every month
+Your browser does not support the video tag.
+Trusted in production
+500K+ Transcripts Processed Daily
+49ms median response time. 15M+ transcripts served last month.
+youtubetotranscript.com
+Verified Production User
+~11M
+transcripts per month
+Active
+recapio.com
+Verified Production User
+~2.8M
+transcripts per month
+Active
+Everything you need from YouTube
+One API. Full YouTube Access.
+Transcripts, search, channels, playlists — all in one place. Every feature works via API, MCP, and agent skills.
+Get Transcripts
+1 credit
+Extract transcripts from any YouTube video — with or without timestamps. Drop the output straight into summarizers, search indexes, or AI pipelines.
+Summarize videos
+Study notes
+Search indexes
+Content repurposing
+Request
+Copy
+curl
+"
+https://transcriptapi.com/api/v2/youtube/transcript?video_url=dQw4w9WgXcQ&format=json
+" \
+-H
+"
+Authorization: Bearer API_KEY
+"
+Response
+{
+"
+language
+": "
+en
+",
+"
+length_seconds
+":
+1164
+,
+"
+lengthText
+": "
+19:24
+",
+"
+metadata
+": {
+"
+title
+": "
+Do schools kill creativity?
+"
+},
+"
+transcript
+": [
+{
+"
+text
+": "
+Good morning. How are you?
+",
+"
+start
+":
+0.0
+,
+"
+duration
+":
+3.2
+},
+{
+"
+text
+": "
+It's been great, hasn't it?
+",
+"
+start
+":
+3.2
+,
+"
+duration
+":
+2.9
+}
+]
+}
+AI Agent
+Copy
+Pull the transcript from this TED talk and give me a bullet-point summary with key quotes
+get_transcript(video_url="dQw4w9WgXcQ")
+Here's the summary of "Do schools kill creativity?" by Sir Ken Robinson:
+• Schools prioritize conformity over creative thinking
+• Children are educated out of creativity as they age
+• Key quote: "If you're not prepared to be wrong, you'll never come up with anything original"
+Want me to extract all the timestamps where he references specific examples?
+API Reference
+·
+MCP Tool
+Search YouTube
+1 credit
+Search YouTube for videos, channels, or playlists. Filter by type and limit results — perfect for discovery, research, and building content pipelines.
+Content research
+Competitor analysis
+Topic discovery
+Trend monitoring
+Request
+Copy
+curl
+"
+https://transcriptapi.com/api/v2/youtube/search?q=climate+change&type=video&limit=5
+" \
+-H
+"
+Authorization: Bearer API_KEY
+"
+Response
+{
+"
+results
+": [
+{
+"
+type
+": "
+video
+",
+"
+videoId
+": "
+G9t__9Tmli0
+",
+"
+title
+": "
+Climate Change 101
+",
+"
+channelTitle
+": "
+National Geographic
+",
+"
+lengthText
+": "
+4:00
+",
+"
+viewCountText
+": "
+12M views
+",
+"
+publishedTimeText
+": "
+6 years ago
+",
+"
+hasCaptions
+":
+true
+},
+{
+"
+type
+": "
+video
+",
+"
+videoId
+": "
+SDr2gaSrOCk
+",
+"
+title
+": "
+Before the Flood
+",
+"
+channelTitle
+": "
+National Geographic
+",
+"
+lengthText
+": "
+1:30:08
+",
+"
+viewCountText
+": "
+8.5M views
+",
+"
+publishedTimeText
+": "
+7 years ago
+",
+"
+hasCaptions
+":
+true
+}
+],
+"
+result_count
+":
+5
+,
+"
+has_more
+":
+true
+}
+AI Agent
+Copy
+Find the most-watched climate change explainers on YouTube and compare their key arguments
+search_youtube(q="climate change", limit=5)
+Found 5 top climate change videos:
+1. "Climate Change 101" (12M views) — broad overview by National Geographic
+2. "Before the Flood" (8.5M views) — Leonardo DiCaprio documentary
+3. "Causes and Effects of Climate Change" (5.1M views) — National Geographic explainer
+4. "Climate Change" (3.8M views) — Kurzgesagt animated breakdown
+5. "Is It Too Late To Stop Climate Change?" (2.9M views) — science-focused deep dive
+Should I pull the transcripts and compare how each one frames the core science?
+API Reference
+·
+MCP Tool
+Search Inside a Channel
+1 credit
+Search within a specific channel to find videos on any topic. Great for researching a creator's content or finding niche topics in large channels.
+Research a creator
+Find specific topics
+Competitive intelligence
+Request
+Copy
+curl
+"
+https://transcriptapi.com/api/v2/youtube/channel/search?channel=@TED&q=AI&limit=10
+" \
+-H
+"
+Authorization: Bearer API_KEY
+"
+Response
+{
+"
+results
+": [
+{
+"
+type
+": "
+video
+",
+"
+videoId
+": "
+UyyjU8fzEYU
+",
+"
+title
+": "
+The wonderful implications of computers that can learn
+",
+"
+channelTitle
+": "
+TED
+",
+"
+lengthText
+": "
+16:22
+",
+"
+viewCountText
+": "
+2.3M views
+",
+"
+publishedTimeText
+": "
+10 years ago
+",
+"
+hasCaptions
+":
+true
+},
+{
+"
+type
+": "
+video
+",
+"
+videoId
+": "
+hJP5GqnTrNo
+",
+"
+title
+": "
+Can AI fix education?
+",
+"
+channelTitle
+": "
+TED
+",
+"
+lengthText
+": "
+10:39
+",
+"
+viewCountText
+": "
+180K views
+",
+"
+publishedTimeText
+": "
+1 year ago
+",
+"
+hasCaptions
+":
+true
+}
+],
+"
+result_count
+":
+6
+,
+"
+has_more
+":
+true
+}
+AI Agent
+Copy
+What has TED published about AI in education? I need the top talks to prep for a presentation
+search_channel(channel="@TED", q="AI education")
+Found 6 TED talks on AI in education:
+1. "Can AI fix education?" — most recent (Aug 2024)
+2. "The wonderful implications of computers that can learn" — 2.3M views, great for framing
+3. "How AI could save education" — practical classroom applications
+4. "What AI means for the future of learning" — policy perspective
+5. "Teaching in the age of AI" — teacher's firsthand experience
+6. "The AI revolution in education" — broad overview with demos
+I can fetch the transcripts and pull out the strongest talking points. Want me to do that?
+API Reference
+·
+MCP Tool
+Browse Channel Videos
+1 credit
+List all videos from any YouTube channel. Ideal for building databases, bulk transcript extraction, or auditing a channel's full content library.
+Content auditing
+Video databases
+Bulk transcripts
+Channel analysis
+Request
+Copy
+curl
+"
+https://transcriptapi.com/api/v2/youtube/channel/videos?channel=@TED
+" \
+-H
+"
+Authorization: Bearer API_KEY
+"
+Response
+{
+"
+results
+": [
+{
+"
+videoId
+": "
+iG9CE55wbtY
+",
+"
+title
+": "
+Do schools kill creativity?
+",
+"
+channelTitle
+": "
+TED
+",
+"
+lengthText
+": "
+19:24
+",
+"
+viewCountText
+": "
+82M views
+",
+"
+index
+":
+1
+},
+{
+"
+videoId
+": "
+arj7oStGLkU
+",
+"
+title
+": "
+Inside the mind of a master procrastinator
+",
+"
+channelTitle
+": "
+TED
+",
+"
+lengthText
+": "
+14:04
+",
+"
+viewCountText
+": "
+65M views
+",
+"
+index
+":
+2
+}
+],
+"
+playlist_info
+": {
+"
+title
+": "
+Uploads from TED
+",
+"
+numVideos
+": "
+5,736 videos
+"
+},
+"
+has_more
+":
+true
+}
+AI Agent
+Copy
+Audit TED's full video catalog — how many videos do they have and what are the all-time top performers?
+get_channel_videos(channel="@TED")
+TED has 5,200 videos total. Here are the top 3 by views:
+1. "Do schools kill creativity?" — 82M views
+2. "Inside the mind of a master procrastinator" — 65M views
+3. "Your body language may shape who you are" — 61M views
+Want me to break this down by topic or year, or fetch transcripts for the top 10?
+API Reference
+·
+MCP Tool
+Track New Uploads
+Free
+Check for the latest uploads from any channel — no credits required. Perfect for monitoring, daily recaps, or triggering downstream pipelines.
+Daily channel recap
+New content alerts
+Pipeline triggers
+Competitor tracking
+Request
+Copy
+curl
+"
+https://transcriptapi.com/api/v2/youtube/channel/latest?channel=@TED
+" \
+-H
+"
+Authorization: Bearer API_KEY
+"
+Response
+{
+"
+channel
+": "
+@TED
+",
+"
+results
+": [
+{
+"
+videoId
+": "
+xL2EKQ3Rkos
+",
+"
+title
+": "
+A bold plan for sustainable energy
+",
+"
+author
+": "
+TED
+",
+"
+published
+": "
+2026-07-24T06:00:00+00:00
+",
+"
+viewCount
+": "
+48K
+",
+"
+link
+": "
+https://www.youtube.com/watch?v=xL2EKQ3Rkos
+"
+},
+{
+"
+videoId
+": "
+k9Rm_SZjKs4
+",
+"
+title
+": "
+How AI is transforming medicine
+",
+"
+author
+": "
+TED
+",
+"
+published
+": "
+2026-07-23T14:30:00+00:00
+",
+"
+viewCount
+": "
+112K
+",
+"
+link
+": "
+https://www.youtube.com/watch?v=k9Rm_SZjKs4
+"
+}
+],
+"
+result_count
+":
+15
+}
+AI Agent
+Copy
+Check if TED posted anything new this week — if it's about AI, summarize it for me
+get_latest_videos(channel="@TED")
+TED posted 2 new videos this week. One matches your interest:
+• "How AI is transforming medicine" (yeste

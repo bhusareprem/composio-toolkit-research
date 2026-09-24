@@ -1,0 +1,122 @@
+Build with Ecwid apps | Ecwid Documentation
+⌘
+Ctrl
+k
+Ask
+Contact API support
+More
+Build apps
+Site Themes
+REST API Reference
+Storefronts (JS API)
+Webhook automations
+Discounts
+Guides
+Changelog
+AI Assistant
+I'm here to help you with the docs.
+What is this page about?
+What should I read next?
+Can you give an example?
+⌘
+Ctrl
+i
+AI
+Based on your context
+Send
+Build with Ecwid apps
+Ecwid API features
+Get started
+Set up your dev environment in Ecwid
+Make your first API request
+Add more features to your custom app
+API glossary
+Develop apps
+What is an Ecwid app
+Private and public Ecwid apps
+App settings
+Community libraries
+Launch apps
+Public apps overview
+FAQ about public applications
+Monetize public apps
+Steps to go live with a public app
+Native and external apps
+Contact Ecwid API support team
+On this page
+For the complete documentation index, see
+llms.txt
+. This page is also available as
+Markdown
+.
+Ask
+On this page
+Build apps
+Build with Ecwid apps
+Explore our guides and examples to integrate Ecwid Ecommerce
+Customize your store
+Get access to API with an app
+Learn app settings
+Develop public apps
+FAQ about public applications
+Submit your app idea
+Get human support
+Ask your questions and get answers from our API specialists.
+Contact Ecwid API support
+Get help with API docs, update your app settings and more.
+Join Slack community
+Connect and collaborate with the Ecwid team and fellow developers.
+Automate integrations
+Webhooks
+Automate your business logic
+Automation examples
+Check out code and flow for syncing orders or product stock
+Build websites
+Site templates
+Complete website overhaul
+Custom sections
+Building blocks for the website
+Customize storefront
+List of JS API calls
+Find full list of available JS API calls
+JS API: track events
+Use pre-built event handlers on the storefront
+JS API: manage cart and checkout
+Add or remove products from the cart, set customer's email, comments, and more
+JS API: Open page
+Create redirects to products or search results
+JS API: manage customers
+Check who is logged in, automate logouts and cookie consent
+JS API: Generate carts
+Create pre-filled carts as links and share them with your customers
+Create discounts
+Accept tips
+Add tips selector to the checkout
+Launch promos
+Highly customizeable discounts for your store
+Discount coupons
+Create personal offers for your customers
+Browse guides
+Sync new orders
+Export order data to external services
+Extra fields
+Collect additional data with orders
+Create orders with API calls
+Calculate order details and place orders in the store on behalf of your clients
+Payment API
+Connect any payment provider with your Ecwid store
+Shipping API
+Calculate online shipping rates at the checkout
+Next
+Ecwid API features
+Last updated
+1 year ago
+Was this helpful?
+Lightspeed® 2025
+Get human support
+Automate integrations
+Build websites
+Customize storefront
+Create discounts
+Browse guides
+Was this helpful?

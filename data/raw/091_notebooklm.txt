@@ -1,0 +1,123 @@
+Google AI Studio vs. Gemini Enterprise Agent Platform vs. Gemini Enterprise app | Google Cloud
+From tokenmaxxing to ROI: Learn who is gaining the most ROI from AI and strategies that you can follow in our latest report
+The Gemini era for developers and businesses
+Gemini's ecosystem of products and models can help developers and businesses get the most out of Google AI, from building with Gemini models to using Gemini across every employee in your organization.
+Try Gemini 3
+, our best models for reasoning, coding, and multimodal understanding
+Learn how customers are using Google AI today to reshape their businesses.
+BUILD WITH GEMINI MODELS:
+Google AI Studio
+Experiment, prototype, and deploy.
+Google AI Studio is the fast path for developers, students, and researchers who want to try Gemini models and get started building with the Gemini Developer API.
+Gemini Enterprise Agent Platform
+Build AI agents and integrate generative AI into your applications.
+Google Cloud offers Agent Platform, a single, fully-managed, unified development platform for using Gemini models and other third party models at scale.
+USE GEMINI IN YOUR BUSINESS:
+Gemini Enterprise app
+Bring the best of Google AI to every employee
+. Gemini Enterprise app empowers teams to discover, create, share, and run AI agents all in one secure platform.
+Google Workspace with Gemini
+Your AI-powered assistant built right into Gmail, Docs, Slides, Sheets,
+and more, to help boost your productivity and creativity.
+Gemini offering
+Use case
+Resources
+Gemini Developer API
+Discover the power of Gemini with Google AI Studio and start building
+Start using Gemini with
+Google AI Studio
+, a web-based tool that lets you prototype, run prompts right in your browser. Google AI Studio is the fast path for developers, students, and researchers who want to try Gemini models and get started building with the Gemini Developer API.
+Try Gemini
+3
+Get your no cost Gemini API key
+Gemini Developer API quickstart
+Gemini API in Gemini Enterprise Agent Platform
+Access, customize, and deploy Gemini models at scale with Agent Platform
+Enterprise customers and developers can experience Google's largest and most capable AI models through the Gemini API in
+Agent Platform
+. Agent Platform makes it possible to discover, customize, tune, and deploy Gemini models at scale, empowering developers to build new and differentiated applications that can process information across text, code, images, and video.
+Guide to get started using the Gemini API in Agent Platform
+View examples of prompts and responses using Gemini models
+Gemini Enterprise app
+Bring the best of Google AI to every employee, for every workflow
+With
+Gemini Enterprise app
+, every individual can shift from tedious tasks to high-impact work. They can access Google’s powerful AI models through an intuitive chat interface, deploy ready-to-use agents from Google and our thriving ecosystem of partners, and even transform their own expertise into shared automations for the entire company with a powerful no-code workbench.
+Try Gemini Enterprise app
+Explore prebuilt agents
+Get sample prompts in the prompt guide
+Google Cloud with Gemini
+Accelerate software delivery with Gemini Code Assist
+Our AI assistant for developers. Gemini Code Assist offers AI-powered assistance to help developers build applications with higher velocity and quality. Code assistance is available in many popular IDEs, such as
+Visual Studio Code
+,
+JetBrains IDEs
+,
+Cloud Workstations
+,
+Cloud Shell Editor
+, and supports
+20+ programming languages
+.
+Set up Gemini Code Assist for a cloud project
+Use Gemini Code Assist in your IDE
+Efficiently manage your application lifecycle with Gemini Cloud Assist
+Gemini Cloud Assist (in preview) helps cloud teams design, operate, and optimize their application lifecycle. Gemini’s contextual and personalized AI guidance understands your Google Cloud resources to help you craft new designs, deploy workloads, manage applications, troubleshoot issues, and optimize performance and costs.
+Set up Gemini Cloud Assist in Google Cloud Console
+Accelerate analytics and workflows with Gemini in BigQuery
+Gemini in
+BigQuery
+provides AI-powered assistive and collaboration features including assisted SQL and Python data analysis, visual data preparation, and intelligent recommendations that help enhance productivity and optimize costs.
+Set up Gemini in BigQuery
+Introduction to Gemini in BigQuery
+Automate insights with Gemini in Looker
+Gemini in
+Looker
+(preview) provides an always-on intelligent assistant that enables you to have conversations with your data and helps you automatically create and share your insights even faster, with automated reports and visualizations.
+Set up Gemini in Looker
+Elevate security expertise with AI
+Generative AI-powered assistance to cloud defenders where and when they need it. Gemini in
+Security Operations
+and Gemini in
+Threat Intelligence
+are now generally available, while Gemini in
+Security Command Center
+is currently in preview.
+Set up Gemini in Security Command Center
+Analyze database fleet health using Database Center
+Database Center is an AI-assisted dashboard that gives you one centralized view across your entire database fleet. You can view database fleet health issues and recommendations, and you can ask questions about database fleet health issues, including availability configuration, data protection, security, and industry compliance.
+Set up Database Center
+Choose an AI model that fits your startup needs
+Jumpstart your startup and AI development by discovering, customizing, and deploying state-of-the art Gemini models and task-specific models for image generation, speech-to-text, and more through Gemini Enterprise Agent Platform.
+Apply to the Google for Startups Cloud Program for Gemini cloud credits
+Google Workspace with Gemini
+Gemini is your always-on AI assistant across Google Workspace apps
+Google Workspace with is a powerful collaborative partner that can act as a coach, thought partner, source of inspiration, and productivity booster—all while ensuring every user and organization has control over their data.
+Sign up for your 14-day free trial of Google Workspace
+Gemini Developer API
+Discover the power of Gemini with Google AI Studio and start building
+Start using Gemini with
+Google AI Studio
+, a web-based tool that lets you prototype, run prompts right in your browser. Google AI Studio is the fast path for developers, students, and researchers who want to try Gemini models and get started building with the Gemini Developer API.
+Try Gemini
+3
+Get your no cost Gemini API key
+Gemini Developer API quickstart
+Gemini API in Gemini Enterprise Agent Platform
+Access, customize, and deploy Gemini models at scale with Agent Platform
+Enterprise customers and developers can experience Google's largest and most capable AI models through the Gemini API in
+Agent Platform
+. Agent Platform makes it possible to discover, customize, tune, and deploy Gemini models at scale, empowering developers to build new and differentiated applications that can process information across text, code, images, and video.
+Guide to get started using the Gemini API in Agent Platform
+View examples of prompts and responses using Gemini models
+Gemini Enterprise app
+Bring the best of Google AI to every employee, for every workflow
+With
+Gemini Enterprise app
+, every individual can shift from tedious tasks to high-impact work. They can access Google’s powerful AI models through an intuitive chat interface, deploy ready-to-use agents from Google and our thriving ecosystem of partners, and even transform their own expertise into shared automations for the entire company with a powerful no-code workbench.
+Try Gemini Enterprise app
+Explore prebuilt agents
+Get sample prompts in the prompt guide
+Google Cloud with Gemini
+Accelerate software delivery with Gemini Code Assist
+Our AI assistant for developers. Gemini Code Assist offers AI-powered assistance to help developers build applications with higher ve
