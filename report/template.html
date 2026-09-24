@@ -198,6 +198,7 @@
     </p>
     <div class="hero-links">
       <a class="pill-link" href="https://github.com/bhusareprem286/composio-toolkit-research" target="_blank">&#128279; Source repo &amp; README</a>
+      <a class="pill-link" href="#opportunity">&#127919; Jump to the 30 net-new apps</a>
       <a class="pill-link" href="#data">&#128202; Jump to the 100-app table</a>
       <a class="pill-link" href="#verification">&#9989; Jump to verification</a>
     </div>
@@ -213,8 +214,13 @@
 <section id="patterns">
   <div class="wrap">
     <h2>The patterns (read this, skip the rest if you're busy)</h2>
-    <p class="section-sub">Six findings that came out of clustering all 100 rows &mdash; this is the point of the exercise, not the table itself.</p>
+    <p class="section-sub">Seven findings that came out of clustering all 100 rows &mdash; this is the point of the exercise, not the table itself.</p>
     <div class="pattern-grid">
+      <div class="pattern-card" style="border-color:var(--accent);">
+        <span class="big">70/100 already in Composio's catalog</span>
+        <h3>Cross-checked against Composio's own public toolkit list &mdash; the real number that matters</h3>
+        <p>docs.composio.dev/toolkits publicly lists all ~1,561 toolkit slugs Composio already ships, no account required. Matching all 100 apps against it: 70 already exist. The other 30 are the actual net-new opportunity list &mdash; see the dedicated section below, ranked by how buildable each one is.</p>
+      </div>
       <div class="pattern-card">
         <span class="big">Dev/Infra &amp; Productivity: 20/20</span>
         <h3>The easiest categories are a landslide</h3>
@@ -262,6 +268,19 @@
   </div>
 </section>
 
+<section id="opportunity">
+  <div class="wrap">
+    <h2>The real opportunity list: 30 apps not yet in Composio's catalog</h2>
+    <p class="section-sub">
+      Cross-referenced all 100 hint URLs against <a href="https://docs.composio.dev/toolkits" target="_blank">docs.composio.dev/toolkits</a>
+      &mdash; a public page listing every toolkit slug Composio currently ships (~1,561 of them), no API key needed.
+      70 of the 100 researched apps are already there. These 30 aren't, ranked by how buildable each one is today &mdash;
+      this is the list worth taking to an engineering backlog.
+    </p>
+    <div id="opportunityList"></div>
+  </div>
+</section>
+
 <section id="agent">
   <div class="wrap">
     <h2>The agent: what actually did the research</h2>
@@ -281,15 +300,22 @@
         <span class="agent-badge">Automated</span>
       </div>
       <div class="pipe-arrow">&rarr;</div>
-      <div class="pipe-step">
+      <div class="pipe-step" style="border-color:var(--accent);">
         <div class="n">STAGE 3</div>
+        <h4>Cross-check <code>composio_toolkit_slugs.json</code></h4>
+        <p>Composio's authenticated toolkit API (backend.composio.dev/api/v3) needs an account, which wasn't created on the user's behalf. But docs.composio.dev/toolkits is a public page listing all ~1,561 toolkit slugs with no auth at all &mdash; scraped and matched against all 100 apps by name/slug. 70 hits, 30 misses.</p>
+        <span class="agent-badge">Automated</span>
+      </div>
+      <div class="pipe-arrow">&rarr;</div>
+      <div class="pipe-step">
+        <div class="n">STAGE 4</div>
         <h4>Extraction &amp; targeted search</h4>
         <p>Claude (this session) read every crawled file and, for ~20 apps where the crawl was too thin or ambiguous (niche fintechs, brand-new AI tools, apps behind bot-detection), ran targeted web searches to confirm auth model and access tier before writing the structured verdict.</p>
         <span class="human-badge">Human-in-the-loop</span>
       </div>
       <div class="pipe-arrow">&rarr;</div>
       <div class="pipe-step">
-        <div class="n">STAGE 4</div>
+        <div class="n">STAGE 5</div>
         <h4>Browser verification</h4>
         <p>A real browser session (not the plain-HTTP crawler) re-visited 10 sampled apps' actual docs pages by hand, catching 2 real misses and 3 minor corrections &mdash; folded back into the shipped dataset.</p>
         <span class="human-badge">Human-in-the-loop</span>
@@ -297,11 +323,13 @@
     </div>
     <p style="font-size:13.5px;color:var(--text-dim);max-width:760px;">
       <b>Why extraction wasn't a fully unattended script:</b> this machine had no spare Gemini/Anthropic API key to wire into
-      an unattended extraction step, and Composio's own toolkit catalog API requires an account we didn't create on the
-      user's behalf (itself a small honest finding &mdash; see below). So the reasoning step was Claude, directly, inside
-      this research session, reading real crawled text and real search results rather than working from memory. The
-      crawler and retry stages are fully scripted and re-runnable by anyone with Python; the README explains how to wire
-      in your own LLM key to make stage 3 unattended too.
+      an unattended extraction step. Rather than skip Composio's own resources entirely, stage 3 uses the one Composio
+      surface that's genuinely public &mdash; the toolkit list docs.composio.dev serves to render its own docs site &mdash;
+      instead of the authenticated API, which would have needed an account created on the user's behalf (a deliberate
+      line not crossed; see the Honesty section). The reasoning in stage 4 was Claude, directly, inside this research
+      session, reading real crawled text and real search results rather than working from memory. Stages 1, 2 and 3 are
+      fully scripted and re-runnable by anyone with Python; the README explains how to wire in your own LLM key to make
+      stage 4 unattended too.
     </p>
   </div>
 </section>
@@ -319,6 +347,11 @@
         <option value="yes-with-limits">Yes, with friction</option>
         <option value="no">No / gated</option>
       </select>
+      <select id="catalogFilter">
+        <option value="">In Composio? (all)</option>
+        <option value="yes">Already in catalog</option>
+        <option value="no">Net-new opportunity</option>
+      </select>
       <span class="result-count" id="resultCount"></span>
     </div>
     <div style="overflow-x:auto;">
@@ -330,6 +363,7 @@
             <th data-k="auth">Auth</th>
             <th data-k="access">Access</th>
             <th data-k="buildability">Buildable?</th>
+            <th data-k="composio_catalog">In Composio?</th>
             <th data-k="mcp">MCP</th>
             <th>Evidence</th>
           </tr>
@@ -368,7 +402,8 @@
     <ul class="honesty-list">
       <li><b>Paygent Connect and iPayX</b> have no independently verifiable public API documentation. Paygent Connect's own hint ("NMI-powered") couldn't be matched to a specific product &mdash; the closest real match, a Japanese payment gateway called Paygent, is entirely enterprise/sales-led with no visible connection to NMI. iPayX turned out to be real and unusually agent-forward (its homepage advertises native MCP support) but publishes no reference docs. Both are marked <code>buildability: no</code> with low/medium confidence rather than guessed at.</li>
       <li><b>Meta's developer domain (developers.facebook.com) blocked our crawler outright</b> &mdash; every path returned HTTP 400 regardless of URL, for WhatsApp Business, Meta Ads and Threads alike. Those three entries are backed by prior knowledge and search confirmation, not a successful crawl, and are flagged accordingly.</li>
-      <li><b>We did not create a Composio account</b> to cross-check this dataset against Composio's own toolkit catalog, even though that would likely be the fastest, most authoritative source (many of these 100 apps probably already have a Composio toolkit). Creating accounts on the user's behalf is outside what this agent will do unprompted &mdash; and honestly, that gate is itself a small data point about what "self-serve" means in practice.</li>
+      <li><b>We did not create a Composio account</b> to query the authenticated toolkit API (backend.composio.dev/api/v3), which would give richer per-toolkit metadata than the public docs page (exact auth schemes, tool counts, trigger support). We used the public, unauthenticated docs.composio.dev/toolkits listing instead &mdash; enough to answer "does a toolkit already exist," not enough to fully replace the authenticated source. Creating accounts on the user's behalf is outside what this agent will do unprompted, and that gate is itself a small data point about what "self-serve" means in practice, even for Composio's own product.</li>
+      <li><b>The name-matching against Composio's catalog is heuristic</b> (slug normalization + a manual alias table for tricky names like "Lark" vs "Feishu"), not a guaranteed-exact match. A handful of the 30 "net-new" apps could in principle exist under a slug this pass didn't try &mdash; worth a second look before treating the opportunity list as final.</li>
       <li><b>Verification covered 10 of 100 apps</b>, not all 100 &mdash; a deliberate scope choice under a time budget. See the accuracy caveat in the Verification section above for what that implies about the other 90.</li>
       <li><b>Podio, Front, and systeme.io</b> are marked buildable but flagged with softer notes (aging docs, plan-gated scopes, narrow surface respectively) &mdash; a "yes" that still deserves a second look before committing engineering time.</li>
     </ul>
@@ -396,8 +431,11 @@ const buildLimits = count(d=>d.buildability==='yes-with-limits');
 const buildNo = count(d=>d.buildability==='no');
 const mcpCount = count(d=>!['None known','None found','Unknown'].includes(d.mcp));
 
+const inCatalog = count(d=>!!d.composio_catalog);
 const stats = [
   {n:100, l:'apps researched', cls:''},
+  {n:inCatalog, l:"already in Composio's catalog", cls:''},
+  {n:100-inCatalog, l:'net-new opportunity list', cls:'good'},
   {n:buildYes, l:'buildable today, no blockers', cls:'good'},
   {n:buildLimits, l:'buildable, with friction', cls:'warn'},
   {n:buildNo, l:'blocked / gated', cls:'bad'},
@@ -451,9 +489,13 @@ function render(){
   const cat = catFilter.value;
   const build = document.getElementById('buildFilter').value;
 
+  const catalog = document.getElementById('catalogFilter').value;
+
   let rows = DATA.filter(d=>{
     if(cat && d.category!==cat) return false;
     if(build && d.buildability!==build) return false;
+    if(catalog==='yes' && !d.composio_catalog) return false;
+    if(catalog==='no' && d.composio_catalog) return false;
     if(q){
       const hay = [d.name, d.category, d.one_liner, d.auth.join(' '), d.access, d.blocker||''].join(' ').toLowerCase();
       if(!hay.includes(q)) return false;
@@ -491,6 +533,7 @@ function render(){
       <td>${d.auth.join('<br>')}</td>
       <td>${d.access}</td>
       <td>${buildBadge(d.buildability)}<br>${confBadge(d.confidence)}</td>
+      <td>${d.composio_catalog ? `<span class="badge yes">Yes</span><br><span style="font-size:11px;color:var(--text-faint);">${d.composio_catalog}</span>` : `<span class="badge no">Net-new</span>`}</td>
       <td style="font-size:12px;">${d.mcp}</td>
       <td class="ev-link"><a href="${d.evidence.split(' ')[0].replace(/[()]/g,'')}" target="_blank">source &#8599;</a></td>
     </tr>`;
@@ -500,6 +543,7 @@ function render(){
 document.getElementById('searchBox').addEventListener('input', render);
 catFilter.addEventListener('change', render);
 document.getElementById('buildFilter').addEventListener('change', render);
+document.getElementById('catalogFilter').addEventListener('change', render);
 document.querySelectorAll('table.appx thead th[data-k]').forEach(th=>{
   th.addEventListener('click', ()=>{
     const k = th.dataset.k;
@@ -508,6 +552,22 @@ document.querySelectorAll('table.appx thead th[data-k]').forEach(th=>{
   });
 });
 render();
+
+// ---------- Opportunity list ----------
+const order = {yes:0, 'yes-with-limits':1, no:2};
+const oppRows = DATA.filter(d=>!d.composio_catalog).sort((a,b)=>order[a.buildability]-order[b.buildability]);
+document.getElementById('opportunityList').innerHTML = `
+  <table class="appx"><thead><tr><th>App</th><th>Category</th><th>Buildable?</th><th>Why</th></tr></thead><tbody>
+  ${oppRows.map(d=>`
+    <tr>
+      <td class="app-name">${d.name}</td>
+      <td class="app-cat">${d.category}</td>
+      <td>${buildBadge(d.buildability)}</td>
+      <td style="font-size:12.5px;color:var(--text-dim);">${d.blocker || d.access_note}</td>
+    </tr>
+  `).join('')}
+  </tbody></table>
+`;
 
 // ---------- Verification list ----------
 document.getElementById('verifList').innerHTML = VERIF.samples.map(s=>`

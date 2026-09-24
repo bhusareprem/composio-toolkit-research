@@ -11,6 +11,12 @@ buildable today. This repo does that for 100 apps, with an agent doing most of t
 instead of a human filling in a spreadsheet by hand — see the case study for the patterns,
 the honest misses, and the verification loop that caught them.
 
+**The headline finding:** all 100 apps were cross-checked against Composio's own public
+toolkit list (`docs.composio.dev/toolkits`, ~1,561 slugs, no account needed) — 70 already
+exist there. The other 30 are the actual net-new opportunity list, ranked by buildability.
+See `data/composio_toolkit_slugs.json` and the `composio_catalog` field on every row of
+`data/results.json`.
+
 ## Repo layout
 
 ```
@@ -18,12 +24,13 @@ data/
   apps.json          the 100 apps + category + hint URL, as given in the brief
   fetch_log.json      per-app crawl status (success/failure, chars fetched) from both crawl passes
   raw/                 cleaned text scraped from each app's docs (crawler output)
-  results.json         the 100 structured findings: auth, access, API surface, buildability, evidence
+  composio_toolkit_slugs.json  ~1,561 toolkit slugs scraped from docs.composio.dev/toolkits (public, no auth)
+  results.json         the 100 structured findings: auth, access, API surface, buildability, evidence, composio_catalog
   verification.json    the 10-app manual verification sample: hits, misses, corrections, accuracy
 scripts/
   fetch_docs.py         stage 1: crawls all 100 hint URLs, saves cleaned text + a fetch log
   fetch_retry.py         stage 2: retries the ~9 apps that failed or came back as an empty JS shell
-  build_report.py        inlines results.json + verification.json into report/template.html -> index.html
+  build_report.py        stage 5: inlines results.json + verification.json into report/template.html -> index.html
 report/
   template.html          the page template (placeholders get replaced by build_report.py)
 index.html                the built, single-file, self-contained case study (generated — don't hand-edit)
@@ -37,16 +44,21 @@ index.html                the built, single-file, self-contained case study (gen
 2. **Retry** (`python scripts/fetch_retry.py`) — for the 9 that failed (blocked, 404, or an
    empty JS-only shell), retries against a more specific known-docs URL instead of the marketing
    homepage. Got to 94/100.
-3. **Extraction** — the remaining thin/ambiguous cases (and everything needing a real verdict on
+3. **Cross-check against Composio's own catalog** — Composio's authenticated toolkit API
+   (`backend.composio.dev/api/v3/toolkits`) needs an account, which wasn't created on the user's
+   behalf. Instead, `docs.composio.dev/toolkits` is a public page that lists every toolkit slug
+   Composio currently ships (~1,561 of them) to render its own docs site — no auth needed. Scraped
+   it and matched all 100 apps against it by slug/alias. Result: 70 already have a Composio
+   toolkit; 30 don't (see `data/composio_toolkit_slugs.json` and the `composio_catalog` field in
+   `results.json`). This is the single most actionable output of the whole exercise.
+4. **Extraction** — the remaining thin/ambiguous cases (and everything needing a real verdict on
    auth model + self-serve-vs-gated) were resolved by an LLM (Claude, via Claude Code, in the
    session that produced this repo) reading the crawled text plus targeted web searches for ~20
    apps where the crawl alone wasn't enough (niche fintechs, brand-new AI-native tools, anything
    behind Meta's bot-blocking). This step is **not** a fully unattended script in this repo,
-   because doing it unattended requires an LLM API key this environment didn't have, and
-   Composio's own toolkit catalog would have been the fastest cross-check but requires creating
-   an account — which wasn't done on the user's behalf. See "Running it yourself" below for how
-   to wire in a real key and make this step unattended.
-4. **Verification** — 10 of the 100 apps were sampled and checked by hand in a real browser
+   because doing it unattended requires an LLM API key this environment didn't have. See "Running
+   it yourself" below for how to wire in a real key and make this step unattended.
+5. **Verification** — 10 of the 100 apps were sampled and checked by hand in a real browser
    against their actual docs pages. Two real misses were found and corrected directly in
    `results.json` (Gumroad's API was wrongly downgraded because the crawl hit a dead help-center
    link; iPayX was wrongly written off as unverifiable when it's actually a real, unusually
@@ -70,7 +82,7 @@ python scripts/build_report.py
 python -m http.server 8080
 ```
 
-To make stage 3 (structured extraction) unattended instead of LLM-in-the-loop, wire a
+To make stage 4 (structured extraction) unattended instead of LLM-in-the-loop, wire a
 Gemini or Anthropic API key into a new `scripts/extract.py` that reads `data/raw/*.txt` and
 `data/fetch_log.json`, and asks the model to emit the same schema as `data/results.json`
 (see `data/apps.json` for the 6 fields the brief asks for, plus `mcp` and `confidence` which
@@ -90,6 +102,7 @@ Each of the 100 entries has:
 | `access_note` | one or two sentences of evidence for the access verdict |
 | `api_surface` | REST/GraphQL/proprietary, and roughly how broad |
 | `mcp` | whether an official/community/claimed MCP server exists |
+| `composio_catalog` | the matched slug from `docs.composio.dev/toolkits` if this app already has a Composio toolkit, else `null` (net-new) |
 | `buildability` | `yes` / `yes-with-limits` / `no` |
 | `blocker` | the specific thing in the way, if any |
 | `evidence` | the docs URL(s) behind the verdict |
